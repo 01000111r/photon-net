@@ -12,7 +12,7 @@ from typing import List, Tuple, Any
 # And that requires writing a function for the loop iteration, and put most of the variables into a 
 # list called 'carry'... Thanks, JAX.
 @jax.jit
-def adam_step(carry: List[jnp.array], step: int) -> Tuple[List[jnp.array], jnp.array]:
+def adam_step(carry: tuple[jnp.array], step: int) -> Tuple[List[jnp.array], jnp.array]:
     """
     Performs a single Adam optimization step.
 
