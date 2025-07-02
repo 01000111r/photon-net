@@ -1,0 +1,32 @@
+p_pack/
+├── globals.py
+│   └── (Contains global variables: num_steps, reupload_freq, num_modes_circ)
+│
+├── pre_p.py
+│   ├── rescale_data(data_set, min_val, max_val)
+│   └── load_mnist_35(root_dir, feature_dim, split)
+│
+├── circ.py
+│   ├── initialize_phases(depth, width, mask)
+│   ├── layer_unitary(all_phases, layer, mask)
+│   ├── data_upload(data_set)
+│   ├── data_upload_v2(data_set)
+│   ├── perm_3x3_jax(mat)
+│   ├── repeats_factorials()
+│   └── measurement(unitaries, num_photons, factorials)
+│
+├── model.py
+│   ├── full_unitaries_data_reupload(phases, data_set, weights)
+│   └── predict_reupload(phases, data_set, weights)
+│
+├── loss.py
+│   └── loss(phases, data_set, labels, weights)
+│
+├── optimiser.py
+│   ├── adam_step(carry, steps)
+│   └── make_adam(step_size, beta1, beta2, eps)
+│
+└── train.py
+    ├── train(init)
+    └── train2(init, num_steps, step_size)
+

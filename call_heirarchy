@@ -1,0 +1,18 @@
+This diagram shows the typical function call hierarchy during a training process.
+
+-- Main Training Loop --
+
+train.train(init)
+└── jax.lax.scan calls...
+    └── optimiser.adam_step(carry, steps)
+        ├── loss.loss(phases, data, labels, weights)
+        │   └── model.predict_reupload(phases, data, weights)
+        │       └── model.full_unitaries_data_reupload(phases, data, weights)
+        │           ├── circ.data_upload(data)
+        │           ├── circ.layer_unitary(phases, layer)
+        │           └── circ.measurement(unitaries)
+        │               └── circ.perm_3x3_jax(matrix)
+        │
+        └── jax.grad(loss.loss)(...)
+            └── (Follows the same hierarchy as loss.loss above)
+
