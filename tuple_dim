@@ -1,0 +1,6 @@
+import numpy as np
+# (no.matrix, rows, columns)
+
+z = np.ones(shape=(2, 3, 4))
+
+print(z)

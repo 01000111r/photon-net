@@ -12,8 +12,7 @@ p_pack/
 │   ├── data_upload(data_set)
 │   ├── data_upload_v2(data_set)
 │   ├── perm_3x3_jax(mat)
-│   ├── repeats_factorials()
-│   └── measurement(unitaries, num_photons, factorials)
+│   └── measurement(unitaries, num_photons)
 │
 ├── model.py
 │   ├── full_unitaries_data_reupload(phases, data_set, weights)

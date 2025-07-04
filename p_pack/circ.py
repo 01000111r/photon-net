@@ -131,6 +131,8 @@ def layer_unitary(all_phases: jnp.array, layer: int, mask: jnp.array = None) -> 
 
     return unitary
 
+
+
 @jax.jit
 def data_upload(data_set: jnp.array) -> jnp.array:
     """
@@ -178,6 +180,8 @@ def data_upload(data_set: jnp.array) -> jnp.array:
         unitary = unitary.at[:,2*index+1, 2*index+1].set(0.5*(jnp.exp(1j*q)+jnp.exp(1j*(q+p))))
 
     return unitary
+
+
 
 import jax, jax.numpy as jnp
 
@@ -261,10 +265,11 @@ def perm_3x3_jax(mat: jnp.array) -> float:
 
 #Ideally this should be inside the measurement function but it clashes with JAX.
 # it is used in the factorials calculation (denominator in the probabilities of bunched outcomes)
-out_state_combos = jnp.array(list(itertools.product(range(num_modes_circ), repeat=3))) 
+# out_state_combos = jnp.array(list(itertools.product(range(num_modes_circ), repeat=3))) 
+out_state_combos = jnp.array(list(itertools.combinations_with_replacement(range(num_modes_circ), 3))) 
 
 def repeats_factorials(num_modes, num_photons=3):
-    combos = list(itertools.product(range(num_modes), repeat=num_photons))
+    combos = list(itertools.combinations_with_replacement(range(num_modes), num_photons))
     repeats = []
     for combo in combos:
         unique, counts = np.unique(combo, return_counts=True)
@@ -297,7 +302,7 @@ def measurement(unitaries: jnp.array, num_photons: int = 3) -> tuple[jnp.array, 
     num_modes = unitaries.shape[1]
     #out_state_combos = jnp.array(list(combinations(range(num_modes), num_photons)))
     
-    out_state_combos = jnp.array(list(itertools.product(range(num_modes), repeat=num_photons)))
+    out_state_combos = jnp.array(list(itertools.combinations_with_replacement(range(num_modes), num_photons)))
     n_combos = out_state_combos.shape[0]
 
     factorials_dyn = repeats_factorials(num_modes=unitaries.shape[-1],
@@ -378,3 +383,5 @@ def measurement(unitaries: jnp.array, num_photons: int = 3) -> tuple[jnp.array, 
     #print('minus total sum', jnp.sum(binary_probs_minus))
   
     return all_extracts, out_state_combos, all_probs, binary_probs
+
+

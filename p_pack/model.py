@@ -49,6 +49,7 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
             temp = jax.random.permutation(key, data_set.shape[1])
             temp = jax.lax.stop_gradient(temp)
             #temp = jnp.arange(data_set.shape[0])
+            #shuffle all the images with the same permuatation, each reupload layer with a different permutation
             data_set_reupload = data_set[:,temp]
             
             #temp_permutation = data_set_reupload[:10, :3]
@@ -60,6 +61,7 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
             unitaries = unitaries_data_reupload @ unitaries
 
  
+    #now we have full unitaries for all the differnt circuits that corresponf to each image upload, all same parameters though, each reupload layer have different weights but the weights are the same for all images.
 
     # Extract the probabilities of the output states.
     sub_unitaries, _, label_probs, binary_probs_plus = circ.measurement(unitaries, num_photons = 3)

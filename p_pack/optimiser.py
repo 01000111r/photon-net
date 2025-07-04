@@ -35,7 +35,7 @@ def adam_step(carry: tuple[jnp.array], step: int) -> Tuple[List[jnp.array], jnp.
     beta2 = 0.999
     eps = 1e-8
 
-    eta = globals.num_steps
+    eta = globals.training_rate  # Learning rate
 
     loss_val = jax.lax.stop_gradient(loss.loss(params_phases, data_set, labels, params_weights))
     grad_params, grad_weights = jax.grad(loss.loss, argnums=(0, 3))(params_phases, data_set, labels, params_weights)
