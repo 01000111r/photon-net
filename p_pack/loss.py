@@ -4,7 +4,7 @@ from p_pack import model
 
 
 @jax.jit
-def loss(phases: jnp.array, data_set: jnp.array, labels: jnp.array, weights: jnp.array) -> jnp.array:
+def loss(phases: jnp.array, data_set: jnp.array, labels: jnp.array, weights: jnp.array, input_config, key) -> jnp.array:
     """
     Calculates the mean squared error loss for the photonic classifier.
 
@@ -23,7 +23,7 @@ def loss(phases: jnp.array, data_set: jnp.array, labels: jnp.array, weights: jnp
         jnp.array: The mean squared error loss as a scalar JAX array.
     """
     num_samples = jax.lax.stop_gradient(data_set).shape[0]
-    _, binary_predictions_plus = model.predict_reupload(phases, data_set, weights)
+    _, binary_predictions_plus, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, key)
 
 
     binary_predictions_plus = binary_predictions_plus.squeeze() # to match shapes
@@ -34,4 +34,4 @@ def loss(phases: jnp.array, data_set: jnp.array, labels: jnp.array, weights: jnp
 
     loss = ((1.0- adjusted_predictions)**2).mean()
   
-    return loss
+    return loss, (n_p, key)

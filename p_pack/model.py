@@ -6,7 +6,7 @@ from p_pack import circ, globals
 from typing import Tuple, List
 
 #key = jax.random.PRNGKey(12)
-def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array) -> Tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
+def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key) -> Tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
     """
     Constructs the full unitary transformation of the circuit with data re-uploading.
 
@@ -28,6 +28,7 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     """
     # Depth of the trainable part. 
     depth = jax.lax.stop_gradient(phases).shape[0]
+    depth = int(depth)
 
     # Please note that we broadcast over images in the data set. 
     # The convention is that only the last two indices are used for matrix operations, 
@@ -64,15 +65,16 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     #now we have full unitaries for all the differnt circuits that corresponf to each image upload, all same parameters though, each reupload layer have different weights but the weights are the same for all images.
 
     # Extract the probabilities of the output states.
-    sub_unitaries, _, label_probs, binary_probs_plus = circ.measurement(unitaries, num_photons = 3)
+    sub_unitaries, label_probs, binary_probs_plus, n_p, key = circ.measurement(unitaries, input_config, key)
+
     #print(label_probs[:10, :])
     #print(binary_probs_plus[:10,:])
    
-    return unitaries, sub_unitaries, label_probs, binary_probs_plus
+    return unitaries, sub_unitaries, label_probs, binary_probs_plus, n_p, key
 
 
 @jax.jit
-def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array) -> Tuple[jnp.array, jnp.array]:
+def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key) -> Tuple[jnp.array, jnp.array]:
     """
     Performs prediction using the photonic circuit model.
 
@@ -91,7 +93,7 @@ def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array)
             - adjusted_binary_probs: The final binary prediction, adjusted to be positive or negative.
     """
 
-    _, _, probs, binary_probs_plus = full_unitaries_data_reupload(phases, data_set, weights)
+    _, _, probs, binary_probs_plus, n_p, key = full_unitaries_data_reupload(phases, data_set, weights, input_config, key)
     adjusted_binary_probs = jnp.where(binary_probs_plus > 0.5, binary_probs_plus,  - binary_probs_plus)
     
-    return probs, adjusted_binary_probs
+    return probs, adjusted_binary_probs, n_p, key

@@ -5,35 +5,21 @@ import jax.numpy as jnp
 from p_pack import optimiser 
 from p_pack import globals
 from typing import List, Tuple
+from p_pack import loss
 
 
 
 
-def train(init: List) -> Tuple[List, jnp.array]:
+def train(init_carry):
     """
-    Executes the training loop for a fixed number of steps using `jax.lax.scan`.
-
-    This function avoids using a standard for-loop to prevent high memory usage
-    that could lead to a kernel crash. It iterates over the Adam optimization step
-    for a number of steps defined in `globals.num_steps`.
-
-    Args:
-        init (List): The initial state for the optimizer carry, containing parameters,
-                     data, labels, weights, and optimizer momentum vectors.
-
-    Returns:
-        Tuple[List, jnp.array]: A tuple containing the final state of the optimizer carry
-                            and an array recording the loss at each step.
+    init_carry should be a 10-tuple:
+      (params_phases, data_set, labels, params_weights,
+       m_phases, v_phases, m_weights, v_weights,
+       key, initial_loss)
     """
-    # Using for-loops ate all my RAM and then the kernel crashed.
-    # But this awkward scan-loop seems to work very well!
-    steps = jnp.arange(globals.num_steps)+1
-
-    carry, loss_mem = jax.lax.scan(optimiser.adam_step, init, steps)
-    # Note that jax.lax.scan automatically stacks the [step, loss_val] tensors we output
-    # at the end of every Adam step. Therefore, the second output of scan is already
-    # the full memory of all losses.
-    return carry, loss_mem
+    steps = jnp.arange(globals.num_steps) + 1
+    carry, (loss_mem, update_mem)= jax.lax.scan(optimiser.adam_step, init_carry, steps)
+    return carry, loss_mem, update_mem
 
 
 # #some function gpt spat out when rewriting will have a look later
