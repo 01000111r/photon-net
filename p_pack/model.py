@@ -46,8 +46,8 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
         # 'layer' is the layer index in the trainable part, starting from 0.
         else:        
 
-            key = jax.random.PRNGKey(layer) 
-            temp = jax.random.permutation(key, data_set.shape[1])
+            key2 = jax.random.PRNGKey(layer) 
+            temp = jax.random.permutation(key2, data_set.shape[1])
             temp = jax.lax.stop_gradient(temp)
             #temp = jnp.arange(data_set.shape[0])
             #shuffle all the images with the same permuatation, each reupload layer with a different permutation
