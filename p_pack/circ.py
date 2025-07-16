@@ -185,61 +185,61 @@ def data_upload(data_set: jnp.array) -> jnp.array:
 
 
 
-import jax, jax.numpy as jnp
+# import jax, jax.numpy as jnp
 
-@jax.jit
-def data_upload_v2(data_set: jnp.ndarray) -> jnp.ndarray:
-    """
-    A vectorized implementation to construct the data uploading unitary matrices.
+# @jax.jit
+# def data_upload_v2(data_set: jnp.ndarray) -> jnp.ndarray:
+#     """
+#     A vectorized implementation to construct the data uploading unitary matrices.
 
-    This version avoids loops for better performance on hardware accelerators.
+#     This version avoids loops for better performance on hardware accelerators.
 
-    Args:
-        data_set (jnp.ndarray): Input data of shape (batch, n_pixels).
+#     Args:
+#         data_set (jnp.ndarray): Input data of shape (batch, n_pixels).
 
-    Returns:
-        jnp.ndarray: Block-diagonal upload unitaries of shape (batch, 2*n_pixels, 2*n_pixels).
-    """
-    num_samples, n_pixels = data_set.shape
-    width          = 2 * n_pixels                          
-    q              = jnp.pi / 2                            # constant phase for one of the values of Bs pair
+#     Returns:
+#         jnp.ndarray: Block-diagonal upload unitaries of shape (batch, 2*n_pixels, 2*n_pixels).
+#     """
+#     num_samples, n_pixels = data_set.shape
+#     width          = 2 * n_pixels                          
+#     q              = jnp.pi / 2                            # constant phase for one of the values of Bs pair
 
-    # ---------------------------------------------------------------------
-    # 2.  Pre-compute the four complex numbers that define each 2×2 block
-    # ---------------------------------------------------------------------
-    p         = data_set                                   # (B, n_pixels)
-    exp_ip    = jnp.exp(1j * p)
-    exp_iq    = jnp.exp(1j * q)                            # scalar → broadcast
-    exp_iqp   = jnp.exp(1j * (p + q))
+#     # ---------------------------------------------------------------------
+#     # 2.  Pre-compute the four complex numbers that define each 2×2 block
+#     # ---------------------------------------------------------------------
+#     p         = data_set                                   # (B, n_pixels)
+#     exp_ip    = jnp.exp(1j * p)
+#     exp_iq    = jnp.exp(1j * q)                            # scalar → broadcast
+#     exp_iqp   = jnp.exp(1j * (p + q))
 
-    a = 0.5 * (1.0 + exp_ip)                               # (B, n_pixels)
-    b = 0.5 * (exp_iq - exp_iqp)
-    c = 0.5 * (1.0 - exp_ip)
-    d = 0.5 * (exp_iq + exp_iqp)
+#     a = 0.5 * (1.0 + exp_ip)                               # (B, n_pixels)
+#     b = 0.5 * (exp_iq - exp_iqp)
+#     c = 0.5 * (1.0 - exp_ip)
+#     d = 0.5 * (exp_iq + exp_iqp)
 
-    #  (B, n_pixels, 2, 2) – each pixel’s 2×2 beamsplitter
-    blocks = jnp.stack(
-        [jnp.stack([a, b], axis=-1),                       # row 0
-         jnp.stack([c, d], axis=-1)],                     # row 1
-        axis=-2
-    )
+#     #  (B, n_pixels, 2, 2) – each pixel’s 2×2 beamsplitter
+#     blocks = jnp.stack(
+#         [jnp.stack([a, b], axis=-1),                       # row 0
+#          jnp.stack([c, d], axis=-1)],                     # row 1
+#         axis=-2
+#     )
 
-    # ---------------------------------------------------------------------
-    # 3.  Assemble block-diagonal matrices in one shot
-    # ---------------------------------------------------------------------
-    eye = jnp.eye(n_pixels, dtype=blocks.dtype)            # (n, n)
+#     # ---------------------------------------------------------------------
+#     # 3.  Assemble block-diagonal matrices in one shot
+#     # ---------------------------------------------------------------------
+#     eye = jnp.eye(n_pixels, dtype=blocks.dtype)            # (n, n)
 
-    # Broadcast:   (B,  n,  2, 2)  ->  (B, n, n, 2, 2)  with zeros off the diagonal
-    diag_blocks = blocks[:, :,  None] * eye[None, :, :, None, None]
+#     # Broadcast:   (B,  n,  2, 2)  ->  (B, n, n, 2, 2)  with zeros off the diagonal
+#     diag_blocks = blocks[:, :,  None] * eye[None, :, :, None, None]
 
-    # Re-shape to (B, 2n, 2n)
-    unitary = (diag_blocks
-               .reshape(num_samples, n_pixels, n_pixels, 2, 2)
-               .transpose(0, 1, 3, 2, 4)                   # (B, n, 2, n, 2)
-               .reshape(num_samples, width, width)
-               .astype(jnp.complex64))
+#     # Re-shape to (B, 2n, 2n)
+#     unitary = (diag_blocks
+#                .reshape(num_samples, n_pixels, n_pixels, 2, 2)
+#                .transpose(0, 1, 3, 2, 4)                   # (B, n, 2, n, 2)
+#                .reshape(num_samples, width, width)
+#                .astype(jnp.complex64))
 
-    return unitary
+#     return unitary
 
 
 
@@ -390,20 +390,22 @@ def sample_survivors(presence_mask: jnp.ndarray, keep_probs_all: jnp.ndarray, ke
     where dropped modes are set to the sentinel index NUM_MODES, sorted so real modes come first.
     """
     key, subkey = jax.random.split(key)
-
+    
     # 1) one uniform per mode
     u = jax.random.uniform(subkey, shape=(globals.num_modes_circ,))
 
     # 2) survive if (was intended) & (u < keep_prob)
-    survive = (presence_mask == 1) & (u < keep_probs_all)  # (NUM_MODES,) bool
-
+    # survive = (presence_mask == 1) & (u < keep_probs_all)  # (NUM_MODES,) bool
+    survive = jnp.where(presence_mask == 1,
+                    u < keep_probs_all,   # if you wanted it
+                    False)                # otherwise
     # 3) build a static survivors array
     mode_idxs = jnp.arange(globals.num_modes_circ, dtype=jnp.int32)
     # sentinel = NUM_MODES → ensures dropped modes compare larger
     survivors = jnp.where(survive, mode_idxs, globals.num_modes_circ)  
     survivors = jnp.sort(survivors)            # real modes in front
 
-    # 4) count how many survived
+    # 4) count how many survived, goes through true/false list in survivor, truth =1
     k = jnp.sum(survive).astype(jnp.int32)     # scalar in [0..NUM_MODES]
 
     return survivors, k, key

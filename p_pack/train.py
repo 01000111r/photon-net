@@ -18,7 +18,11 @@ def train(init_carry):
        key, initial_loss)
     """
     steps = jnp.arange(globals.num_steps) + 1
-    carry, (loss_mem, update_mem)= jax.lax.scan(optimiser.adam_step, init_carry, steps)
+    carry, (loss_mem, update_mem) = jax.lax.scan(
+    lambda c, s: optimiser.adam_step(c, s, globals.discard, globals.aim),
+    init_carry,
+    steps
+)
     return carry, loss_mem, update_mem
 
 

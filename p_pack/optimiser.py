@@ -1,5 +1,6 @@
 # photonic_classifier/optimiser.py
 
+from functools import partial
 import jax
 import jax.numpy as jnp
 from p_pack import globals
@@ -7,28 +8,38 @@ from p_pack import loss
 from typing import List, Tuple, Any
 
 
-@jax.jit
-def adam_step(carry, step):
+@partial(jax.jit, static_argnames=['discard', 'aim'])
+def adam_step(carry, step, discard, aim):
     """
     carry = (pp, ds, lb, pw, mp, vp, mw, vw, key, last_loss)
     step  = scalar int
+    pp    = params_phases
+    ds    = data_set
+    lb    = labels
+    pw    = params_weights
+    mp    = m_phases
+    vp    = v_phases
+    mw    = m_weights
+    vw    = v_weights
+    key  = PRNGKey
+    last_loss = last loss value
 
     returns (new_carry, (out, did_update))
       where out       = [step, loss_val]
             did_update = 1 if we updated, 0 if we skipped
     """
     pp, ds, lb, pw, mp, vp, mw, vw, key, last_loss = carry
-
+  
     # 1) Evaluate loss & grads, get back a fresh PRNGKey
     (loss_val, (n_p, new_key)), (g_pp, g_pw) = jax.value_and_grad(loss.loss, argnums=(0, 3), has_aux=True)(pp, ds, lb, pw, globals.input_config, key)
 
     # 2) Decide whether to skip:
     #    only skip if discard==1 *and* we didn't get the desired photon count
     skip_step = jnp.logical_and(
-        jnp.array(globals.discard == 1),
-        n_p != jnp.array(globals.aim, dtype=n_p.dtype),
+        jnp.array(discard == 1),
+        n_p != jnp.array(aim, dtype=n_p.dtype),
     )
-
+    
     # 3a) Skip branch: replay the old carry but swap in the fresh key
     def skip_fn(carry):
         pp, ds, lb, pw, mp, vp, mw, vw, _, last = carry
