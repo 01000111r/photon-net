@@ -8,19 +8,26 @@ from p_pack import loss
 from typing import List, Tuple, Any
 
 
-@partial(jax.jit, static_argnames=['discard', 'aim'])
-def adam_step(carry, step, discard, aim):
+@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'range_vals'])
+def adam_step(carry, step, discard, aim, cmp, range_vals=None):
     """
-    carry = (pp, ds, lb, pw, mp, vp, mw, vw, key, last_loss)
+    ccarry = (
+        pp, ds, lb, pw, pa,
+        mp, vp, mw, vw, ma, va,
+        key, last_loss
+    )
     step  = scalar int
     pp    = params_phases
     ds    = data_set
     lb    = labels
     pw    = params_weights
+    pa    = params_alpha
     mp    = m_phases
     vp    = v_phases
     mw    = m_weights
     vw    = v_weights
+    ma    = m_alpha
+    mv    = v_alpha
     key  = PRNGKey
     last_loss = last loss value
 
@@ -28,28 +35,59 @@ def adam_step(carry, step, discard, aim):
       where out       = [step, loss_val]
             did_update = 1 if we updated, 0 if we skipped
     """
-    pp, ds, lb, pw, mp, vp, mw, vw, key, last_loss = carry
+    pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, key, last_loss = carry
+  
   
     # 1) Evaluate loss & grads, get back a fresh PRNGKey
-    (loss_val, (n_p, new_key)), (g_pp, g_pw) = jax.value_and_grad(loss.loss, argnums=(0, 3), has_aux=True)(pp, ds, lb, pw, globals.input_config, key)
+    (loss_val, (n_p, new_key)), (g_pp, g_pw, g_pa) = jax.value_and_grad(
+        loss.loss,
+        argnums=(0, 3, 4),
+        has_aux=True,
+    )(pp, ds, lb, pw, pa, globals.input_config, key)
 
     # 2) Decide whether to skip:
-    #    only skip if discard==1 *and* we didn't get the desired photon count
-    skip_step = jnp.logical_and(
+    #    only skip if discard==1 and the photon condition is met
+    cmp_funcs = {
+        '!=': jnp.not_equal,
+        '==': jnp.equal,
+        '<': jnp.less,
+        '<=': jnp.less_equal,
+        '>': jnp.greater,
+        '>=': jnp.greater_equal,}
+    
+    if cmp == 'range' and range_vals is not None:
+        lower, upper = range_vals
+        condition = jnp.logical_and(
+            jnp.greater_equal(n_p, jnp.array(lower, dtype=n_p.dtype)),
+            jnp.less_equal(n_p, jnp.array(upper, dtype=n_p.dtype))
+        )
+    else:
+        cmp_fn = cmp_funcs.get(cmp, jnp.not_equal)
+        condition = cmp_fn(n_p, jnp.array(aim, dtype=n_p.dtype))
+        
+    dynamic_bool = jnp.logical_and(
         jnp.array(discard == 1),
-        n_p != jnp.array(aim, dtype=n_p.dtype),
+        condition
     )
+
+    no_photons = jnp.all(n_p == 0)
+
+    skip_step = jnp.logical_or(dynamic_bool, no_photons)
     
     # 3a) Skip branch: replay the old carry but swap in the fresh key
     def skip_fn(carry):
-        pp, ds, lb, pw, mp, vp, mw, vw, _, last = carry
-        new_carry = (pp, ds, lb, pw, mp, vp, mw, vw, new_key, last)
+        pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, _, last = carry
+        new_carry = (
+            pp, ds, lb, pw, pa,
+            mp, vp, mw, vw, ma, va,
+            new_key, last
+        )
         out       = jnp.array([step, last], dtype=jnp.float32)
         return new_carry, (out, jnp.array(0, dtype=jnp.int32))
 
     # 3b) Update branch: do the Adam update, record new loss & key
     def update_fn(carry):
-        pp, ds, lb, pw, mp, vp, mw, vw, _, _ = carry
+        pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, _, _ = carry
         beta1, beta2, eps = 0.9, 0.999, 1e-8
         eta = globals.training_rate
 
@@ -67,9 +105,16 @@ def adam_step(carry, step, discard, aim):
         vw_hat  = vw_new / (1 - beta2**step)
         pw_new  = pw - eta * mw_hat / (jnp.sqrt(vw_hat) + eps)
 
+        # alpha parameter
+        ma_new = beta1 * ma + (1 - beta1) * g_pa
+        va_new = beta2 * va + (1 - beta2) * (g_pa ** 2)
+        ma_hat = ma_new / (1 - beta1**step)
+        va_hat = va_new / (1 - beta2**step)
+        pa_new = pa - eta * ma_hat / (jnp.sqrt(va_hat) + eps)
+
         new_carry = (
-            pp_new, ds, lb, pw_new,
-            mp_new, vp_new, mw_new, vw_new,
+            pp_new, ds, lb, pw_new, pa_new,
+            mp_new, vp_new, mw_new, vw_new, ma_new, va_new,
             new_key, loss_val
         )
         out       = jnp.array([step, loss_val], dtype=jnp.float32)

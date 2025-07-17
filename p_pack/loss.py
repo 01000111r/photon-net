@@ -1,10 +1,17 @@
 import jax
 import jax.numpy as jnp
 from p_pack import model
+from p_pack import globals
 
 
 @jax.jit
-def loss(phases: jnp.array, data_set: jnp.array, labels: jnp.array, weights: jnp.array, input_config, key) -> jnp.array:
+def loss(phases: jnp.array,
+         data_set: jnp.array,
+         labels: jnp.array,
+         weights: jnp.array,
+         photon_loss_scale: float,
+         input_config,
+         key) -> jnp.array:
     """
     Calculates the mean squared error loss for the photonic classifier.
 
@@ -32,6 +39,17 @@ def loss(phases: jnp.array, data_set: jnp.array, labels: jnp.array, weights: jnp
     adjusted_predictions = jnp.where(labels == 1, binary_predictions_plus, (1.0 - (binary_predictions_plus)))
 
 
-    loss = ((1.0- adjusted_predictions)**2).mean()
-  
+    
+    if globals.loss_function == 0:
+        # No scaling
+        weight = 1.0
+    elif globals.loss_function == 1:
+        # Scaling by photon loss scale
+        weight = jnp.exp(photon_loss_scale * (
+            jnp.array(n_p, dtype=jnp.float32) /
+            jnp.array(globals.aim, dtype=jnp.float32)
+        ))
+
+    loss = (weight * (1.0 - adjusted_predictions)**2).mean()
+
     return loss, (n_p, key)

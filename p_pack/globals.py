@@ -39,6 +39,9 @@ reupload_freq: int = 3
 # The number of modes in the photonic circuit.
 num_modes_circ: int = 10
 
+# The number of layers in the photonic circuit.
+depth: int = 10
+
 # The user only needs to modify this FEATURE_SIZE.
 num_features = 3
 
@@ -55,6 +58,16 @@ aim = 3
 
 # 0 to not discard, 1 to discard 
 discard = 1
+
+# Comparison operator used when deciding whether to discard
+# training updates based on the number of photons measured.
+# Possible values: '!=', '<', '<=', '>', '>=', '=='
+discard_condition = '!='
+
+# Optional range for photon counts when using discard_condition='range'.
+# Should be a tuple (min_value, max_value). Set to None to disable.
+discard_range = None
+
 
 max_photons = 3
 
