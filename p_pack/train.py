@@ -27,9 +27,12 @@ def train(init_carry):
         globals.aim,
         globals.discard_condition,
         globals.input_config,
-        0,
+        globals.loss_function,
         globals.training_rate,
-        globals.discard_range),
+        globals.discard_range,
+        globals.batch_mode,
+        globals.mini_batch_size
+    ),
     init_carry,
     steps
 )

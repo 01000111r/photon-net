@@ -7,14 +7,14 @@ from p_pack import globals
 from p_pack import loss
 from typing import List, Tuple, Any
 
-
-def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey) -> tuple[jnp.ndarray, jnp.ndarray, jax.random.PRNGKey]:
-    """Return a batch of data according to globals.batch_mode."""
-    mode = globals.batch_mode
+@partial(jax.jit, static_argnames=("batch_mode", "mini_batch_size"))
+def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey, batch_mode, mini_batch_size) -> tuple[jnp.ndarray, jnp.ndarray, jax.random.PRNGKey]:
+    """Return a batch of data according to .batch_mode."""
+    mode = batch_mode
     if mode == "full":
         return ds, lb, key
     if mode == "mini":
-        size = globals.mini_batch_size
+        size = mini_batch_size
     elif mode == "single":
         size = 1
     else:
@@ -26,7 +26,7 @@ def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey) -> 
 
 
 
-@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'loss_function', 'range_vals'])
+@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'loss_function', 'range_vals', 'batch_mode', 'mini_batch_size'])
 def adam_step(
     carry,
     step,
@@ -36,7 +36,9 @@ def adam_step(
     input_config,
     loss_function,
     training_rate,
-    range_vals
+    range_vals, 
+    batch_mode,
+    mini_batch_size
 ):
     """
     ccarry = (
@@ -66,7 +68,7 @@ def adam_step(
     pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, key, last_loss = carry
 
     # 0) Select a batch of data
-    ds_b, lb_b, key = _select_batch(ds, lb, key)
+    ds_b, lb_b, key = _select_batch(ds, lb, key, batch_mode, mini_batch_size)
 
     # 1) Evaluate loss & grads, get back a fresh PRNGKey
     (loss_val, (n_p, new_key)), (g_pp, g_pw, g_pa) = jax.value_and_grad(
