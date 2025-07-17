@@ -12,19 +12,24 @@ from p_pack import loss
 
 def train(init_carry):
     """
-    init_carry should be a 10-tuple:
-      (params_phases, data_set, labels, params_weights,
+    init_carry should be a 13-tuple:
+      (params_phases, data_set, labels, params_weights, photon_loss_scale,
        m_phases, v_phases, m_weights, v_weights,
+       m_alpha, v_alpha,
        key, initial_loss)
     """
     steps = jnp.arange(globals.num_steps) + 1
     carry, (loss_mem, update_mem) = jax.lax.scan(
-    lambda c, s: optimiser.adam_step(c,
+    lambda c, s: optimiser.adam_step(
+        c,
         s,
         globals.discard,
         globals.aim,
         globals.discard_condition,
-        globals.discard_range,),
+        globals.input_config,
+        0,
+        globals.training_rate,
+        globals.discard_range),
     init_carry,
     steps
 )

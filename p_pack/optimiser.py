@@ -8,8 +8,36 @@ from p_pack import loss
 from typing import List, Tuple, Any
 
 
-@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'range_vals'])
-def adam_step(carry, step, discard, aim, cmp, range_vals=None):
+def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey) -> tuple[jnp.ndarray, jnp.ndarray, jax.random.PRNGKey]:
+    """Return a batch of data according to globals.batch_mode."""
+    mode = globals.batch_mode
+    if mode == "full":
+        return ds, lb, key
+    if mode == "mini":
+        size = globals.mini_batch_size
+    elif mode == "single":
+        size = 1
+    else:
+        size = ds.shape[0]
+
+    key, sub = jax.random.split(key)
+    idx = jax.random.choice(sub, ds.shape[0], shape=(size,), replace=False)
+    return ds[idx], lb[idx], key
+
+
+
+@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'loss_function', 'range_vals'])
+def adam_step(
+    carry,
+    step,
+    discard,
+    aim,
+    cmp,
+    input_config,
+    loss_function,
+    training_rate,
+    range_vals
+):
     """
     ccarry = (
         pp, ds, lb, pw, pa,
@@ -36,14 +64,16 @@ def adam_step(carry, step, discard, aim, cmp, range_vals=None):
             did_update = 1 if we updated, 0 if we skipped
     """
     pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, key, last_loss = carry
-  
-  
+
+    # 0) Select a batch of data
+    ds_b, lb_b, key = _select_batch(ds, lb, key)
+
     # 1) Evaluate loss & grads, get back a fresh PRNGKey
     (loss_val, (n_p, new_key)), (g_pp, g_pw, g_pa) = jax.value_and_grad(
         loss.loss,
         argnums=(0, 3, 4),
         has_aux=True,
-    )(pp, ds, lb, pw, pa, globals.input_config, key)
+    )(pp, ds_b, lb_b, pw, pa, input_config, key, loss_function, aim)
 
     # 2) Decide whether to skip:
     #    only skip if discard==1 and the photon condition is met
@@ -72,7 +102,7 @@ def adam_step(carry, step, discard, aim, cmp, range_vals=None):
 
     no_photons = jnp.all(n_p == 0)
 
-    skip_step = jnp.logical_or(dynamic_bool, no_photons)
+    skip_step_bool = jnp.logical_or(dynamic_bool, no_photons)
     
     # 3a) Skip branch: replay the old carry but swap in the fresh key
     def skip_fn(carry):
@@ -89,7 +119,7 @@ def adam_step(carry, step, discard, aim, cmp, range_vals=None):
     def update_fn(carry):
         pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, _, _ = carry
         beta1, beta2, eps = 0.9, 0.999, 1e-8
-        eta = globals.training_rate
+        eta = training_rate
 
         # phases
         mp_new  = beta1 * mp  + (1 - beta1) * g_pp
@@ -121,7 +151,7 @@ def adam_step(carry, step, discard, aim, cmp, range_vals=None):
         return new_carry, (out, jnp.array(1, dtype=jnp.int32))
 
     # 4) Branch
-    (new_carry, (out, did_update)) = jax.lax.cond(skip_step, skip_fn, update_fn, carry)
+    (new_carry, (out, did_update)) = jax.lax.cond(skip_step_bool, skip_fn, update_fn, carry)
     return new_carry, (out, did_update)
 
 

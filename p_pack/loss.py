@@ -2,16 +2,21 @@ import jax
 import jax.numpy as jnp
 from p_pack import model
 from p_pack import globals
+import jax
+from functools import partial
 
 
-@jax.jit
+@partial(jax.jit, static_argnames=['loss_function'])
 def loss(phases: jnp.array,
          data_set: jnp.array,
          labels: jnp.array,
          weights: jnp.array,
          photon_loss_scale: float,
          input_config,
-         key) -> jnp.array:
+         key,
+         loss_function,
+         aim
+        ) -> jnp.array:
     """
     Calculates the mean squared error loss for the photonic classifier.
 
@@ -40,14 +45,14 @@ def loss(phases: jnp.array,
 
 
     
-    if globals.loss_function == 0:
+    if loss_function == 0:
         # No scaling
         weight = 1.0
-    elif globals.loss_function == 1:
-        # Scaling by photon loss scale
+    elif loss_function == 1:
+        # Scaling by photon loss scale - not sure if this is the best way to do it, maybe should be in optimisation step?
         weight = jnp.exp(photon_loss_scale * (
             jnp.array(n_p, dtype=jnp.float32) /
-            jnp.array(globals.aim, dtype=jnp.float32)
+            jnp.array(aim, dtype=jnp.float32)
         ))
 
     loss = (weight * (1.0 - adjusted_predictions)**2).mean()

@@ -68,6 +68,16 @@ discard_condition = '!='
 # Should be a tuple (min_value, max_value). Set to None to disable.
 discard_range = None
 
+#switch for the trainable small photon loss scale, 0 - for no scaling, 1 - for scaling
+loss_function = 0
+
+# Batch processing configuration
+# 'full'  : use entire dataset each update
+# 'mini'  : use mini-batches of size ``mini_batch_size``
+# 'single': process one sample at a time
+batch_mode: str = 'full'
+mini_batch_size: int = 16
+
 
 max_photons = 3
 
