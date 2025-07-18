@@ -115,7 +115,7 @@ def adam_step(
             new_key, last
         )
         out       = jnp.array([step, last], dtype=jnp.float32)
-        return new_carry, (out, jnp.array(0, dtype=jnp.int32))
+        return new_carry, (out, jnp.array(0, dtype=jnp.int32), n_p)
 
     # 3b) Update branch: do the Adam update, record new loss & key
     def update_fn(carry):
@@ -150,11 +150,11 @@ def adam_step(
             new_key, loss_val
         )
         out       = jnp.array([step, loss_val], dtype=jnp.float32)
-        return new_carry, (out, jnp.array(1, dtype=jnp.int32))
+        return new_carry, (out, jnp.array(1, dtype=jnp.int32), n_p)
 
     # 4) Branch
-    (new_carry, (out, did_update)) = jax.lax.cond(skip_step_bool, skip_fn, update_fn, carry)
-    return new_carry, (out, did_update)
+    (new_carry, (out, did_update, p_num)) = jax.lax.cond(skip_step_bool, skip_fn, update_fn, carry)
+    return new_carry, (out, did_update, p_num)
 
 
 

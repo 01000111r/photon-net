@@ -19,7 +19,7 @@ def train(init_carry):
        key, initial_loss)
     """
     steps = jnp.arange(globals.num_steps) + 1
-    carry, (loss_mem, update_mem) = jax.lax.scan(
+    carry, (loss_mem, update_mem, photon_mem) = jax.lax.scan(
     lambda c, s: optimiser.adam_step(
         c,
         s,
@@ -36,7 +36,7 @@ def train(init_carry):
     init_carry,
     steps
 )
-    return carry, loss_mem, update_mem
+    return carry, loss_mem, update_mem, photon_mem
 
 
 # #some function gpt spat out when rewriting will have a look later
