@@ -1,0 +1,45 @@
+
+propossed tests to implement
+
+-unitary poaramterisation vs original unitary
+-reupload zeros layer to unitary trhough layer_unitary
+-no change in image/reupload layers through training, 
+-total probability sums up to one
+
+
+tests/
+├── test_circ.py
+│   ├── test_initialize_phases  
+│       └── Checks if the returned phases have the correct shape.
+│   ├── test_layer_unitary 
+│       └── hecks if the output is a square matrix of the correct size and if it is unitary.
+│   ├── test_data_upload  
+│       └── Checks if the returned unitary has the correct shape for a batch of data.
+│   └── test_measurement 
+│       └── Provides a dummy unitary and checks the shapes of the returned values.
+├── test_globals.py
+│   ├── test_globals_exist 
+│   └── test_globals_values 
+│       └── These are just sanity checks, actual values depend on your design.
+├── test_loss.py
+│   └── test_loss_calculation  
+│       └── This is a basic test to ensure the loss function returns a single scalar value.
+├── test_model.py
+│   ├── test_full_unitaries_data_reupload  
+│       └── Checks the shapes of the outputs.
+│   └── test_predict_reupload  
+│       └── Checks the shapes of the outputs.
+├── test_optimiser.py
+│   └── test_adam_step  
+│       └── Checks if the function executes and returns outputs of the correct shape.
+├── test_prep_p.py
+│   ├── test_rescale_data  
+│       └── Checks if the data is correctly scaled to the target range.
+│   └── test_load_mnist_35 
+│       └── Checks if the data and labels are loaded with the correct shapes.
+├── test_train.py
+│   └── test_train  
+│       └── This is a basic test that checks if the function runs without errors and returns outputs of the correct shape.
+      
+
+

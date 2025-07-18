@@ -10,10 +10,12 @@ import itertools
 from thewalrus import perm
 from p_pack import globals
 import math
+import jax.random
 
 
 # global constants
 rng = default_rng(1337)
+key = jax.random.PRNGKey(0) 
 reupload_freq = globals. reupload_freq
 num_modes_circ = globals.num_modes_circ
 
@@ -183,61 +185,61 @@ def data_upload(data_set: jnp.array) -> jnp.array:
 
 
 
-import jax, jax.numpy as jnp
+# import jax, jax.numpy as jnp
 
-@jax.jit
-def data_upload_v2(data_set: jnp.ndarray) -> jnp.ndarray:
-    """
-    A vectorized implementation to construct the data uploading unitary matrices.
+# @jax.jit
+# def data_upload_v2(data_set: jnp.ndarray) -> jnp.ndarray:
+#     """
+#     A vectorized implementation to construct the data uploading unitary matrices.
 
-    This version avoids loops for better performance on hardware accelerators.
+#     This version avoids loops for better performance on hardware accelerators.
 
-    Args:
-        data_set (jnp.ndarray): Input data of shape (batch, n_pixels).
+#     Args:
+#         data_set (jnp.ndarray): Input data of shape (batch, n_pixels).
 
-    Returns:
-        jnp.ndarray: Block-diagonal upload unitaries of shape (batch, 2*n_pixels, 2*n_pixels).
-    """
-    num_samples, n_pixels = data_set.shape
-    width          = 2 * n_pixels                          
-    q              = jnp.pi / 2                            # constant phase for one of the values of Bs pair
+#     Returns:
+#         jnp.ndarray: Block-diagonal upload unitaries of shape (batch, 2*n_pixels, 2*n_pixels).
+#     """
+#     num_samples, n_pixels = data_set.shape
+#     width          = 2 * n_pixels                          
+#     q              = jnp.pi / 2                            # constant phase for one of the values of Bs pair
 
-    # ---------------------------------------------------------------------
-    # 2.  Pre-compute the four complex numbers that define each 2×2 block
-    # ---------------------------------------------------------------------
-    p         = data_set                                   # (B, n_pixels)
-    exp_ip    = jnp.exp(1j * p)
-    exp_iq    = jnp.exp(1j * q)                            # scalar → broadcast
-    exp_iqp   = jnp.exp(1j * (p + q))
+#     # ---------------------------------------------------------------------
+#     # 2.  Pre-compute the four complex numbers that define each 2×2 block
+#     # ---------------------------------------------------------------------
+#     p         = data_set                                   # (B, n_pixels)
+#     exp_ip    = jnp.exp(1j * p)
+#     exp_iq    = jnp.exp(1j * q)                            # scalar → broadcast
+#     exp_iqp   = jnp.exp(1j * (p + q))
 
-    a = 0.5 * (1.0 + exp_ip)                               # (B, n_pixels)
-    b = 0.5 * (exp_iq - exp_iqp)
-    c = 0.5 * (1.0 - exp_ip)
-    d = 0.5 * (exp_iq + exp_iqp)
+#     a = 0.5 * (1.0 + exp_ip)                               # (B, n_pixels)
+#     b = 0.5 * (exp_iq - exp_iqp)
+#     c = 0.5 * (1.0 - exp_ip)
+#     d = 0.5 * (exp_iq + exp_iqp)
 
-    #  (B, n_pixels, 2, 2) – each pixel’s 2×2 beamsplitter
-    blocks = jnp.stack(
-        [jnp.stack([a, b], axis=-1),                       # row 0
-         jnp.stack([c, d], axis=-1)],                     # row 1
-        axis=-2
-    )
+#     #  (B, n_pixels, 2, 2) – each pixel’s 2×2 beamsplitter
+#     blocks = jnp.stack(
+#         [jnp.stack([a, b], axis=-1),                       # row 0
+#          jnp.stack([c, d], axis=-1)],                     # row 1
+#         axis=-2
+#     )
 
-    # ---------------------------------------------------------------------
-    # 3.  Assemble block-diagonal matrices in one shot
-    # ---------------------------------------------------------------------
-    eye = jnp.eye(n_pixels, dtype=blocks.dtype)            # (n, n)
+#     # ---------------------------------------------------------------------
+#     # 3.  Assemble block-diagonal matrices in one shot
+#     # ---------------------------------------------------------------------
+#     eye = jnp.eye(n_pixels, dtype=blocks.dtype)            # (n, n)
 
-    # Broadcast:   (B,  n,  2, 2)  ->  (B, n, n, 2, 2)  with zeros off the diagonal
-    diag_blocks = blocks[:, :,  None] * eye[None, :, :, None, None]
+#     # Broadcast:   (B,  n,  2, 2)  ->  (B, n, n, 2, 2)  with zeros off the diagonal
+#     diag_blocks = blocks[:, :,  None] * eye[None, :, :, None, None]
 
-    # Re-shape to (B, 2n, 2n)
-    unitary = (diag_blocks
-               .reshape(num_samples, n_pixels, n_pixels, 2, 2)
-               .transpose(0, 1, 3, 2, 4)                   # (B, n, 2, n, 2)
-               .reshape(num_samples, width, width)
-               .astype(jnp.complex64))
+#     # Re-shape to (B, 2n, 2n)
+#     unitary = (diag_blocks
+#                .reshape(num_samples, n_pixels, n_pixels, 2, 2)
+#                .transpose(0, 1, 3, 2, 4)                   # (B, n, 2, n, 2)
+#                .reshape(num_samples, width, width)
+#                .astype(jnp.complex64))
 
-    return unitary
+#     return unitary
 
 
 
@@ -262,126 +264,291 @@ def perm_3x3_jax(mat: jnp.array) -> float:
     ])
     return jnp.sum(jnp.prod(mat[jnp.arange(3), perms], axis=1))
 
+@jax.jit
+def per_rys(A: jnp.ndarray) -> jnp.ndarray:
+    """
+    Compute permanent via Ryser's formula, but keep masks in int32 so remainder
+    works correctly.
+    """
+    n = A.shape[0]
+    N = 1 << n  # 2^n subsets
+    
+    # 1) Build a boolean mask of shape (N, n)
+    bitmasks = ((jnp.arange(N)[:, None] >> jnp.arange(n)) & 1).astype(bool)  # (N, n)
+
+    # 2) For row‐sums (subsums), promote that mask to A.dtype (complex64) but keep the original bitmask
+    subsums = jnp.einsum('sj,ij->si',
+                        bitmasks.astype(A.dtype),
+                        A)  # (N, n) in complex domain
+
+    prods = jnp.prod(subsums, axis=1)  # (N,) complex
+
+    # 3) Count bits in each mask ∈ [0..n], as an integer
+    pops = jnp.sum(bitmasks, axis=1).astype(jnp.int32)  # (N,) int
+
+    # 4) Compute (-1)^{n - |S|} via integer arithmetic
+    signs = jnp.where((n - pops) % 2 == 0, 1.0, -1.0)    # (N,) float
+
+    # 5) Ryser sum (note prods*signs is complex * float → complex; final permanent is complex)
+    return ((-1.0 ** n) * jnp.dot(signs, prods))
+
 
 #Ideally this should be inside the measurement function but it clashes with JAX.
 # it is used in the factorials calculation (denominator in the probabilities of bunched outcomes)
 # out_state_combos = jnp.array(list(itertools.product(range(num_modes_circ), repeat=3))) 
-out_state_combos = jnp.array(list(itertools.combinations_with_replacement(range(num_modes_circ), 3))) 
+
 
 def repeats_factorials(num_modes, num_photons=3):
     combos = list(itertools.combinations_with_replacement(range(num_modes), num_photons))
-    repeats = []
+    factorials= []
     for combo in combos:
         unique, counts = np.unique(combo, return_counts=True)
-        repeats.append(np.prod([math.factorial(int(c)) for c in counts]))
-    return jnp.array(repeats) 
+        factorials.append(np.prod([math.factorial(int(c)) for c in counts]))
+    return jnp.array(factorials), jnp.array(combos, dtype=jnp.int32), len(combos)
 
 
-# @partial(jax.jit, static_argnames=['num_modes']) #recompiles when a new num_modes is passed
-def measurement(unitaries: jnp.array, num_photons: int = 3) -> tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
+# circ.py (module‐scope)
+MAX_PHOTONS = globals.max_photons
+# for each possible k = 0,1,2,…,MAX_PHOTONS
+_combos: dict[int, jnp.ndarray] = {}
+_factorials: dict[int, jnp.ndarray] = {}
+
+for k in range(MAX_PHOTONS+1):
+    facts_k, combos_k, _ = repeats_factorials(num_modes=globals.num_modes_circ, num_photons=k)
+    _combos[k]     = combos_k     # shape (n_combos_k, k)
+    _factorials[k] = facts_k      # shape (n_combos_k,)
+
+max_n_combos  = max(v.shape[0] for v in _combos.values()) 
+
+branch_fns =[]
+for kk in range(MAX_PHOTONS+1):
+    combos_k     = _combos[kk]         # shape (n_c_k, kk)
+    facts_k      = _factorials[kk]     # shape (n_c_k,)
+    n_c_k        = combos_k.shape[0]    # static int
+
+    def make_branch(combos_k=combos_k,
+                    facts_k=facts_k,
+                    kk=kk,
+                    n_c_k=n_c_k):
+        def branch_fn(operand):
+            unitaries, survivors = operand
+            real_modes = survivors[:kk]                    # shape (kk,)
+            U_trunc    = unitaries[:, :, real_modes]       # (batch, M, kk)
+
+            # extract & permanent (same as before) → yields:
+            #   all_ext  : (batch, n_c_k, kk, kk)
+            #   all_probs : (batch, n_c_k)
+            #   bin_p    : (batch, 1)
+            def extract(U): return U[combos_k, :]
+            all_ext   = jax.vmap(extract)(U_trunc)
+            batch_prm = jax.vmap(lambda M: jax.vmap(per_rys)(M))(all_ext)
+            all_probs0= jnp.abs(batch_prm)**2
+            all_probs  = all_probs0 / facts_k
+            total      = jnp.sum(all_probs, axis=1, keepdims=True)
+            parity     = jnp.sum(combos_k, axis=1) % 2
+            plus1      = all_probs * parity
+            bin_p      = jnp.sum(plus1, axis=1, keepdims=True) / total
+
+            # —— PADDING STEP ——  
+            # pad combos-axis to max_n_combos:
+            pad_c = max_n_combos - n_c_k
+            # pad 'kk' axes to MAX_PHOTONS:
+            pad_w = MAX_PHOTONS - kk
+
+            # all_ext: pad dims → (batch, max_n_combos, MAX_PHOTONS, MAX_PHOTONS)
+            all_ext_p = jnp.pad(
+                all_ext,
+                ((0,0),       # batch
+                 (0,pad_c),   # combos-axis
+                 (0,pad_w),   # kk → max width
+                 (0,pad_w)),  # kk → max width
+                constant_values=0.0
+            )
+
+            # all_probs: pad to (batch, max_n_combos)
+            all_p_p   = jnp.pad(
+                all_probs,
+                ((0,0),      # batch
+                 (0,pad_c)), # combos-axis
+                constant_values=0.0
+            )
+
+            # bin_p stays (batch,1), no pad needed
+
+            return all_ext_p, all_p_p, bin_p
+
+        return branch_fn
+
+    branch_fns.append(make_branch())
+
+    
+@jax.jit
+def sample_survivors(presence_mask: jnp.ndarray, keep_probs_all: jnp.ndarray, key: jax.random.PRNGKey) -> tuple[jnp.ndarray, jnp.int32, jax.random.PRNGKey]:
     """
-    Simulates the measurement process of the photonic circuit.
-
-    It calculates the probabilities of detecting photons in different output modes,
-    computes the permanents of submatrices, and aggregates these into binary
-    classification probabilities (+1 or -1) based on the parity of output modes.
-
-    Args:
-        unitaries (jnp.array): The batch of final unitary matrices from the circuit.
-        num_photons (int): The number of photons in the input state. Defaults to 3.
-        factorials (jnp.array): Pre-computed factorial values for probability calculation.
-
-    Returns:
-        Tuple[jnp.array, jnp.array, jnp.array, jnp.array]: A tuple containing:
-            - all_extracts: The submatrices used for permanent calculation.
-            - out_state_combos: All possible output state combinations.
-            - all_probs: The raw probability for each output combination.
-            - binary_probs: The final aggregated probability for the +1 outcome.
+    From a mask of intended photons (0/1 per mode) and per-mode keep-probabilities,
+    decide which ones survive.  Return a fixed-length survivors array of shape (NUM_MODES,)
+    where dropped modes are set to the sentinel index NUM_MODES, sorted so real modes come first.
     """
-    n = unitaries.shape[0]
-    num_modes = unitaries.shape[1]
-    #out_state_combos = jnp.array(list(combinations(range(num_modes), num_photons)))
+    key, subkey = jax.random.split(key)
     
-    out_state_combos = jnp.array(list(itertools.combinations_with_replacement(range(num_modes), num_photons)))
-    n_combos = out_state_combos.shape[0]
+    # 1) one uniform per mode
+    u = jax.random.uniform(subkey, shape=(globals.num_modes_circ,))
 
-    factorials_dyn = repeats_factorials(num_modes=unitaries.shape[-1],
-                                    num_photons=num_photons)
+    # 2) survive if (was intended) & (u < keep_prob)
+    # survive = (presence_mask == 1) & (u < keep_probs_all)  # (NUM_MODES,) bool
+    survive = jnp.where(presence_mask == 1,
+                    u < keep_probs_all,   # if you wanted it
+                    False)                # otherwise
+    # 3) build a static survivors array
+    mode_idxs = jnp.arange(globals.num_modes_circ, dtype=jnp.int32)
+    # sentinel = NUM_MODES → ensures dropped modes compare larger
+    survivors = jnp.where(survive, mode_idxs, globals.num_modes_circ)  
+    survivors = jnp.sort(survivors)            # real modes in front
 
-    parity_out_state_combos = jnp.sum(out_state_combos, axis=1) % 2
+    # 4) count how many survived, goes through true/false list in survivor, truth =1
+    k = jnp.sum(survive).astype(jnp.int32)     # scalar in [0..NUM_MODES]
 
-    # Truncate to first 3 columns
-    #print('Unitaries', unitaries[:5, :, :])
-    input_state_modes = jnp.array([0, num_modes//2, num_modes-1])
-    # photons are always in the first, middle and last modes
-    unitaries_truncated = unitaries[:, :, input_state_modes]
+    return survivors, k, key
+
+
+
+
+
+@jax.jit
+def compute_probs_given_survivors(unitaries, survivors, k):
+    # this single switch now dispatches *all* the logic
+    all_extracts, all_probs, binary_probs = \
+        jax.lax.switch(k, branch_fns, operand=(unitaries, survivors))
+    return all_extracts, all_probs, binary_probs
+
+
+
+
+
+
+def measurement(
+    unitaries:    jnp.ndarray,
+    input_config: tuple[jnp.ndarray, jnp.ndarray],
+    key:           jax.random.PRNGKey
+):
+    """
+    Full measurement pipeline: sample survivors → compute probs.
+    Returns: (all_extracts, all_probs, binary_probs, k, new_key)
+    """
+    presence_mask  = jnp.asarray(input_config[0], dtype=jnp.int32)
+    keep_probs_all = jnp.asarray(input_config[1], dtype=jnp.float32)
+
+    surv, k, key = sample_survivors(presence_mask, keep_probs_all, key)
+    all_ext, all_p, bin_p = compute_probs_given_survivors(unitaries, surv, k)
+    return all_ext, all_p, bin_p, k, key
+
+
+
+# # @partial(jax.jit, static_argnames=['num_modes']) #recompiles when a new num_modes is passed
+# def measurement(unitaries: jnp.array, input_config: tuple, key) -> tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
+#     """
+#     Simulates the measurement process of the photonic circuit.
+
+#     It calculates the probabilities of detecting photons in different output modes,
+#     computes the permanents of submatrices, and aggregates these into binary
+#     classification probabilities (+1 or -1) based on the parity of output modes.
+
+#     Args:
+#         unitaries (jnp.array): The batch of final unitary matrices from the circuit.
+#         num_photons (int): The number of photons in the input state. Defaults to 3.
+#         factorials (jnp.array): Pre-computed factorial values for probability calculation.
+
+#     Returns:
+#         Tuple[jnp.array, jnp.array, jnp.array, jnp.array]: A tuple containing:
+#             - all_extracts: The submatrices used for permanent calculation.
+#             - out_state_combos: All possible output state combinations.
+#             - all_probs: The raw probability for each output combination.
+#             - binary_probs: The final aggregated probability for the +1 outcome.
+#     """
+
+
+#     n = unitaries.shape[0]
+#     num_modes = unitaries.shape[1]
+
+#     input_state_modes = jnp.asarray(input_config[0], dtype=jnp.int32)
+#     keep_probs_all   = jnp.asarray(input_config[1], dtype=jnp.float32)
+#     keep_probs = keep_probs_all[input_state_modes] 
+#     #out_state_combos = jnp.array(list(combinations(range(num_modes), num_photons)))
+    
+#     # out_state_combos = jnp.array(list(itertools.combinations_with_replacement(range(num_modes), num_photons)))
+#     # n_combos = out_state_combos.shape[0]
+
+#     # figure out what photons from intended input actually make it/ 1
+ 
+#     key, subkey = jax.random.split(key)
+#     # 2) draw uniform[0,1) for each intended photon
+#     u = jax.random.uniform(subkey, shape=(len(input_state_modes),))
+
+#     # 3) build a boolean mask of which photons survive
+#     keep_mask = u < keep_probs        # shape (n_photons,)
+
+#     # 4) select those modes
+#     final_output_modes = input_state_modes[keep_mask]
+#     n_p = len(final_output_modes)
+#     #all above are changes
+#     factorials_dyn, out_state_combos, num_photons = repeats_factorials(num_modes=unitaries.shape[-1], num_photons=n_p)
+
+#     parity_out_state_combos = jnp.sum(out_state_combos, axis=1) % 2
+
+#     # Truncate to first 3 columns
+#     #print('Unitaries', unitaries[:5, :, :]) 
+    
+#     #1
+#     # final_output_modes = jnp.array([0, num_modes//2, num_modes-1])
+
+
+
+#     # photons are always in the first, middle and last modes
+#     unitaries_truncated = unitaries[:, :, final_output_modes]
 
     
-    # Vectorized extraction of submatrices for all samples and all combos
-    def extract_submatrices(unitary):
-        # unitary: (num_modes, 3)
-        # out_state_combos: (n_combos, 3)
-        return unitary[out_state_combos, :]  # (n_combos, 3, 3)
+#     # Vectorized extraction of submatrices for all samples and all combos
+#     def extract_submatrices(unitary):
+#         # unitary: (num_modes, 3)
+#         # out_state_combos: (n_combos, 3)
+#         return unitary[out_state_combos, :]  # (n_combos, 3, 3)
 
-    # Apply to all samples--
-    all_extracts = jax.vmap(extract_submatrices)(unitaries_truncated)  # (n, n_combos, 3, 3)
+#     # Apply to all samples--
+#     all_extracts = jax.vmap(extract_submatrices)(unitaries_truncated)  # (n, n_combos, 3, 3)
 
 
     
 
-    # Vectorized permanent calculation over all submatrices
-    perm_fn = jax.vmap(lambda mat: jnp.abs(perm_3x3_jax(mat))**2)
-    all_probs0 = jax.vmap(perm_fn, in_axes=0)(all_extracts)  # (n, n_combos)
-    #print('Truncated unitaries', unitaries_truncated[0, :, :])
-    #print('All probs0', all_probs0[:,:10])
-    #print("Combo :", out_state_combos[:10])
-    #print("Sample submatrix for combo 216:", all_extracts[0, :5])
-    #print("Permanent for sample:", perm_3x3_jax(all_extracts[0, :5]))
-    all_probs = all_probs0 / factorials_dyn  # Broadcasting over columns
-    #print('All probs', all_probs.shape)
-    # Now, for each row in all_probs, every column is divided by the corresponding factorial.
-    ##
-    plus_1_probs = all_probs * parity_out_state_combos
-    plus_minus1_probs = all_probs * (1 - parity_out_state_combos)
-    #print('Plus 1 probs', plus_1_probs[:10, :5])
-    # Sum over all output state probabilities for each sample
-    total_probs = jnp.sum(all_probs, axis=1, keepdims=True)  # shape (n, 1)
-    #print('Total probs', total_probs)
-    #need to verify if total_probs is correct
+#     # Vectorized permanent calculation over all submatrices
+#     perm_fn = jax.vmap(lambda mat: jnp.abs(perm_3x3_jax(mat))**2)
+#     all_probs0 = jax.vmap(perm_fn, in_axes=0)(all_extracts)  # (n, n_combos)
+#     #print('Truncated unitaries', unitaries_truncated[0, :, :])
+#     #print('All probs0', all_probs0[:,:10])
+#     #print("Combo :", out_state_combos[:10])
+#     #print("Sample submatrix for combo 216:", all_extracts[0, :5])
+#     #print("Permanent for sample:", perm_3x3_jax(all_extracts[0, :5]))
+#     all_probs = all_probs0 / factorials_dyn  # Broadcasting over columns
+#     #print('All probs', all_probs.shape)
+#     # Now, for each row in all_probs, every column is divided by the corresponding factorial.
+#     ##
+#     plus_1_probs = all_probs * parity_out_state_combos
+#     plus_minus1_probs = all_probs * (1 - parity_out_state_combos)
+#     #print('Plus 1 probs', plus_1_probs[:10, :5])
+#     # Sum over all output state probabilities for each sample
+#     total_probs = jnp.sum(all_probs, axis=1, keepdims=True)  # shape (n, 1)
+#     #print('Total probs', total_probs)
+#     #need to verify if total_probs is correct
 
-    # Normalise all probabilities
-    all_probs_norm = all_probs / total_probs
-    plus_1_probs_norm = plus_1_probs / total_probs
-    plus_minus1_probs_norm = plus_minus1_probs / total_probs
+#     # Normalise all probabilities
+#     all_probs_norm = all_probs / total_probs
+#     plus_1_probs_norm = plus_1_probs / total_probs
+#     plus_minus1_probs_norm = plus_minus1_probs / total_probs
 
-    # Normalised binary probabilities
-    binary_probs = jnp.sum(plus_1_probs_norm, axis=1, keepdims=True)
-    binary_probs_minus = jnp.sum(plus_minus1_probs_norm, axis=1, keepdims=True)
+#     # Normalised binary probabilities
+#     binary_probs = jnp.sum(plus_1_probs_norm, axis=1, keepdims=True)
+#     binary_probs_minus = jnp.sum(plus_minus1_probs_norm, axis=1, keepdims=True)
 
-    # Optionally print to check
-    #print('Sum of all_probs_norm (should be 1):', jnp.sum(all_probs_norm, axis=1))
-    #print('Sum of binary_probs + binary_probs_minus (should be 1):', (binary_probs + binary_probs_minus).squeeze())
-    
-    ##
-
-    
-    # 0 = even (-1), 1 = odd (+1)
-    #even_indices = jnp.where(parity_out_state_combos == 0)[0]
-    
-    #plus_1_probs = all_probs*parity_out_state_combos
-    #plus_minus1_probs = all_probs*(1-parity_out_state_combos)
-    #print(plus_1_probs[:10, :5])
-    #binary_probs = jnp.sum(plus_1_probs, axis=1, keepdims=True)
-    #binary_probs_minus = jnp.sum(plus_minus1_probs, axis=1, keepdims=True)
-
-
-    #total_probs = binary_probs + binary_probs_minus
-    #print('total_probs', total_probs[:10])
-    #print('minus', binary_probs_minus[:10])  
-    #print('plus',binary_probs[:10])
-    #print('plus total sum', jnp.sum(binary_probs))
-    #print('minus total sum', jnp.sum(binary_probs_minus))
-  
-    return all_extracts, out_state_combos, all_probs, binary_probs
+ 
+#     return all_extracts, out_state_combos, all_probs, binary_probs, n_p
 
 
