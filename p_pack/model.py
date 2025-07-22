@@ -39,11 +39,27 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     #print('First layer shape', first_layers)
     #print('First layers shape', first_layers)
     for layer in range(1,depth): 
-        
-        if (layer)%globals.reupload_freq != 0: # every 'reupload_freq' layer is a upload layer 
+        if globals.reupload_freq == 0:
+            key2 = jax.random.PRNGKey(layer) 
+            temp = jax.random.permutation(key2, data_set.shape[1])
+            temp = jax.lax.stop_gradient(temp)
+            #temp = jnp.arange(data_set.shape[0])
+            #shuffle all the images with the same permuatation, each reupload layer with a different permutation
+            data_set_reupload = data_set[:,temp]
+            
+            #temp_permutation = data_set_reupload[:10, :3]
+            #print(temp_permutation)
+
+
+            unitaries_data_reupload = circ.data_upload(weights[layer,:]* data_set_reupload)
+            #print('Reupload layer', layer, 'shape', unitaries_data_reupload)
+            unitaries = unitaries_data_reupload @ unitaries
+
+        elif (layer) % globals.reupload_freq != 0: # every 'reupload_freq' layer is a upload layer 
             unitaries = circ.layer_unitary(phases, layer) @ unitaries
             #print('Layer', layer, 'shape', unitaries)
         # 'layer' is the layer index in the trainable part, starting from 0.
+
         else:        
 
             key2 = jax.random.PRNGKey(layer) 

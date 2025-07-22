@@ -78,6 +78,8 @@ loss_function = 0
 batch_mode: str = 'full'
 mini_batch_size: int = 16
 
+master_key = jax.random.PRNGKey(0)
+
 
 max_photons = 3
 
@@ -179,6 +181,36 @@ def load_and_split_data(num_features):
 
     return train_set, train_labels, test_set, test_labels
 
+def rescale_data(data_set: np.ndarray, min_val: float = -(np.pi)/2, max_val: float = (np.pi)/2) -> np.ndarray:
+    """
+    Rescales a dataset to a specified range [min_val, max_val].
+
+    The function first normalizes the data to the [0, 1] range based on its
+    min and max values, and then scales it to the target range.
+
+    Args:
+        data_set (np.ndarray): The input data to be rescaled.
+        min_val (float): The minimum value of the target range. Defaults to -pi/2.
+        max_val (float): The maximum value of the target range. Defaults to pi/2.
+
+    Returns:
+        np.ndarray: The rescaled data.
+    """
+    min_data = np.copysign(np.ceil(np.abs(jnp.min(data_set))), jnp.min(data_set))
+    max_data = np.copysign(np.ceil(np.abs(jnp.max(data_set))), jnp.max(data_set))
+    
+    # Rescale the data to the range [-pi/2, pi/2]
+    rescaled_data = (data_set - min_data) / (max_data - min_data)
+    # Now scale it to the desired range
+    rescaled_data = rescaled_data * (max_val - min_val) + min_val
+    return rescaled_data
+
+def final_load_data(num_feature):
+    split_data = load_and_split_data(num_feature)
+    train_set, train_labels, test_set, test_labels = split_data
+    train_set = rescale_data(train_set, min_val = -(np.pi)/2, max_val = (np.pi/2))
+    test_set = rescale_data(test_set, min_val = -(np.pi)/2, max_val = (np.pi/2))
+    return train_set, train_labels, test_set, test_labels
 
 
 
