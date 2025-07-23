@@ -16,14 +16,14 @@ import jax.random
 # global constants
 rng = default_rng(1337)
 key = jax.random.PRNGKey(0) 
-reupload_freq = globals. reupload_freq
+
 num_modes_circ = globals.num_modes_circ
 
 # This is the function used for loss calculation /predictions etc
 # we need to inlcude only trainable phases here
 # Considering alterante layers of data reuploading 
 
-def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None) -> jnp.array:
+def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None, reupload_freq: int = globals.reupload_freq) -> jnp.array:
     """
     Initializes the phase parameters for the photonic circuit.å
 
@@ -46,8 +46,9 @@ def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None) ->
     if mask == None:
         mask = np.ones(shape = [depth, width//2, 2])
         #mask = np.zeros((depth, width // 2, 2))
-        for i in range(0,depth, reupload_freq):  # every reupload_freq-th layer is a uploading layer 
-            mask[i] = 0
+        if reupload_freq != 0:
+            for i in range(0,depth, reupload_freq):  # every reupload_freq-th layer is a uploading layer 
+                mask[i] = 0
 
     # // 2 is integer division by 2, including rounding down.
     # The last two says that these two phases belong  to the same beamsplitter.

@@ -4,9 +4,10 @@ import jax
 import jax.numpy as jnp
 from p_pack import circ, globals
 from typing import Tuple, List
+from functools import partial
 
 #key = jax.random.PRNGKey(12)
-def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key) -> Tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
+def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key, reupload_freq) -> Tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
     """
     Constructs the full unitary transformation of the circuit with data re-uploading.
 
@@ -33,7 +34,7 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     # Please note that we broadcast over images in the data set. 
     # The convention is that only the last two indices are used for matrix operations, 
     # the others are broadcasting dimensions used for batches of images.
-    if globals.reupload_freq ==0:
+    if reupload_freq ==0:
         first_layers = circ.layer_unitary(phases, 0)
     else:
 
@@ -44,10 +45,10 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     #print('First layers shape', first_layers)
     for layer in range(1,depth): 
     
-        if globals.reupload_freq == 0:
+        if reupload_freq == 0:
             unitaries = circ.layer_unitary(phases, layer) @ unitaries
 
-        elif (layer) % globals.reupload_freq != 0: # every 'reupload_freq' layer is a upload layer 
+        elif (layer) % reupload_freq != 0: # every 'reupload_freq' layer is a upload layer 
             unitaries = circ.layer_unitary(phases, layer) @ unitaries
             #print('Layer', layer, 'shape', unitaries)
         # 'layer' is the layer index in the trainable part, starting from 0.
@@ -81,8 +82,8 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     return unitaries, sub_unitaries, label_probs, binary_probs_plus, n_p, key
 
 
-@jax.jit
-def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key) -> Tuple[jnp.array, jnp.array]:
+@partial(jax.jit, static_argnames=['reupload_freq'])
+def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key, reupload_freq) -> Tuple[jnp.array, jnp.array]:
     """
     Performs prediction using the photonic circuit model.
 
@@ -101,7 +102,7 @@ def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array,
             - adjusted_binary_probs: The final binary prediction, adjusted to be positive or negative.
     """
 
-    _, _, probs, binary_probs_plus, n_p, key = full_unitaries_data_reupload(phases, data_set, weights, input_config, key)
+    _, _, probs, binary_probs_plus, n_p, key = full_unitaries_data_reupload(phases, data_set, weights, input_config, key, reupload_freq)
     adjusted_binary_probs = jnp.where(binary_probs_plus > 0.5, binary_probs_plus,  - binary_probs_plus)
     
     return probs, adjusted_binary_probs, n_p, key

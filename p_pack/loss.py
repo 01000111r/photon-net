@@ -6,7 +6,7 @@ import jax
 from functools import partial
 
 
-@partial(jax.jit, static_argnames=['loss_function'])
+@partial(jax.jit, static_argnames=['loss_function', 'reupload_freq'])
 def loss(phases: jnp.array,
          data_set: jnp.array,
          labels: jnp.array,
@@ -15,7 +15,8 @@ def loss(phases: jnp.array,
          input_config,
          key,
          loss_function,
-         aim
+         aim,
+         reupload_freq
         ) -> jnp.array:
     """
     Calculates the mean squared error loss for the photonic classifier.
@@ -35,7 +36,7 @@ def loss(phases: jnp.array,
         jnp.array: The mean squared error loss as a scalar JAX array.
     """
     num_samples = jax.lax.stop_gradient(data_set).shape[0]
-    _, binary_predictions_plus, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, key)
+    _, binary_predictions_plus, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, key, reupload_freq)
 
 
     binary_predictions_plus = binary_predictions_plus.squeeze() # to match shapes

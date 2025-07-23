@@ -26,7 +26,7 @@ def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey, bat
 
 
 
-@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'loss_function', 'range_vals', 'batch_mode', 'mini_batch_size'])
+@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'loss_function', 'range_vals', 'batch_mode', 'mini_batch_size', 'reupload_freq'])
 def adam_step(
     carry,
     step,
@@ -38,7 +38,8 @@ def adam_step(
     training_rate,
     range_vals, 
     batch_mode,
-    mini_batch_size
+    mini_batch_size,
+    reupload_freq
 ):
     """
     ccarry = (
@@ -75,7 +76,7 @@ def adam_step(
         loss.loss,
         argnums=(0, 3, 4),
         has_aux=True,
-    )(pp, ds_b, lb_b, pw, pa, input_config, key, loss_function, aim)
+    )(pp, ds_b, lb_b, pw, pa, input_config, key, loss_function, aim, reupload_freq)
 
     # 2) Decide whether to skip:
     #    only skip if discard==1 and the photon condition is met
