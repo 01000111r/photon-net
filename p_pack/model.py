@@ -33,27 +33,19 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     # Please note that we broadcast over images in the data set. 
     # The convention is that only the last two indices are used for matrix operations, 
     # the others are broadcasting dimensions used for batches of images.
+    if globals.reupload_freq ==0:
+        first_layers = circ.layer_unitary(phases, 0)
+    else:
 
-    first_layers = circ.data_upload(weights[0,:]*data_set)
+        first_layers = circ.data_upload(weights[0,:]*data_set)
+
     unitaries = first_layers
     #print('First layer shape', first_layers)
     #print('First layers shape', first_layers)
     for layer in range(1,depth): 
+    
         if globals.reupload_freq == 0:
-            key2 = jax.random.PRNGKey(layer) 
-            temp = jax.random.permutation(key2, data_set.shape[1])
-            temp = jax.lax.stop_gradient(temp)
-            #temp = jnp.arange(data_set.shape[0])
-            #shuffle all the images with the same permuatation, each reupload layer with a different permutation
-            data_set_reupload = data_set[:,temp]
-            
-            #temp_permutation = data_set_reupload[:10, :3]
-            #print(temp_permutation)
-
-
-            unitaries_data_reupload = circ.data_upload(weights[layer,:]* data_set_reupload)
-            #print('Reupload layer', layer, 'shape', unitaries_data_reupload)
-            unitaries = unitaries_data_reupload @ unitaries
+            unitaries = circ.layer_unitary(phases, layer) @ unitaries
 
         elif (layer) % globals.reupload_freq != 0: # every 'reupload_freq' layer is a upload layer 
             unitaries = circ.layer_unitary(phases, layer) @ unitaries
