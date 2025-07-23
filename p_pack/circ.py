@@ -425,7 +425,7 @@ def compute_probs_given_survivors(unitaries, survivors, k):
 
 
 
-
+@jax.jit
 def measurement(
     unitaries:    jnp.ndarray,
     input_config: tuple[jnp.ndarray, jnp.ndarray],

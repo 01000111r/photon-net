@@ -4,7 +4,7 @@ from jax import block_until_ready
 from p_pack import train               # your train.train
 import p_pack.globals as g
 
-def save_run(log_file: str, output_folder: str, data_name: str, init_carry):
+def save_run(log_file: str, output_folder: str, data_name: str, global_name, init_carry):
     """
     1) Runs train.train(init_carry)
     2) Saves the four outputs into output_folder/<data_name>.npz
@@ -35,7 +35,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, init_carry):
     print(f"[save_run] Saved outputs → {outputs_path}")
 
     # 4) hard‑coded snapshot of key globals
-    globals_path = os.path.join(output_folder, "globals.npz")
+    globals_path = os.path.join(output_folder, global_name)
     to_save = {
         "num_steps":      np.asarray(g.num_steps),
         "training_rate":  np.asarray(g.training_rate),
@@ -53,7 +53,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, init_carry):
         "loss_function": np.asarray(g.loss_function),
         "batch_mode":     np.asarray(g.batch_mode),
         "mini_batch_size": np.asarray(g.mini_batch_size),
-        "master_key":     np.asarray(g.master_key)     # same here
+        "master_key":     np.asarray(g.master_key)  
     }
     np.savez_compressed(globals_path, **to_save)
     print(f"[save_run] Saved globals → {globals_path}")

@@ -1,0 +1,871 @@
+
+=== Run: test_data ===
+Output folder: test_data
+Outputs file:  test_data/test1.npz
+Globals file:  test_data/globals.npz
+
+Globals snapshot:
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 1
+  input_config: <array shape=(2, 10)>
+  master_key: [0, 2]
+  loss_function: 1
+  aim: 3
+  training_rate: 0.1
+========================================
+
+=== Run: test_data ===
+Output folder: test_data
+Outputs file:  test_data/test2.npz
+Globals file:  test_data/globals.npz
+
+Globals snapshot:
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 1
+  input_config: <array shape=(10,)>
+  master_key: [0, 2]
+  loss_function: 1
+  aim: 3
+  training_rate: 0.1
+========================================
+
+=== Run: test_data ===
+Output folder: test_data
+Outputs file:  test_data/test2.npz
+Globals file:  test_data/globals.npz
+
+Globals snapshot:
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 1
+  input_config: <array shape=(10,)>
+  master_key: [0, 2]
+  loss_function: 1
+  aim: 3
+  training_rate: 0.1
+========================================
+
+=== Run: test_data ===
+Output folder: test_data
+Outputs file:  test_data/test2.npz
+Globals file:  test_data/globals.npz
+
+Globals snapshot:
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 1
+  input_config: <array shape=(10,)>
+  master_key: [0, 2]
+  loss_function: 1
+  aim: 3
+  training_rate: 0.1
+========================================
+
+=== Run: test_data ===
+Output folder: test_data
+Outputs file:  test_data/test2.npz
+Globals file:  test_data/globals.npz
+
+Globals snapshot:
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_config: <array shape=(10,)>
+  master_key: [0, 2]
+  loss_function: 1
+  aim: 3
+  training_rate: 0.1
+========================================
+
+=== Run: test_data ===
+Output folder: test_data
+Outputs file:  test_data/test2.npz
+Globals file:  test_data/globals.npz
+
+Globals snapshot:
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  master_key: [0, 2]
+  loss_function: 1
+  aim: 3
+  training_rate: 0.1
+========================================
+
+=== Run: test_data ===
+Output folder: test_data
+Outputs file:  test_data/test2.npz
+Globals file:  test_data/globals.npz
+
+Globals snapshot:
+  num_steps: 5
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: single
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test_data ===
+Output folder: new_test_data
+Outputs file:  new_test_data/test2.npz
+Globals file:  new_test_data/globals.npz
+
+Globals snapshot:
+  num_steps: 5
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: single
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test_data ===
+Output folder: new_test_data
+Outputs file:  new_test_data/test2.npz
+Globals file:  new_test_data/globals.npz
+
+Globals snapshot:
+  num_steps: 200
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_positions: 2
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 1
+  input_positions: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  input_config: [1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 50
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 5
+  num_features: 3
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 3
+  p_suc_inputs: 0.7
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.7
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.7
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 1]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.9
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 1]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.7
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 1]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.7
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 1]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.4
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 1]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.4
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.4
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.4
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.3
+  input_positions: 10
+  input_config: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.3
+  input_positions: 10
+  input_config: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.3
+  input_positions: 10
+  input_config: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 10
+  input_config: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: single
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.3
+  input_positions: 10
+  input_config: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: single
+  mini_batch_size: 500
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.3
+  input_positions: 10
+  input_config: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: mini
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 30
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.3
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: new_test1_data ===
+Output folder: new_test1_data
+Outputs file:  new_test1_data/test1.npz
+Globals file:  new_test1_data/globals.npz
+
+Globals snapshot:
+  num_steps: 5
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 4
+  p_suc_inputs: 0.3
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
