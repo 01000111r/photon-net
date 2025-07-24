@@ -112,19 +112,18 @@ def input_config_maker(input : str, num_modes: int, p_suc_inputs:list) -> tuple:
             idx += empties + 1
             positions.append(idx)
         indexes = positions
-    max_photons = len(indexes)    
-    arr = np.zeros(num_modes, np.uint8)
-    arr[indexes] = 1 
-    arr = jnp.array(arr, dtype=jnp.uint8)
+    max_photons = len(indexes)
+    arr = [0] * num_modes
+    for idx in indexes:
+        arr[int(idx)] = 1
     probs = []
     if isinstance(p_suc_inputs, list):
-        assert len(p_suc_inputs) == num_modes, "Length of p_suc_inputs must match num_modes"
-        probs= jnp.array(p_suc_inputs)
+        assert (len(p_suc_inputs) == num_modes), "Length of p_suc_inputs must match num_modes"
+        probs = [float(p) for p in p_suc_inputs]
     else:
         p = float(p_suc_inputs)
         probs = [p] * num_modes
-    probs = jnp.array(probs, dtype=jnp.float32)
-    return (arr, probs)
+    return (tuple(arr), tuple(probs))
        
 
 

@@ -82,7 +82,7 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     return unitaries, sub_unitaries, label_probs, binary_probs_plus, n_p, key
 
 
-@partial(jax.jit, static_argnames=['reupload_freq'])
+@partial(jax.jit, static_argnames=['reupload_freq', 'input_config'])
 def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key, reupload_freq) -> Tuple[jnp.array, jnp.array]:
     """
     Performs prediction using the photonic circuit model.

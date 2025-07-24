@@ -426,7 +426,7 @@ def compute_probs_given_survivors(unitaries, survivors, k):
 
 
 
-@jax.jit
+@partial(jax.jit, static_argnames=['input_config'])
 def measurement(
     unitaries:    jnp.ndarray,
     input_config: tuple[jnp.ndarray, jnp.ndarray],

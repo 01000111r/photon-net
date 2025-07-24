@@ -1798,3 +1798,553 @@ Globals snapshot:
   mini_batch_size: 1000
   master_key: [0, 2]
 ========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p1.npz
+Globals file:  fix-p-suc-vary-p1-d1/p1g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p0.9.npz
+Globals file:  fix-p-suc-vary-p1-d1/p0.9g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.9
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p0.8.npz
+Globals file:  fix-p-suc-vary-p1-d1/p0.8g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p0.5.npz
+Globals file:  fix-p-suc-vary-p1-d1/p0.5g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.5
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p1.npz
+Globals file:  fix-p-suc-vary-p1-d1/p1g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p0.9.npz
+Globals file:  fix-p-suc-vary-p1-d1/p0.9g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.9
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p0.8.npz
+Globals file:  fix-p-suc-vary-p1-d1/p0.8g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d1 ===
+Output folder: fix-p-suc-vary-p1-d1
+Outputs file:  fix-p-suc-vary-p1-d1/p0.5.npz
+Globals file:  fix-p-suc-vary-p1-d1/p0.5g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.5
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 1
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d0 ===
+Output folder: fix-p-suc-vary-p1-d0
+Outputs file:  fix-p-suc-vary-p1-d0/p1.npz
+Globals file:  fix-p-suc-vary-p1-d0/p1g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d0 ===
+Output folder: fix-p-suc-vary-p1-d0
+Outputs file:  fix-p-suc-vary-p1-d0/p0.9.npz
+Globals file:  fix-p-suc-vary-p1-d0/p0.9g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.9
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d0 ===
+Output folder: fix-p-suc-vary-p1-d0
+Outputs file:  fix-p-suc-vary-p1-d0/p0.8.npz
+Globals file:  fix-p-suc-vary-p1-d0/p0.8g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.8
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-p-suc-vary-p1-d0 ===
+Output folder: fix-p-suc-vary-p1-d0
+Outputs file:  fix-p-suc-vary-p1-d0/p0.5.npz
+Globals file:  fix-p-suc-vary-p1-d0/p0.5g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 0.5
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: tt-position ===
+Output folder: tt-position
+Outputs file:  tt-position/p0.npz
+Globals file:  tt-position/p0g
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: tt-position ===
+Output folder: tt-position
+Outputs file:  tt-position/p0.npz
+Globals file:  tt-position/p0g
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 1
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: dump ===
+Output folder: dump
+Outputs file:  dump/p0.npz
+Globals file:  dump/p0g
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: dump ===
+Output folder: dump
+Outputs file:  dump/p0.npz
+Globals file:  dump/p0g
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-position-vary-p1 ===
+Output folder: fix-position-vary-p1
+Outputs file:  fix-position-vary-p1/p0.npz
+Globals file:  fix-position-vary-p1/p0g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-position-vary-p1 ===
+Output folder: fix-position-vary-p1
+Outputs file:  fix-position-vary-p1/p1.npz
+Globals file:  fix-position-vary-p1/p1g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-position-vary-p1 ===
+Output folder: fix-position-vary-p1
+Outputs file:  fix-position-vary-p1/p2.npz
+Globals file:  fix-position-vary-p1/p2g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-position-vary-p1 ===
+Output folder: fix-position-vary-p1
+Outputs file:  fix-position-vary-p1/p3.npz
+Globals file:  fix-position-vary-p1/p3g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-position-vary-p1 ===
+Output folder: fix-position-vary-p1
+Outputs file:  fix-position-vary-p1/p4.npz
+Globals file:  fix-position-vary-p1/p4g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: fix-position-vary-p1 ===
+Output folder: fix-position-vary-p1
+Outputs file:  fix-position-vary-p1/p5.npz
+Globals file:  fix-position-vary-p1/p5g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================

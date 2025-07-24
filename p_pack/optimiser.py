@@ -26,7 +26,7 @@ def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey, bat
 
 
 
-@partial(jax.jit, static_argnames=['discard', 'aim', 'cmp', 'loss_function', 'range_vals', 'batch_mode', 'mini_batch_size', 'reupload_freq'])
+@partial(jax.jit, static_argnames=['input_config', 'discard', 'aim', 'cmp', 'loss_function', 'range_vals', 'batch_mode', 'mini_batch_size', 'reupload_freq'])
 def adam_step(
     carry,
     step,

@@ -6,7 +6,7 @@ import jax
 from functools import partial
 
 
-@partial(jax.jit, static_argnames=['loss_function', 'reupload_freq'])
+@partial(jax.jit, static_argnames=['loss_function', 'reupload_freq', 'input_config'])
 def loss(phases: jnp.array,
          data_set: jnp.array,
          labels: jnp.array,
@@ -51,10 +51,7 @@ def loss(phases: jnp.array,
         weight = 1.0
     elif loss_function == 1:
         # Scaling by photon loss scale - not sure if this is the best way to do it, maybe should be in optimisation step?
-        weight = jnp.exp(photon_loss_scale * (
-            jnp.array(n_p, dtype=jnp.float32) /
-            jnp.array(aim, dtype=jnp.float32)
-        ))
+        weight = jnp.exp(photon_loss_scale * ((jnp.array(n_p, dtype=jnp.float32) / jnp.array(aim, dtype=jnp.float32)) - 1))
 
     loss = (weight * (1.0 - adjusted_predictions)**2).mean()
 
