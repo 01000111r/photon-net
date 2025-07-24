@@ -53,7 +53,10 @@ def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None, re
     # // 2 is integer division by 2, including rounding down.
     # The last two says that these two phases belong  to the same beamsplitter.
     # That is also why we divide the width by 2.
-    phases = rng.uniform( low = -0.1, high = 0.1 , size =  [depth, width//2, 2])
+    if globals.phase_init_value is not None:
+        phases = np.full([depth, width // 2, 2], globals.phase_init_value)
+    else:
+        phases = rng.uniform(low=-0.1, high=0.1, size=[depth, width // 2, 2])
     # The mask allows to set some phases to zero. This can be used if one wants to 
     # fix some beam splitters to the identity, for example for modularity.
     phases = mask*phases   
