@@ -1,0 +1,969 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The following is a list of the modules and extensions currently available:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  adios2: adios2/2.10.1-4w4dtmm
+
+  antlr: antlr/2.7.7-ntgi
+
+  apps/abaqus: apps/abaqus/2018, apps/abaqus/2023
+
+  apps/ale: apps/ale/1.0
+
+  apps/amber: apps/amber/22, apps/amber/24.tools.24, apps/amber/24.tools.25
+
+  apps/annovar: apps/annovar/2024.6
+
+  apps/black-it: apps/black-it/0.3.1
+
+  apps/bmge: apps/bmge/2.0
+
+  apps/bpp: apps/bpp/4.7.0
+
+  apps/brevitas: apps/brevitas/0.11.0
+
+  apps/ccp4: apps/ccp4/9
+
+  apps/cellranger: apps/cellranger/7.2.0, apps/cellranger/8.0.1, apps/cellranger/9.0.1
+
+  apps/colabfold: apps/colabfold/1.5.5
+
+  apps/comsol: apps/comsol/6.2
+
+  apps/convsh: apps/convsh/1.19.1
+
+  apps/cryosparc-tools: apps/cryosparc-tools/4.6.1
+
+  apps/crystal: apps/crystal/23
+
+  apps/ctffind: apps/ctffind/4.14
+
+  apps/dbcan: apps/dbcan/4.1.4
+
+  apps/dorado: apps/dorado/0.7.0, apps/dorado/0.9.0
+
+  apps/eggnog-mapper: apps/eggnog-mapper/2.1.12
+
+  apps/eman2: apps/eman2/2.99.47
+
+  apps/flye: apps/flye/2.9.5
+
+  apps/foldseek: apps/foldseek/05.2024
+
+  apps/fsl: apps/fsl/3.21.0
+
+  apps/gaussian: apps/gaussian/g16
+
+  apps/gcta: apps/gcta/1.94.4
+
+  apps/gctf: apps/gctf/1.18.b2
+
+  apps/geant4: apps/geant4/10.7.3-lithium, apps/geant4/10.7.3, apps/geant4/11.3.0-lithium
+
+  apps/gem: apps/gem/1.5.3
+
+  apps/gnomix: apps/gnomix/2eca7b0
+
+  apps/herro: apps/herro/0.2.0
+
+  apps/iqtree: apps/iqtree/2.0.6, apps/iqtree/2.4.0
+
+  apps/jax: apps/jax/0.4.31
+
+  apps/jum: apps/jum/3.0.0
+
+  apps/kat: apps/kat/2.0.8, apps/kat/2.4.2
+
+  apps/ldak: apps/ldak/6.1
+
+  apps/ls-dyna: apps/ls-dyna/r11.2-356-mpp-intel, apps/ls-dyna/r11.2-356-smp-intel
+
+  apps/lumerical-fdtd: apps/lumerical-fdtd/2023-r1.3
+
+  apps/magma: apps/magma/2.28-11
+
+  apps/magma-genomics: apps/magma-genomics/1.10
+
+  apps/maple: apps/maple/2023.1
+
+  apps/mathematica: apps/mathematica/14.1.0
+
+  apps/matlab: apps/matlab/r2023b
+
+  apps/merqury: apps/merqury/1.3
+
+  apps/metabolic: apps/metabolic/4.0
+
+  apps/mlnscript: apps/mlnscript/3.13-1
+
+  apps/mmap: apps/mmap/2022.11.06
+
+  apps/molpro: apps/molpro/2022.3.1
+
+  apps/moose: apps/moose/2025.04
+
+  apps/multiqc: apps/multiqc/1.26
+
+  apps/nastran: apps/nastran/2023-4
+
+  apps/netlogo: apps/netlogo/6.2.0, apps/netlogo/6.4.0
+
+  apps/optydb: apps/optydb/2024-R2_beta, apps/optydb/2024-R2-gcc-8.2.1, apps/optydb/2024-R2-gcc-10.2.1-DYN, apps/optydb/2024-R2, apps/optydb/2024-R3_beta_dyn, ...
+
+  apps/orca: apps/orca/6.0.0
+
+  apps/paml: apps/paml/4.10.7-NS7000, apps/paml/4.10.9
+
+  apps/paup: apps/paup/4a-168
+
+  apps/phylobayes: apps/phylobayes/4.1e
+
+  apps/picard: apps/picard/3.3.0
+
+  apps/plink1.9: apps/plink1.9/1.90-b77
+
+  apps/plink2: apps/plink2/2.00a6LM, apps/plink2/2.00a68LM
+
+  apps/powerflow: apps/powerflow/6-2024
+
+  apps/prodigal: apps/prodigal/2.6.3
+
+  apps/prokka: apps/prokka/1.14.6
+
+  apps/pyem: apps/pyem/1
+
+  apps/pytorch: apps/pytorch/1.12.1
+
+  apps/qchem: apps/qchem/5.0.2
+
+  apps/relion: apps/relion/5.0
+
+  apps/rfmix: apps/rfmix/2.03-r0
+
+  apps/rootbbb: apps/rootbbb/2020
+
+  apps/sagemath: apps/sagemath/10.3
+
+  apps/schrodinger: apps/schrodinger/2024-3
+
+  apps/snpeff: apps/snpeff/5.2f
+
+  apps/starccm: apps/starccm/18.02.008-r8
+
+  apps/stata: apps/stata/17
+
+  apps/tapas: apps/tapas/1.0
+
+  apps/tempest-extremes: apps/tempest-extremes/2.2.3
+
+  apps/tiberius: apps/tiberius/1.1.4
+
+  apps/tractor: apps/tractor/1.4.0
+
+  apps/trimal: apps/trimal/1.5
+
+  apps/turbomole: apps/turbomole/7.8
+
+  apps/vasp: apps/vasp/6.3.2
+
+  apps/vep: apps/vep/112
+
+  apps/vvc: apps/vvc/1.13.0
+
+  apps/xtb: apps/xtb/6.7.1
+
+  apptainer: apptainer/1.3.1-ksax
+
+  arborx: arborx/1.3-openblas-hsb362k
+
+  arpack-ng: arpack-ng/3.9.0-openblas-3uc6
+
+  bcftools: bcftools/1.19-openblas-5yp2
+
+  beagle: beagle/5.4-s2iv
+
+  beast2: beast2/2.7.4-m6pq
+
+  bedtools2: bedtools2/2.31.1-extr
+
+  bgen: bgen/1.1.7-kdez
+
+  binutils: binutils/2.42-2r7w, binutils/2.42-45jl
+
+  bismark: bismark/0.24.1-vpa4
+
+  blast-plus: blast-plus/2.14.1-kvze
+
+  boost: boost/1.85.0-lrvf
+
+  bowtie: bowtie/1.3.1-jbwo
+
+  bowtie2: bowtie2/2.5.2-vr2b
+
+  bpp-core: bpp-core/2.4.1-kcin
+
+  bpp-phyl: bpp-phyl/2.4.1-xhmr
+
+  bpp-popgen: bpp-popgen/2.4.1-frtb
+
+  bpp-seq: bpp-seq/2.4.1-2j5g
+
+  bpp-suite: bpp-suite/2.4.1-rign
+
+  busco: busco/5.4.3-openblas-zgyw
+
+  bwa: bwa/0.7.17-hnox
+
+  cdo: cdo/2.4.0-wfzb
+
+  cgns: cgns/4.4.0-bby3jn2, cgns/4.4.0-gz6c
+
+  clustal-omega: clustal-omega/1.2.4-skoy
+
+  cmake: cmake/3.27.9-s6cv
+
+  cmdstan: cmdstan/2.30.1-arbp
+
+  cp2k: cp2k/2024.1-netlib-lapack-ut2nx2b
+
+  cuda: cuda/11.8.0-rgxs, cuda/12.4.1-ebv6
+
+  cudnn: cudnn/8.7.0.84-11.8-db24, cudnn/8.9.7.29-12-dvcp
+
+  curl: curl/7.88.1-4vxr
+
+  dbcsr: dbcsr/2.6.0-netlib-lapack-yznubfc
+
+  diamond: diamond/2.1.7-iral
+
+  doxygen: doxygen/1.11.0-h2ga
+
+  eccodes: eccodes/2.34.0-gvii
+
+  eigen: eigen/3.4.0-3eao
+
+  elk: elk/8.3.22-wp3z
+
+  esmf: esmf/8.6.1-5oo4
+
+  exodusii: exodusii/2024-04-03-2id5
+
+  expat: expat/2.6.2-g2wf
+
+  fastp: fastp/0.23.4-c776
+
+  fastqc: fastqc/0.12.1-hnjy
+
+  fasttree: fasttree/2.1.11-ypks
+
+  ffmpeg: ffmpeg/6.1.1-2mhm
+
+  fftw: fftw/2.1.5-ey64, fftw/3.3.10-lkah
+
+  freesurfer: freesurfer/7.4.1-uaxr
+
+  gatk: gatk/4.5.0.0-plwk
+
+  gcc: gcc/6.5.0-7a7n, gcc/10.5.0-vi5y, gcc/11.4.0-5d4g, gcc/12.3.0-sknc, gcc/14.1.0-dn2g
+
+  gcta: gcta/1.94.0beta-62nr
+
+  gdal: gdal/3.8.5-ne6z
+
+  geant4: geant4/11.1.3-wdly
+
+  gemma: gemma/0.98.5-klpu
+
+  git: git/2.45.1-pqk5
+
+  gmake: gmake/4.4.1-u2aa
+
+  gmsh: gmsh/4.8.4-openblas-wqawka7
+
+  gnuplot: gnuplot/6.0.0-5dut
+
+  gromacs: gromacs/2024.2-netlib-lapack-sqeg
+
+  gsl: gsl/2.7.1-2lr5
+
+  hdf-eos5: hdf-eos5/5.1.16-tjycv2i
+
+  hdf5: hdf5/1.12.3-nhubsch, hdf5/1.14.3-fcxp
+
+  hisat2: hisat2/2.2.1-wgfd
+
+  hmmer: hmmer/3.4-dlenn64
+
+  hpcg: hpcg/3.1-of3x, hpcg/3.1-yaye
+
+  htslib: htslib/1.3.1-dkbj, htslib/1.19.1-jbbb
+
+  hypre: hypre/2.31.0-openblas-lvcq6dr
+
+  igraph: igraph/0.10.6-openblas-6vjr
+
+  intel-mkl: intel-mkl/2020.4.304-cujk
+
+  jags: jags/4.3.2-openblas-dkp2
+
+  jasper: jasper/3.0.3-aykn
+
+  jellyfish: jellyfish/2.2.7-purz
+
+  kokkos: kokkos/4.3.01-q75f
+
+  lammps: lammps/20240207.1-openblas-hdfn
+
+  languages/Intel-OneAPI: languages/Intel-OneAPI/2022.2.0, languages/Intel-OneAPI/2024.0.2
+
+  languages/R: languages/R/3.6.2, languages/R/4.1.2, languages/R/4.3.3, languages/R/4.4.1, languages/R/4.4.2, languages/R/4.4.3
+
+  languages/aai: languages/aai/3.13.0
+
+  languages/fegenie: languages/fegenie/1.2
+
+  languages/go: languages/go/1.22.5
+
+  languages/java-sdk: languages/java-sdk/22.0.2
+
+  languages/julia: languages/julia/1.10.3
+
+  languages/perl: languages/perl/5.38.2
+
+  languages/python: languages/python/bh-tensorflow-2.8.0, languages/python/bioconda, languages/python/biopython-1.83, languages/python/checkm-metabat, ...
+
+  languages/qiime2: languages/qiime2/qiime2-amplicon-2024.5, languages/qiime2/qiime2-metagenome-2024.5
+
+  languages/rstudio: languages/rstudio/12.0-467
+
+  languages/tensorflow: languages/tensorflow/2.9.1, languages/tensorflow/2.15-gpu-gnn, languages/tensorflow/2.17-gpu-gnn
+
+  languages/triqs: languages/triqs/deps-3.13.0
+
+  ldak: ldak/5.2-openblas-yvgw
+
+  ldsc: ldsc/2.0.1-openblas-j2qw
+
+  libffi: libffi/3.4.6-lfnv
+
+  liblas: liblas/1.8.1-eznv
+
+  libpng: libpng/1.6.39-5ubb
+
+  libraries/pugixml: libraries/pugixml/1.15
+
+  libs/htseq: libs/htseq/2.0.9
+
+  libs/mdanalysis: libs/mdanalysis/2.7.0, libs/mdanalysis/2.9.0
+
+  libtool: libtool/2.4.7-cy5n
+
+  lmod: lmod
+    Lmod: An Environment Module System
+
+  mafft: mafft/7.505-gnbu
+
+  magics: magics/4.15.3-j6if
+
+  med: med/5.0.0-s2kmya7
+
+  metal: metal/2020-05-05-b2vk
+
+  mmg: mmg/5.7.3-24oa3sm
+
+  mrbayes: mrbayes/3.2.7a-fyjv
+
+  mumps: mumps/5.6.2-netlib-lapack-x5nu
+
+  muscle5: muscle5/5.1.0-uuhm
+
+  mysql: mysql/8.0.35-aome
+
+  nano: nano/8.0-ptkd
+
+  nasm: nasm/2.15.05-qeop
+
+  ncl: ncl/6.6.2-twm2
+
+  nco: nco/5.2.4-7jnv
+
+  netcdf-c: netcdf-c/4.9.2-abpn
+
+  netcdf-cxx: netcdf-cxx/4.2-ltju
+
+  netcdf-fortran: netcdf-fortran/4.6.1-nwqu
+
+  netlib-lapack: netlib-lapack/3.11.0-xmvz
+
+  netlib-scalapack: netlib-scalapack/2.2.0-netlib-lapack-bmz2qo6
+
+  nextflow: nextflow/24.04.1-k6ag
+
+  octave: octave/9.1.0-openblas-gqii
+
+  ont-guppy: ont-guppy/6.1.7-od3y
+
+  openblas: openblas/0.3.27-letx, openblas/0.3.27-wjay
+
+  opencv: opencv/4.8.0-l75v
+
+  openfoam: openfoam/2312-w7xd
+
+  openjdk: openjdk/11.0.23_9-hezc, openjdk/17.0.11_9-zi6q
+
+  openmpi: openmpi/4.1.2-dbbf, openmpi/4.1.6-xii4, openmpi/5.0.3-et6p, openmpi/5.0.3-73f6
+
+  openssl: openssl/3.3.0-orvr
+
+  orca: orca/6.0.0-gjcq, orca/6.0.1-4mfi
+
+  orthofinder: orthofinder/2.5.5-openblas-ynxm
+
+  p4est: p4est/2.8-ovgkcw3
+
+  p7zip: p7zip/17.05-rxw6
+
+  paml: paml/4.10.7-rz2i
+
+  parallel-netcdf: parallel-netcdf/1.12.3-gcjs
+
+  parallelio: parallelio/2.6.2-irzr
+
+  parmetis: parmetis/4.0.3-xmeg
+
+  pcre: pcre/8.45-eybd
+
+  petsc: petsc/3.21.2-openblas-6i7xaao
+
+  phylobayesmpi: phylobayesmpi/1.9-6l6t
+
+  picard: picard/3.1.1-mwpo
+
+  pigz: pigz/2.8-e26z
+
+  plink: plink/1.07-mjgk
+
+  pmix: pmix/2.2.5-mjz5, pmix/3.2.4-2-vm43, pmix/4.2.4-62xc
+
+  pulseaudio: pulseaudio/13.0-jazn
+
+  py-gputil: py-gputil/1.4.0-mvxt
+
+  py-mpi4py: py-mpi4py/3.1.6-phj62ky
+
+  qctool: qctool/2.2.0-dh37
+
+  quantum-espresso: quantum-espresso/7.3.1-netlib-lapack-aab4
+
+  r: r/3.1.3-openblas-fydm
+
+  raxml: raxml/8.2.12-o4eu
+
+  rclone: rclone/1.65.1-dz6m
+
+  root: root/6.32.00-yakz
+
+  rust: rust/1.78.0-n5bm
+
+  salmon: salmon/1.10.2-gve3
+
+  samtools: samtools/1.3.1-gdhe, samtools/1.19.2-737f
+
+  scotch: scotch/7.0.4-qqaaxdf
+
+  seqkit: seqkit/2.8.2-qs27
+
+  seqtk: seqtk/1.4-rcyr
+
+  settarg: settarg
+    The settarg module provides a way to connect the loaded modules with your build system by setting environment variables. 
+
+  slepc: slepc/3.21.0-openblas-tflbuve
+
+  slurm: slurm/23.11.6-77s5
+
+  spades: spades/3.15.5-nrmr
+
+  speexdsp: speexdsp/1.2.1-bkim6ih
+
+  sra-tools: sra-tools/3.0.3-yf3y
+
+  sratoolkit: sratoolkit/3.0.0-way3
+
+  star: star/2.7.11b-ligq
+
+  sundials: sundials/6.7.0-mudw4fj
+
+  superlu-dist: superlu-dist/8.2.1-openblas-qi7l2zw
+
+  tk: tk/8.6.11-ydq7
+
+  tools/megan: tools/megan/6.25.10
+
+  tools/unison: tools/unison/2.40.61
+
+  tools/vscode: tools/vscode/1.96.4
+
+  trilinos: trilinos/13.4.1-openblas-5sozi4y
+
+  trimmomatic: trimmomatic/0.39-racl
+
+  vcftools: vcftools/0.1.16-ukwm
+
+  zlib: zlib/1.3.1-hubl
+
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  languages/python/3.12.3                         : Name : Miniforge Python
+languages/python/3.12.3                         : Version : 3.12.3
+languages/python/3.12.3                         : Target : broadwell
+languages/python/3.12.3                         : Short description :Python is a high-level, general-purpose programming language. 
+languages/python/3.12.3                         : 
+ - aiohappyeyeballs=2.4.4
+ - aiohttp=3.11.11
+ - aiosignal=1.3.2
+ - alsa-lib=1.2.14
+ - annotated-types=0.7.0
+ - anyio=4.7.0
+ - aom=3.9.1
+ - asttokens=3.0.0
+ - attr=2.5.1
+ - attrs=24.3.0
+ - aws-c-auth=0.8.0
+ - aws-c-cal=0.8.1
+ - aws-c-common=0.10.6
+ - aws-c-compression=0.3.0
+ - aws-c-event-stream=0.5.0
+ - aws-c-http=0.9.2
+ - aws-c-io=0.15.3
+ - aws-c-mqtt=0.11.0
+ - aws-c-s3=0.7.7
+ - aws-c-sdkutils=0.2.1
+ - aws-checksums=0.2.2
+ - aws-crt-cpp=0.29.7
+ - aws-sdk-cpp=1.11.458
+ - azure-core-cpp=1.14.0
+ - azure-identity-cpp=1.10.0
+ - azure-storage-blobs-cpp=12.13.0
+ - azure-storage-common-cpp=12.8.0
+ - azure-storage-files-datalake-cpp=12.12.0
+ - bertopic=0.16.2
+ - black-it=0.3.1
+ - blosc2=2.7.1
+ - blosc=1.21.6
+ - brotli-bin=1.1.0
+ - brotli-python=1.1.0
+ - Brotli=1.1.0
+ - bx-python=0.13.0
+ - bzip2=1.0.8
+ - c-ares=1.34.4
+ - ca-certificates=2025.1.31
+ - cached-property=1.5.2
+ - cached_property=1.5.2
+ - cairo=1.18.4
+ - certifi=2025.1.31
+ - cffi=1.17.1
+ - charset-normalizer=3.4.0
+ - cloudpickle=3.0.0
+ - colorama=0.4.6
+ - comm=0.2.2
+ - contourpy=1.3.0
+ - contourpy=1.3.1
+ - cuda-cudart=12.4.127
+ - cuda-cudart_linux-64=12.4.127
+ - cuda-version=12.4
+ - cycler=0.12.1
+ - Cython=0.29.37
+ - dagmc=3.2.3
+ - datasets=2.14.4
+ - dav1d=1.2.1
+ - dbus=1.13.6
+ - debugpy=1.8.14
+ - decorator=5.1.1
+ - dill=0.3.7
+ - distro=1.9.0
+ - eigen=3.4.0
+ - exceptiongroup=1.2.2
+ - executing=2.1.0
+ - expat=2.7.0
+ - ffmpeg=7.1.1
+ - filelock=3.16.1
+ - font-ttf-dejavu-sans-mono=2.37
+ - font-ttf-inconsolata=3.000
+ - font-ttf-source-code-pro=2.038
+ - font-ttf-ubuntu=0.83
+ - fontconfig=2.15.0
+ - fonts-conda-ecosystem=1
+ - fonts-conda-forge=1
+ - fonttools=4.56.0
+ - freetype=2.13.3
+ - fribidi=1.0.10
+ - frozenlist=1.5.0
+ - fsspec=2024.12.0
+ - future=1.0.0
+ - gdk-pixbuf=2.42.12
+ - gettext-tools=0.22.5
+ - gettext=0.22.5
+ - gflags=2.2.2
+ - glog=0.7.1
+ - gmp=6.3.0
+ - gmpy2=2.1.5
+ - graphite2=1.3.13
+ - graphviz=0.20.3
+ - gymnasium-notices=0.0.1
+ - gymnasium=0.27.1
+ - h11=0.14.0
+ - h2=4.1.0
+ - h5py=3.12.1
+ - harfbuzz=11.2.1
+ - hdbscan=0.8.39
+ - hdf4=4.2.15
+ - hdf5=1.14.3
+ - hpack=4.0.0
+ - HTSeq=2.0.9
+ - httpcore=1.0.7
+ - httpx=0.28.1
+ - huggingface_hub=0.26.5
+ - hyperframe=6.0.1
+ - icu=75.1
+ - idna=3.10
+ - importlib-metadata=8.5.0
+ - importlib_metadata=8.5.0
+ - ipykernel=6.29.5
+ - ipython=8.27.0
+ - ipython=8.32.0
+ - ipywidgets=8.1.5
+ - jax-jumpy=1.0.0
+ - jedi=0.19.1
+ - jedi=0.19.2
+ - Jinja2=3.1.4
+ - jiter=0.8.2
+ - joblib=1.4.2
+ - jupyterlab_widgets=3.0.13
+ - jupyter_client=8.6.3
+ - jupyter_core=5.7.2
+ - keyutils=1.6.1
+ - kiwisolver=1.4.7
+ - kiwisolver=1.4.8
+ - krb5=1.21.3
+ - lame=3.100
+ - lcms2=2.16
+ - ld_impl_linux-64=2.40
+ - lerc=4.0.0
+ - level-zero=1.22.4
+ - libabseil=20240722.0
+ - libaec=1.1.3
+ - libarrow-acero=18.1.0
+ - libarrow-dataset=18.1.0
+ - libarrow-substrait=18.1.0
+ - libarrow=18.1.0
+ - libasprintf-devel=0.22.5
+ - libasprintf=0.22.5
+ - libass=0.17.3
+ - libblas=3.9.0
+ - libbrotlicommon=1.1.0
+ - libbrotlidec=1.1.0
+ - libbrotlienc=1.1.0
+ - libcap=2.71
+ - libcblas=3.9.0
+ - libcbor=0.10.2
+ - libcrc32c=1.1.2
+ - libcurl=8.11.1
+ - libdeflate=1.23
+ - libdrm=2.4.124
+ - libedit=3.1.20191231
+ - libegl=1.7.0
+ - libev=4.33
+ - libevent=2.1.12
+ - libexpat=2.7.0
+ - libfabric1=2.0.0
+ - libfabric=2.0.0
+ - libffi=3.4.6
+ - libfido2=1.15.0
+ - libflac=1.4.3
+ - libfreetype6=2.13.3
+ - libfreetype=2.13.3
+ - libgcc-ng=14.1.0
+ - libgcc=14.1.0
+ - libgcrypt-lib=1.11.1
+ - libgcrypt=1.11.0
+ - libgettextpo-devel=0.22.5
+ - libgettextpo=0.22.5
+ - libgfortran-ng=14.1.0
+ - libgfortran5=14.1.0
+ - libgfortran=14.1.0
+ - libgl=1.7.0
+ - libglib=2.84.1
+ - libglvnd=1.7.0
+ - libglx=1.7.0
+ - libgomp=14.1.0
+ - libgoogle-cloud-storage=2.33.0
+ - libgoogle-cloud=2.33.0
+ - libgpg-error=1.55
+ - libgrpc=1.67.1
+ - libhwloc=2.11.2
+ - libiconv=1.18
+ - libjpeg-turbo=3.0.0
+ - liblapack=3.9.0
+ - libllvm14=14.0.6
+ - liblzma-devel=5.8.1
+ - liblzma=5.8.1
+ - libnetcdf=4.9.2
+ - libnghttp2=1.64.0
+ - libnl=3.11.0
+ - libnsl=2.0.1
+ - libogg=1.3.5
+ - libopenblas=0.3.28
+ - libopenvino-auto-batch-plugin=2025.0.0
+ - libopenvino-auto-plugin=2025.0.0
+ - libopenvino-hetero-plugin=2025.0.0
+ - libopenvino-intel-cpu-plugin=2025.0.0
+ - libopenvino-intel-gpu-plugin=2025.0.0
+ - libopenvino-intel-npu-plugin=2025.0.0
+ - libopenvino-ir-frontend=2025.0.0
+ - libopenvino-onnx-frontend=2025.0.0
+ - libopenvino-paddle-frontend=2025.0.0
+ - libopenvino-pytorch-frontend=2025.0.0
+ - libopenvino-tensorflow-frontend=2025.0.0
+ - libopenvino-tensorflow-lite-frontend=2025.0.0
+ - libopenvino=2025.0.0
+ - libopus=1.5.2
+ - libparquet=18.1.0
+ - libpciaccess=0.18
+ - libpmix=5.0.6
+ - libpnetcdf=1.14.0
+ - libpng=1.6.47
+ - libprotobuf=5.28.3
+ - libre2-11=2024.07.02
+ - librsvg=2.58.4
+ - libsndfile=1.2.2
+ - libsqlite=3.46.0
+ - libssh2=1.11.1
+ - libstdcxx-ng=14.1.0
+ - libstdcxx=14.1.0
+ - libsystemd0=257.3
+ - libthrift=0.21.0
+ - libtiff=4.7.0
+ - libtorch=2.5.1
+ - libudev1=257.4
+ - libunwind=1.6.2
+ - liburing=2.9
+ - libusb=1.0.29
+ - libutf8proc=2.9.0
+ - libuuid=2.38.1
+ - libuv=1.49.2
+ - libva=2.22.0
+ - libvorbis=1.3.7
+ - libvpx=1.14.1
+ - libwebp-base=1.4.0
+ - libxcb=1.17.0
+ - libxcrypt=4.4.36
+ - libxkbcommon=1.10.0
+ - libxml2=2.13.8
+ - libxslt=1.1.39
+ - libzip=1.11.2
+ - libzlib=1.3.1
+ - lightning-utilities=0.11.9
+ - llvmlite=0.43.0
+ - logomaker=0.8
+ - lxml=5.3.1
+ - lz4-c=1.10.0
+ - MarkupSafe=3.0.2
+ - matplotlib-base=3.10.0
+ - matplotlib-inline=0.1.7
+ - matplotlib=3.9.2
+ - metis=5.1.0
+ - moab=5.5.1
+ - more-itertools=10.7.0
+ - mpc=1.3.1
+ - mpfr=4.2.1
+ - mpg123=1.32.6
+ - mpi4py=4.0.3
+ - mpi=1.0
+ - mpmath=1.3.0
+ - msgpack=1.1.0
+ - multidict=6.1.0
+ - multiprocess=0.70.15
+ - munkres=1.1.4
+ - ncurses=6.5
+ - ndindex=1.8
+ - nest-asyncio=1.6.0
+ - networkx=3.4.2
+ - njoy2016=2016.78
+ - nomkl=1.0
+ - numba=0.60.0
+ - numdifftools=0.9.41
+ - numexpr=2.10.1
+ - numpy=2.0.2
+ - numpy=2.2.3
+ - nvidia-cublas-cu12=12.4.5.8
+ - nvidia-cuda-cupti-cu12=12.4.127
+ - nvidia-cuda-nvrtc-cu12=12.4.127
+ - nvidia-cuda-runtime-cu12=12.4.127
+ - nvidia-cudnn-cu12=9.1.0.70
+ - nvidia-cufft-cu12=11.2.1.3
+ - nvidia-cufile-cu12=1.11.1.6
+ - nvidia-curand-cu12=10.3.5.147
+ - nvidia-cusolver-cu12=11.6.1.9
+ - nvidia-cusparse-cu12=12.3.1.170
+ - nvidia-cusparselt-cu12=0.6.3
+ - nvidia-nccl-cu12=2.21.5
+ - nvidia-nvjitlink-cu12=12.4.127
+ - nvidia-nvtx-cu12=12.4.127
+ - ocl-icd=2.3.3
+ - openai-whisper=20240930
+ - openai=1.58.1
+ - opencl-headers=2024.10.24
+ - openh264=2.6.0
+ - openjpeg=2.5.3
+ - openmc=0.15.0
+ - openmpi=5.0.6
+ - openssh=9.9p1
+ - openssl=3.5.0
+ - opt_einsum=3.4.0
+ - oqupy=0.5.0
+ - orc=2.0.3
+ - packaging=24.2
+ - pandas=1.5.3
+ - pandas=2.2.3
+ - pango=1.56.3
+ - parso=0.8.4
+ - pastel=0.2.1
+ - patsy=0.5.6
+ - pcre2=10.44
+ - perl=5.32.1
+ - pexpect=4.9.0
+ - pickleshare=0.7.5
+ - pillow=11.0.0
+ - pip=24.0
+ - pixman=0.46.2
+ - platformdirs=4.3.7
+ - plotly=5.24.1
+ - poethepoet=0.10.0
+ - prompt-toolkit=3.0.50
+ - prompt_toolkit=3.0.50
+ - propcache=0.2.1
+ - psutil=6.1.1
+ - pthread-stubs=0.4
+ - ptyprocess=0.7.0
+ - pugixml=1.15
+ - pulseaudio-client=17.0
+ - pure_eval=0.2.3
+ - py-cpuinfo=9.0.0
+ - pyarrow-core=18.1.0
+ - pyarrow=18.1.0
+ - pyBigWig=0.3.23
+ - pycparser=2.22
+ - pydantic-core=2.27.2
+ - pydantic=2.10.4
+ - pydantic_core=2.27.2
+ - pydub=0.25.1
+ - Pygments=2.18.0
+ - pygments=2.19.1
+ - pyg_lib=0.4.0+pt25cpu
+ - pymoab=5.5.1
+ - pynndescent=0.5.13
+ - pyparsing=3.2.1
+ - pysam=0.22.1
+ - PySocks=1.7.1
+ - python-dateutil=2.9.0.post0
+ - python-tzdata=2024.2
+ - python-xxhash=3.5.0
+ - python=3.12.3
+ - python_abi=3.12
+ - pytorch-lightning=2.5.0.post0
+ - pytz=2024.1
+ - PyYAML=6.0.2
+ - pyzmq=26.4.0
+ - qhull=2020.2
+ - rdma-core=54.0
+ - re2=2024.07.02
+ - readline=8.2
+ - regex=2024.11.6
+ - requests=2.32.3
+ - RSeQC=5.0.4
+ - s2n=1.5.10
+ - safetensors=0.4.5
+ - scikit-learn=1.5.2
+ - scikit-learn=1.6.0
+ - scipy=1.14.1
+ - sdl2=2.32.54
+ - sdl3=3.2.14
+ - seaborn=0.12.2
+ - sentence-transformers=3.3.1
+ - setuptools=70.1.1
+ - six=1.17.0
+ - sleef=3.7
+ - snappy=1.2.1
+ - sniffio=1.3.1
+ - stack_data=0.6.3
+ - statsmodels=0.14.3
+ - svt-av1=3.0.2
+ - sympy=1.13.1
+ - tables=3.10.1
+ - tbb=2022.0.0
+ - tempest-remap=2.2.0
+ - tenacity=9.0.0
+ - tensornetwork=0.4.3
+ - threadpoolctl=3.5.0
+ - tiktoken=0.9.0
+ - tk=8.6.13
+ - tokenizers=0.21.0
+ - tomlkit=0.13.3
+ - torch=2.5.1
+ - torchcde=0.2.5
+ - torchdiffeq=0.2.5
+ - torchmetrics=1.6.1
+ - torchsde=0.2.6
+ - torch_cluster=1.6.3+pt25cpu
+ - torch_scatter=2.1.2+pt25cpu
+ - torch_sparse=0.6.18+pt25cpu
+ - torch_spline_conv=1.2.2+pt25cpu
+ - tornado=6.5.1
+ - tqdm=4.67.1
+ - traitlets=5.14.3
+ - trampoline=0.1.2
+ - transformers=4.47.1
+ - triton=3.1.0
+ - typing-extensions=4.12.2
+ - typing_extensions=4.12.2
+ - tzdata=2024.2
+ - tzdata=2024a
+ - ucc=1.3.0
+ - ucx=1.17.0
+ - umap-learn=0.5.7
+ - uncertainties=3.2.2
+ - unicodedata2=16.0.0
+ - urllib3=2.2.3
+ - wayland-protocols=1.44
+ - wayland=1.23.1
+ - wcwidth=0.2.13
+ - wheel=0.43.0
+ - widgetsnbextension=4.0.13
+ - x264=1!164.3095
+ - x265=3.5
+ - xgboost=1.7.6
+ - xkeyboard-config=2.45
+ - xorg-libice=1.1.2
+ - xorg-libsm=1.2.6
+ - xorg-libx11=1.8.12
+ - xorg-libxau=1.0.12
+ - xorg-libxcursor=1.2.3
+ - xorg-libxdmcp=1.1.5
+ - xorg-libxext=1.3.6
+ - xorg-libxfixes=6.0.1
+ - xorg-libxrender=0.9.12
+ - xorg-libxscrnsaver=1.2.4
+ - xxhash=0.8.2
+ - xxhash=3.5.0
+ - xz-gpl-tools=5.8.1
+ - xz-tools=5.8.1
+ - xz=5.8.1
+ - yaml=0.2.5
+ - yarl=1.18.3
+ - yt-dlp=2025.6.9
+ - zipp=3.21.0
+ - zlib=1.3.1
+ - zoltan=3.901
+ - zstandard=0.23.0
+ - zstd=1.5.6

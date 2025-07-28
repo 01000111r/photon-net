@@ -29,7 +29,7 @@ g.p_suc_inputs = 1
 g.input_positions= [0] #'full' for all modes, 'n' for n modes, for specify list of POSITIONS
 #Aim for number of photons
 g.aim = 1
-# 0 to not discard, 1 to discard 
+# 0 to not discard, 1 to discard '
 g.discard = 0
 # Comparison operator used when deciding whether to discard
 # training updates based on the number of photons measured.
