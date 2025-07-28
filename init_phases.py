@@ -55,33 +55,33 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'init_phases'
+folder_name = 'init_phases-2'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
-varied_list= [0.1, -0.1, 0.01, -0.01]
-# variable to modify during iteration
-global_var = g.phase_init_value
-# 0 not a key 1 for master 2 for phase
-key_type = 0
+# varied_list= [0.1, -0.1, 0.01, -0.01]
+# varied_list= [10, 10, 15, 20]
+varied_list = [0.1, -0.1, 0.01, -0.01]
+# name of the global variable to modify during iteration
+global_var_name = "phase_init_value"
+# set to True if ``global_var_name`` should be treated as a PRNGKey seed
+is_key = False
 file_indent = 'k'
-start_idx = 6
+start_idx = 4
 
 
-def data_prod_iterator(variable_list, globals_v, key_type, log_file, folder, file_indent, start_idx):
+def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder, file_indent, start_idx):
     """Iterate over variable_list, update global variable and run training."""
     for idx, var in enumerate(variable_list, start=start_idx):
         test_name = f"it{idx}{file_indent}{var}.npz"
         global_name = f"it{idx}{file_indent}{var}g.npz"
 
-        # set the global variable for this run
-        if key_type== 0:
-            globals_v = var
-        elif key_type == 1:
-            globals_var = g.jax.random.PRNGKey(var)
-        elif key_type == 2:
-            globals_var = g.jax.random.PRNGKey(var)
-            
+         
+        if is_key:
+            setattr(g, global_var_name, g.jax.random.PRNGKey(var))
+        else:
+            setattr(g, global_var_name, var)
+
 
         g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
 
@@ -123,4 +123,4 @@ def data_prod_iterator(variable_list, globals_v, key_type, log_file, folder, fil
 
 
 if __name__ == "__main__":
-    data_prod_iterator(varied_list, global_var, key_type, log_file, folder, file_indent, start_idx)
+    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)

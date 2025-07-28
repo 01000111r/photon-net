@@ -1,0 +1,16 @@
+[save_run] Saved outputs → /user/home/zj22662/work/init_phases-2/it4k0.1.npz
+[save_run] Saved globals → /user/home/zj22662/work/init_phases-2/it4k0.1g.npz
+[save_run] Appended entry to data_log
+0.1 done
+[save_run] Saved outputs → /user/home/zj22662/work/init_phases-2/it5k-0.1.npz
+[save_run] Saved globals → /user/home/zj22662/work/init_phases-2/it5k-0.1g.npz
+[save_run] Appended entry to data_log
+-0.1 done
+[save_run] Saved outputs → /user/home/zj22662/work/init_phases-2/it6k0.01.npz
+[save_run] Saved globals → /user/home/zj22662/work/init_phases-2/it6k0.01g.npz
+[save_run] Appended entry to data_log
+0.01 done
+[save_run] Saved outputs → /user/home/zj22662/work/init_phases-2/it7k-0.01.npz
+[save_run] Saved globals → /user/home/zj22662/work/init_phases-2/it7k-0.01g.npz
+[save_run] Appended entry to data_log
+-0.01 done

@@ -54,7 +54,8 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "batch_mode":     np.asarray(g.batch_mode),
         "mini_batch_size": np.asarray(g.mini_batch_size),
         "master_key":     np.asarray(g.master_key),
-        "phase_key":      np.asarray(g.phase_key)
+        "phase_key":      np.asarray(g.phase_key),
+        "phase_init_value":      np.asarray(g.phase_init_value)
     }
     np.savez_compressed(globals_path, **to_save)
     print(f"[save_run] Saved globals → {globals_path}")
