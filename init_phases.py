@@ -59,30 +59,34 @@ folder_name = 'init_phases'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
-varied_list= [10, 10, 15, 20]
+varied_list= [0.1, -0.1, 0.01, -0.01]
 # variable to modify during iteration
-global_var = g.phase_key
+global_var = g.phase_init_value
+# 0 not a key 1 for master 2 for phase
+key_type = 0
 file_indent = 'k'
+start_idx = 6
 
 
-def data_prod_iterator(variable_list, globals_v, log_file, folder, file_indent):
+def data_prod_iterator(variable_list, globals_v, key_type, log_file, folder, file_indent, start_idx):
     """Iterate over variable_list, update global variable and run training."""
-    for var in variable_list:
-        test_name = f"{file_indent}{var}.npz"
-        global_name = f"{file_indent}{var}g.npz"
+    for idx, var in enumerate(variable_list, start=start_idx):
+        test_name = f"it{idx}{file_indent}{var}.npz"
+        global_name = f"it{idx}{file_indent}{var}g.npz"
 
         # set the global variable for this run
-        if globals_v == g.master_key:
-            g.master_key = g.jax.random.PRNGKey(var)
-        elif globals_v == g.phase_key:
-            g.phase_key = g.jax.random.PRNGKey(var)
-        else:
+        if key_type== 0:
             globals_v = var
+        elif key_type == 1:
+            globals_var = g.jax.random.PRNGKey(var)
+        elif key_type == 2:
+            globals_var = g.jax.random.PRNGKey(var)
+            
 
         g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
 
         # Initialize phases
-        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features, key = g.phase_key)
+        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
         weights_data = g.jnp.ones(shape=[init_phases.shape[0], init_phases.shape[1]])
 
         photon_loss_scale = float(1)
@@ -119,4 +123,4 @@ def data_prod_iterator(variable_list, globals_v, log_file, folder, file_indent):
 
 
 if __name__ == "__main__":
-    data_prod_iterator(varied_list, global_var, log_file, folder, file_indent)
+    data_prod_iterator(varied_list, global_var, key_type, log_file, folder, file_indent, start_idx)

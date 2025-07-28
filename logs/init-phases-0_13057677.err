@@ -1,0 +1,12 @@
+cpu-bind=MASK - bp1-compute070, task  0  0 [3087759]: mask 0x8000008000 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/init_phases.py", line 122, in <module>
+    data_prod_iterator(varied_list, global_var, log_file, folder, file_indent)
+  File "/user/home/zj22662/photon-net/init_phases.py", line 75, in data_prod_iterator
+    if globals_v == g.master_key:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/array.py", line 306, in __bool__
+    core.check_bool_conversion(self)
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/core.py", line 821, in check_bool_conversion
+    raise ValueError("The truth value of an array with more than one element"
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()

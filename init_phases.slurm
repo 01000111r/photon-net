@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=init-phases-0
+#SBATCH --job-name=init-phases-vals
 #SBATCH --time=00:20:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

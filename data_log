@@ -2573,3 +2573,315 @@ Globals snapshot:
   mini_batch_size: 1000
   master_key: [0, 2]
 ========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/k10.npz
+Globals file:  /user/home/zj22662/work/init_phases/k10g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/k10.npz
+Globals file:  /user/home/zj22662/work/init_phases/k10g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/k15.npz
+Globals file:  /user/home/zj22662/work/init_phases/k15g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/k20.npz
+Globals file:  /user/home/zj22662/work/init_phases/k20g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it0k10.npz
+Globals file:  /user/home/zj22662/work/init_phases/it0k10g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it1k10.npz
+Globals file:  /user/home/zj22662/work/init_phases/it1k10g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it2k15.npz
+Globals file:  /user/home/zj22662/work/init_phases/it2k15g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it3k20.npz
+Globals file:  /user/home/zj22662/work/init_phases/it3k20g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it6k0.1.npz
+Globals file:  /user/home/zj22662/work/init_phases/it6k0.1g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it7k-0.1.npz
+Globals file:  /user/home/zj22662/work/init_phases/it7k-0.1g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it8k0.01.npz
+Globals file:  /user/home/zj22662/work/init_phases/it8k0.01g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================
+
+=== Run: init_phases ===
+Output folder: /user/home/zj22662/work/init_phases
+Outputs file:  /user/home/zj22662/work/init_phases/it9k-0.01.npz
+Globals file:  /user/home/zj22662/work/init_phases/it9k-0.01g.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+========================================

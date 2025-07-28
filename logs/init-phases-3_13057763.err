@@ -1,0 +1,11 @@
+cpu-bind=MASK - bp1-compute098, task  0  0 [1492645]: mask 0x1000001 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/init_phases.py", line 125, in <module>
+    data_prod_iterator(varied_list, global_var, key_type, log_file, folder, file_indent)
+  File "/user/home/zj22662/photon-net/init_phases.py", line 88, in data_prod_iterator
+    init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/circ.py", line 60, in initialize_phases
+    phases = jax.random.uniform(key_init, minval=-0.1, maxval=0.1, size=[depth, width // 2, 2])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: uniform() got an unexpected keyword argument 'size'
