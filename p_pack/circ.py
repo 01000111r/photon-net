@@ -14,8 +14,8 @@ import jax.random
 
 
 # global constants
-rng = default_rng(1337)
-key = jax.random.PRNGKey(0) 
+
+
 
 num_modes_circ = globals.num_modes_circ
 
@@ -23,7 +23,7 @@ num_modes_circ = globals.num_modes_circ
 # we need to inlcude only trainable phases here
 # Considering alterante layers of data reuploading 
 
-def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None, reupload_freq: int = globals.reupload_freq) -> jnp.array:
+def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None, reupload_freq: int = globals.reupload_freq, key_init = globals.init_key) -> jnp.array:
     """
     Initializes the phase parameters for the photonic circuit.å
 
@@ -56,7 +56,8 @@ def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None, re
     if globals.phase_init_value is not None:
         phases = np.full([depth, width // 2, 2], globals.phase_init_value)
     else:
-        phases = rng.uniform(low=-0.1, high=0.1, size=[depth, width // 2, 2])
+        
+        phases = jax.random.uniform(key_init, low=-0.1, high=0.1, size=[depth, width // 2, 2])
     # The mask allows to set some phases to zero. This can be used if one wants to 
     # fix some beam splitters to the identity, for example for modularity.
     phases = mask*phases   

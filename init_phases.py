@@ -4,7 +4,7 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 10
+g.num_steps = 100
 g.training_rate = 0.1
 
 # circuit parameters
@@ -20,7 +20,7 @@ g.p_suc_inputs = 1
 g.input_positions = [0]
 # photon aim
 g.aim = 1
-# discard settings
+# 0 to not discard, 1 to discard 
 g.discard = 0
 g.discard_condition = '!='
 g.discard_range = None
@@ -28,7 +28,7 @@ g.discard_range = None
 # loss configuration
 g.loss_function = 0
 # initial phase value
-g.phase_init_value = 0.1
+g.phase_init_value = None
 
 # batching
 g.batch_mode = 'full'
@@ -39,7 +39,7 @@ g.master_key = g.jax.random.PRNGKey(2)
 g.phase_key = g.jax.random.PRNGKey(20)
 
 # maximum photon number for discard logic
-g.max_photons = 3
+g.max_photons = 1
 
 # build input config
 g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
@@ -55,13 +55,14 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
+folder_name = 'init_phases'
 # outputs are written to the "work" directory under the user's home
-folder = str(Path.home() / 'work' / 'test-reup-fix')
+folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
-p_suc_list = [0, 1, 2]
+varied_list= [10, 10, 15, 20]
 # variable to modify during iteration
-global_var = g.reupload_freq
-file_indent = 'f'
+global_var = g.phase_key
+file_indent = 'k'
 
 
 def data_prod_iterator(variable_list, globals_v, log_file, folder, file_indent):
@@ -71,11 +72,17 @@ def data_prod_iterator(variable_list, globals_v, log_file, folder, file_indent):
         global_name = f"{file_indent}{var}g.npz"
 
         # set the global variable for this run
-        globals_v = var
+        if globals_v == g.master_key:
+            g.master_key = g.jax.random.PRNGKey(var)
+        elif globals_v == g.phase_key:
+            g.phase_key = g.jax.random.PRNGKey(var)
+        else:
+            globals_v = var
+
         g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
 
         # Initialize phases
-        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
+        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features, key = g.phase_key)
         weights_data = g.jnp.ones(shape=[init_phases.shape[0], init_phases.shape[1]])
 
         photon_loss_scale = float(1)
@@ -112,4 +119,4 @@ def data_prod_iterator(variable_list, globals_v, log_file, folder, file_indent):
 
 
 if __name__ == "__main__":
-    data_prod_iterator(p_suc_list, global_var, log_file, folder, file_indent)
+    data_prod_iterator(varied_list, global_var, log_file, folder, file_indent)

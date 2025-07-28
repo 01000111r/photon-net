@@ -79,6 +79,7 @@ batch_mode: str = 'full'
 mini_batch_size: int = 16
 
 master_key = jax.random.PRNGKey(0)
+phase_key = jax.random.PRNGKey(20)
 # If set to a float value, all phases are initialised to this
 # constant instead of random values.  ``None`` keeps the random
 # initialisation behaviour.

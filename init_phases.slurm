@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --job-name=test-9
-#SBATCH --time=00:10:00
+#SBATCH --job-name=init-phases-0
+#SBATCH --time=00:20:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
@@ -24,4 +24,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_python.py
+python init_phases.py
