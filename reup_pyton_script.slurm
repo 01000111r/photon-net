@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=test-4
+#SBATCH --job-name=test-9
 #SBATCH --time=00:10:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -13,11 +13,10 @@
 
 module --force purge
 module load languages/python/3.12.3
-module load apps/jax/0.4.31
 
-
-# Ensure we start in the repo directory
 cd $HOME/photon-net
 
-# Run the data production script
+
+source venv2/bin/activate
+
 python reup_python.py

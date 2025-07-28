@@ -1,0 +1,6 @@
+jax
+jaxlib
+thewalrus
+numpy
+matplotlib
+pandas

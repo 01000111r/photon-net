@@ -2423,3 +2423,153 @@ Globals snapshot:
   mini_batch_size: 1000
   master_key: [0, 2]
 ========================================
+
+=== Run: test-reup-fix ===
+Output folder: /user/home/zj22662/work/test-reup-fix
+Outputs file:  /user/home/zj22662/work/test-reup-fix/f0.npz
+Globals file:  /user/home/zj22662/work/test-reup-fix/f0g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: test-reup-fix ===
+Output folder: /user/home/zj22662/work/test-reup-fix
+Outputs file:  /user/home/zj22662/work/test-reup-fix/f1.npz
+Globals file:  /user/home/zj22662/work/test-reup-fix/f1g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: test-reup-fix ===
+Output folder: /user/home/zj22662/work/test-reup-fix
+Outputs file:  /user/home/zj22662/work/test-reup-fix/f2.npz
+Globals file:  /user/home/zj22662/work/test-reup-fix/f2g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: test-reup-fix ===
+Output folder: /user/home/zj22662/work/test-reup-fix
+Outputs file:  /user/home/zj22662/work/test-reup-fix/f0.npz
+Globals file:  /user/home/zj22662/work/test-reup-fix/f0g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: test-reup-fix ===
+Output folder: /user/home/zj22662/work/test-reup-fix
+Outputs file:  /user/home/zj22662/work/test-reup-fix/f1.npz
+Globals file:  /user/home/zj22662/work/test-reup-fix/f1g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
+
+=== Run: test-reup-fix ===
+Output folder: /user/home/zj22662/work/test-reup-fix
+Outputs file:  /user/home/zj22662/work/test-reup-fix/f2.npz
+Globals file:  /user/home/zj22662/work/test-reup-fix/f2g.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+========================================
