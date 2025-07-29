@@ -4,7 +4,7 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 100
+g.num_steps = 1000
 g.training_rate = 0.1
 
 # circuit parameters
@@ -36,7 +36,7 @@ g.mini_batch_size = 1000
 
 # random seed
 g.master_key = g.jax.random.PRNGKey(2)
-g.phase_key = g.jax.random.PRNGKey(20)
+g.phase_key = g.jax.random.PRNGKey(10)
 
 # maximum photon number for discard logic
 g.max_photons = 1
@@ -61,13 +61,13 @@ folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [0, 1, 2, 3, 4]
+varied_list = [5,6,7,8,9]
 # name of the global variable to modify during iteration
 global_var_name = "reupload_freq"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
 is_key = False
 file_indent = 'f'
-start_idx = 0
+start_idx = 5
 
 
 def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder, file_indent, start_idx):

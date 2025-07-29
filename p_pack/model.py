@@ -34,13 +34,17 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     # Please note that we broadcast over images in the data set. 
     # The convention is that only the last two indices are used for matrix operations, 
     # the others are broadcasting dimensions used for batches of images.
-    if reupload_freq ==0:
-        first_layers = circ.layer_unitary(phases, 0)
+    if reupload_freq == 0:
+        # No data uploading layers. Construct the first trainable layer and
+        # broadcast it across the batch dimension so downstream code that
+        # expects batched unitaries continues to work.
+        single = circ.layer_unitary(phases, 0)
+        unitaries = jnp.broadcast_to(single, (data_set.shape[0],) + single.shape)
     else:
+        # Standard case with data uploading. ``data_upload`` already returns a
+        # batch of unitaries with shape ``(batch, M, M)``.
+        unitaries = circ.data_upload(weights[0, :] * data_set)
 
-        first_layers = circ.data_upload(weights[0,:]*data_set)
-
-    unitaries = first_layers
     #print('First layer shape', first_layers)
     #print('First layers shape', first_layers)
     for layer in range(1,depth): 

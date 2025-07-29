@@ -3,8 +3,8 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_name = "new-save-test-3"
-results_subfolder = "test-1"
+output_folder_name = "reup-vary-1p-edge"
+results_subfolder = "test-1p-edge"
 
 # custom input configuration used for evaluation
 input_positions = [0]
@@ -32,7 +32,7 @@ def iterate_models(folder: str, subfolder: str, inp_conf):
         if globals_path is None:
             print(f"No globals found for {param_file.name}, skipping")
             continue
-        out_name = "tl" + core
+        out_name = "t" + core
         out_path = Path(folder) / subfolder / out_name
         utils.evaluate_and_save_test_loss(
             str(param_file),
