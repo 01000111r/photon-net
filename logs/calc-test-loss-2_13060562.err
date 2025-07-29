@@ -1,0 +1,12 @@
+cpu-bind=MASK - bp1-compute065, task  0  0 [1026620]: mask 0x800000800000 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/calc_test_loss.py", line 47, in <module>
+    iterate_models(output_folder, results_subfolder, input_config)
+  File "/user/home/zj22662/photon-net/calc_test_loss.py", line 37, in iterate_models
+    utils.evaluate_and_save_test_loss(
+  File "/user/home/zj22662/photon-net/p_pack/utils.py", line 148, in evaluate_and_save_test_loss
+    loss_val, _ = loss.loss(
+                  ^^^^^^^^^^
+ValueError: Non-hashable static arguments are not supported. An error occurred while trying to hash an object of type <class 'numpy.ndarray'>, 0. The error was:
+TypeError: unhashable type: 'numpy.ndarray'
+

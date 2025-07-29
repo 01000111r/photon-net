@@ -1,7 +1,9 @@
 import os
+from pathlib import Path
 import numpy as np
 from jax import block_until_ready
-from p_pack import train               # your train.train
+from p_pack import train     
+from p_pack import loss          # your train.train
 import p_pack.globals as g
 
 def save_run(log_file: str, output_folder: str, data_name: str, global_name, init_carry):
@@ -94,3 +96,109 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
     print(f"[save_run] Appended entry to {log_file} and {run_log_path}")
 
     return carry, loss_mem, update_mem, n_p
+
+def evaluate_and_save_test_loss(
+    params_path: str,
+    globals_path: str,
+    input_config,
+    output_path: str,
+):
+    """Compute test loss for a trained model and save it.
+
+    Parameters
+    ----------
+    params_path : str
+        Path to ``ModelParams`` ``.npz`` file containing ``phases``, ``weights``
+        and ``alpha``.
+    globals_path : str
+        Path to ``globals`` ``.npz`` saved during training.
+    input_config : tuple
+        Input configuration to use for evaluation.
+    output_path : str
+        Location where the resulting ``test_loss`` will be stored.
+    """
+
+    # load globals and update runtime configuration
+    if os.path.exists(globals_path):
+        with np.load(globals_path, allow_pickle=True) as g_data:
+            for name in g_data.files:
+                if hasattr(g, name):
+                    val = g_data[name]
+                    if val.dtype == object and val.shape == ():
+                        val = val.item()
+                    setattr(g, name, val)
+            # if hasattr(g, "master_key"):
+            #     g.master_key = g.jnp.asarray(g.master_key)
+            # if hasattr(g, "phase_key"):
+            #     g.phase_key = g.jnp.asarray(g.phase_key)
+
+    # override the input configuration
+    g.input_config = input_config
+
+    params = np.load(params_path)
+    phases = params["phases"]
+    weights = params["weights"]
+    alpha = float(params["alpha"])
+
+    # load dataset based on the restored globals
+    _, _, test_set, test_labels = g.final_load_data(g.num_features)
+
+    loss_val, _ = loss.loss(
+        phases,
+        test_set,
+        test_labels,
+        weights,
+        alpha,
+        input_config,
+        g.master_key,
+        int(g.loss_function),
+        g.aim,
+        int(g.reupload_freq),
+    )
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    np.savez_compressed(output_path, test_loss=np.asarray(loss_val))
+
+    # prepare log file in the parent output folder
+    root_folder = Path(output_path).resolve().parents[1]
+    log_path = root_folder / "test_log.yaml"
+
+    to_save = {
+        "num_steps": np.asarray(g.num_steps),
+        "training_rate": np.asarray(g.training_rate),
+        "reupload_freq": np.asarray(g.reupload_freq),
+        "num_modes_circ": np.asarray(g.num_modes_circ),
+        "depth": np.asarray(g.depth),
+        "num_features": np.asarray(g.num_features),
+        "p_suc_inputs": np.asarray(g.p_suc_inputs),
+        "input_positions": np.asarray(g.input_positions),
+        "input_config": np.asarray(g.input_config[0]),
+        "aim": np.asarray(g.aim),
+        "discard": np.asarray(g.discard),
+        "discard_condition": np.asarray(g.discard_condition),
+        "discard_range": np.asarray(g.discard_range),
+        "loss_function": np.asarray(g.loss_function),
+        "batch_mode": np.asarray(g.batch_mode),
+        "mini_batch_size": np.asarray(g.mini_batch_size),
+        "master_key": np.asarray(g.master_key),
+        "phase_key": np.asarray(g.phase_key),
+        "phase_init_value": np.asarray(g.phase_init_value),
+    }
+
+    with open(log_path, "a") as f:
+        f.write(f"\n=== Test: {os.path.basename(params_path)} ===\n")
+        f.write(f"Output folder: {root_folder}\n")
+        f.write(f"Params file:   {params_path}\n")
+        f.write(f"Globals file:  {globals_path}\n")
+        f.write(f"Test loss file: {output_path}\n\n")
+        f.write("Globals snapshot:\n")
+        for name, arr in to_save.items():
+            if isinstance(arr, np.ndarray) and arr.size < 15:
+                summary = arr.tolist()
+            else:
+                summary = f"<array shape={arr.shape}>"
+            f.write(f"  {name}: {summary}\n")
+        f.write("=" * 40 + "\n")
+
+    print(f"[evaluate_and_save_test_loss] Saved loss → {output_path}")
+    return loss_val

@@ -4,3 +4,4 @@ thewalrus
 numpy
 matplotlib
 pandas
+ipykernal
