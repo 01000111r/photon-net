@@ -61,7 +61,7 @@ folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [1, 2, 3, 4]
+varied_list = [0, 1, 2, 3, 4]
 # name of the global variable to modify during iteration
 global_var_name = "reupload_freq"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
