@@ -18,12 +18,15 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         train.train(init_carry)
     )
 
-    # 2) ensure output folder exists
-    os.makedirs(output_folder, exist_ok=True)
+    # 2) ensure output folder exists with subfolders
+    runs_folder = os.path.join(output_folder, "Learning")
+    params_folder = os.path.join(output_folder, "ModelParams")
+    os.makedirs(runs_folder, exist_ok=True)
+    os.makedirs(params_folder, exist_ok=True)
 
     # 3) save the four outputs into a .npz
     fname = data_name if data_name.endswith(".npz") else data_name + ".npz"
-    outputs_path = os.path.join(output_folder, fname)
+    outputs_path = os.path.join(runs_folder, "it" + fname)
 
     outputs_dict = {f"carry_{i}": np.asarray(x)
                     for i, x in enumerate(carry)}
@@ -35,7 +38,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
     print(f"[save_run] Saved outputs → {outputs_path}")
 
     # 4) hard‑coded snapshot of key globals
-    globals_path = os.path.join(output_folder, global_name)
+    globals_path = os.path.join(runs_folder, "it" + global_name)
     to_save = {
         "num_steps":      np.asarray(g.num_steps),
         "training_rate":  np.asarray(g.training_rate),
@@ -60,21 +63,34 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
     np.savez_compressed(globals_path, **to_save)
     print(f"[save_run] Saved globals → {globals_path}")
 
-    # 5) append a human‑readable entry to your log file
+    # Save final parameters (phases, weights, alpha)
+    final_params = {
+        "phases":  np.asarray(carry[0]),
+        "weights": np.asarray(carry[3]),
+        "alpha":   np.asarray(carry[4]),
+    }
+    params_path = os.path.join(params_folder, "m" + fname)
+    np.savez_compressed(params_path, **final_params)
+    print(f"[save_run] Saved final parameters → {params_path}")
+
+    # 5) append a human‑readable entry to both the main and run logs
     os.makedirs(os.path.dirname(log_file) or ".", exist_ok=True)
-    with open(log_file, "a") as f:
-        f.write(f"\n=== Run: {os.path.basename(output_folder)} ===\n")
-        f.write(f"Output folder: {output_folder}\n")
-        f.write(f"Outputs file:  {outputs_path}\n")
-        f.write(f"Globals file:  {globals_path}\n\n")
-        f.write("Globals snapshot:\n")
-        for name, arr in to_save.items():
-            if isinstance(arr, np.ndarray) and arr.size < 15:
-                summary = arr.tolist()
-            else:
-                summary = f"<array shape={arr.shape}>"
-            f.write(f"  {name}: {summary}\n")
-        f.write("="*40 + "\n")
-    print(f"[save_run] Appended entry to {log_file}")
+    run_log_path = os.path.join(output_folder, "run_log.yaml")
+    with open(log_file, "a") as f_main, open(run_log_path, "a") as f_out:
+        for f in (f_main, f_out):
+            f.write(f"\n=== Run: {os.path.basename(output_folder)} ===\n")
+            f.write(f"Output folder: {output_folder}\n")
+            f.write(f"Outputs file:  {outputs_path}\n")
+            f.write(f"Globals file:  {globals_path}\n")
+            f.write(f"Params file:   {params_path}\n\n")
+            f.write("Globals snapshot:\n")
+            for name, arr in to_save.items():
+                if isinstance(arr, np.ndarray) and arr.size < 15:
+                    summary = arr.tolist()
+                else:
+                    summary = f"<array shape={arr.shape}>"
+                f.write(f"  {name}: {summary}\n")
+            f.write("="*40 + "\n")
+    print(f"[save_run] Appended entry to {log_file} and {run_log_path}")
 
     return carry, loss_mem, update_mem, n_p

@@ -1,0 +1,20 @@
+[save_run] Saved outputs → /user/home/zj22662/work/new-save-test/Learning/it4k0.1.npz
+[save_run] Saved globals → /user/home/zj22662/work/new-save-test/Learning/it4k0.1g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/new-save-test/ModelParams/it4k0.1.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/new-save-test/run_log.txt
+0.1 done
+[save_run] Saved outputs → /user/home/zj22662/work/new-save-test/Learning/it5k-0.1.npz
+[save_run] Saved globals → /user/home/zj22662/work/new-save-test/Learning/it5k-0.1g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/new-save-test/ModelParams/it5k-0.1.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/new-save-test/run_log.txt
+-0.1 done
+[save_run] Saved outputs → /user/home/zj22662/work/new-save-test/Learning/it6k0.01.npz
+[save_run] Saved globals → /user/home/zj22662/work/new-save-test/Learning/it6k0.01g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/new-save-test/ModelParams/it6k0.01.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/new-save-test/run_log.txt
+0.01 done
+[save_run] Saved outputs → /user/home/zj22662/work/new-save-test/Learning/it7k-0.01.npz
+[save_run] Saved globals → /user/home/zj22662/work/new-save-test/Learning/it7k-0.01g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/new-save-test/ModelParams/it7k-0.01.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/new-save-test/run_log.txt
+-0.01 done

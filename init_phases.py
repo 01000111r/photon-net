@@ -4,7 +4,7 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 100
+g.num_steps = 10
 g.training_rate = 0.1
 
 # circuit parameters
@@ -55,7 +55,7 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'init_phases-2'
+folder_name = 'new-save-test-3'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
@@ -73,8 +73,8 @@ start_idx = 4
 def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder, file_indent, start_idx):
     """Iterate over variable_list, update global variable and run training."""
     for idx, var in enumerate(variable_list, start=start_idx):
-        test_name = f"it{idx}{file_indent}{var}.npz"
-        global_name = f"it{idx}{file_indent}{var}g.npz"
+        test_name = f"{idx}{file_indent}{var}.npz"
+        global_name = f"{idx}{file_indent}{var}g.npz"
 
          
         if is_key:
