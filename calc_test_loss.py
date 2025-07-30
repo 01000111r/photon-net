@@ -3,17 +3,16 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_name = "symmetry-true-2p"
-results_subfolder = "test-p2"
+output_folder_names = ("reup-d6-s0", "reup-d6-s1", "reup-d6-s2")
+results_subfolder = "test-p1"
 
 # custom input configuration used for evaluation
-input_positions = [0,9]
-num_modes_circ = 10
+input_positions = [0]
+num_modes_circ = 12
 p_suc_inputs = 1
 input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)
 
-# Location of training outputs
-output_folder = str(Path.home() / "work" / output_folder_name)
+
 
 
 def iterate_models(folder: str, subfolder: str, inp_conf):
@@ -44,4 +43,9 @@ def iterate_models(folder: str, subfolder: str, inp_conf):
 
 
 if __name__ == "__main__":
-    iterate_models(output_folder, results_subfolder, input_config)
+    for output_folder_name in output_folder_names:
+        output_folder = str(Path.home() / "work" / output_folder_name)
+        print(f"Processing folder: {output_folder}")
+        Path(output_folder, results_subfolder).mkdir(parents=True, exist_ok=True)
+        iterate_models(output_folder, results_subfolder, input_config)
+    

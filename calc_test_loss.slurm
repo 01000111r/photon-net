@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=test-p2-true
+#SBATCH --job-name=tests-d6
 #SBATCH --time=00:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
