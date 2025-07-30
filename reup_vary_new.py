@@ -9,7 +9,11 @@ g.training_rate = 0.1
 
 # reupload configuration
 g.reupload_freq = 2
-g.shuffle_type = 2
+# How to shuffle data when re-uploading images.
+# 0 - random permutation each upload (default)
+# 1 - no shuffling, use the same ordering
+# 2 - reverse the image every other upload layer
+g.shuffle_type = 0
 
 #circuit dimensions
 g.num_modes_circ = 10
@@ -42,6 +46,7 @@ g.mini_batch_size = 1000
 # random seed
 g.master_key = g.jax.random.PRNGKey(2)
 g.phase_key = g.jax.random.PRNGKey(10)
+g.shuffle_key = g.jax.random.PRNGKey(52)
 
 # maximum photon number for discard logic
 g.max_photons = 1
@@ -60,7 +65,7 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'edge-photon-reup-vary-s2'
+folder_name = 'edge-photon-reup-vary-s0-k52'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]

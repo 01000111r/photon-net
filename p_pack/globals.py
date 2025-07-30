@@ -91,6 +91,8 @@ mini_batch_size: int = 16
 
 master_key = jax.random.PRNGKey(0)
 phase_key = jax.random.PRNGKey(20)
+# Global PRNG key controlling shuffling when ``shuffle_type == 0``
+shuffle_key = jax.random.PRNGKey(42)
 # If set to a float value, all phases are initialised to this
 # constant instead of random values.  ``None`` keeps the random
 # initialisation behaviour.

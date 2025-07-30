@@ -3,11 +3,11 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_name = "p1-position4-vs-shuffle-rf2"
-results_subfolder = "test-pos4"
+output_folder_name = "symmetry-true-2p"
+results_subfolder = "test-p2"
 
 # custom input configuration used for evaluation
-input_positions = [4]
+input_positions = [0,9]
 num_modes_circ = 10
 p_suc_inputs = 1
 input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)

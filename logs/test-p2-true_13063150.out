@@ -1,0 +1,6 @@
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/symmetry-true-2p/test-p2/t0finput_positions-[0,9]_shuffle_type-0.npz
+m0finput_positions-[0,9]_shuffle_type-0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/symmetry-true-2p/test-p2/t1finput_positions-[0,9]_shuffle_type-1.npz
+m1finput_positions-[0,9]_shuffle_type-1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/symmetry-true-2p/test-p2/t2finput_positions-[0,9]_shuffle_type-2.npz
+m2finput_positions-[0,9]_shuffle_type-2.npz done

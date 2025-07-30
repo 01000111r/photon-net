@@ -1,0 +1,10 @@
+[save_run] Saved outputs → /user/home/zj22662/work/symmetry-false/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+[save_run] Saved globals → /user/home/zj22662/work/symmetry-false/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/symmetry-false/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/symmetry-false/run_log.yaml
+{'input_positions': [4], 'shuffle_type': 1} done
+[save_run] Saved outputs → /user/home/zj22662/work/symmetry-false/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+[save_run] Saved globals → /user/home/zj22662/work/symmetry-false/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/symmetry-false/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/symmetry-false/run_log.yaml
+{'input_positions': [5], 'shuffle_type': 3} done

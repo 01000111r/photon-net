@@ -2490,3 +2490,1553 @@ Globals snapshot:
   shuffle_type: 2
   symmetry_parity: False
 ========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it0f0.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it0f0g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m0f0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it1f1.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it1f1g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m1f1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it0f0.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it0f0g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m0f0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it2f2.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it2f2g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m2f2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it0f0.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it0f0g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m0f0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it1f1.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it1f1g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m1f1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it3f3.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it3f3g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m3f3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it2f2.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it2f2g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m2f2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it1f1.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it1f1g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m1f1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it4f4.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it4f4g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m4f4.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it3f3.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it3f3g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m3f3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it2f2.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it2f2g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m2f2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it5f5.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it5f5g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m5f5.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it4f4.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it4f4g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m4f4.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it3f3.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it3f3g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m3f3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it6f6.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it6f6g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m6f6.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 6
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it5f5.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it5f5g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m5f5.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it4f4.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it4f4g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m4f4.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it7f7.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it7f7g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m7f7.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it6f6.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it6f6g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m6f6.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 6
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it5f5.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it5f5g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m5f5.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it8f8.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it8f8g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m8f8.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it7f7.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it7f7g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m7f7.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: p1-position0-vs-shuffle-rf2 ===
+Output folder: /user/home/zj22662/work/p1-position0-vs-shuffle-rf2
+Outputs file:  /user/home/zj22662/work/p1-position0-vs-shuffle-rf2/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/p1-position0-vs-shuffle-rf2/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/p1-position0-vs-shuffle-rf2/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it6f6.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it6f6g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m6f6.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 6
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it8f8.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it8f8g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m8f8.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k42 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k42
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it9f9.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/Learning/it9f9g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k42/ModelParams/m9f9.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it7f7.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it7f7g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m7f7.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: p1-position0-vs-shuffle-rf2 ===
+Output folder: /user/home/zj22662/work/p1-position0-vs-shuffle-rf2
+Outputs file:  /user/home/zj22662/work/p1-position0-vs-shuffle-rf2/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/p1-position0-vs-shuffle-rf2/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/p1-position0-vs-shuffle-rf2/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k3 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k3
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it9f9.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/Learning/it9f9g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k3/ModelParams/m9f9.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 3]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: True
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it8f8.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it8f8g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m8f8.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: edge-photon-reup-vary-s0-k52 ===
+Output folder: /user/home/zj22662/work/edge-photon-reup-vary-s0-k52
+Outputs file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it9f9.npz
+Globals file:  /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/Learning/it9f9g.npz
+Params file:   /user/home/zj22662/work/edge-photon-reup-vary-s0-k52/ModelParams/m9f9.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-false ===
+Output folder: /user/home/zj22662/work/symmetry-false
+Outputs file:  /user/home/zj22662/work/symmetry-false/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-false/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-false/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-false ===
+Output folder: /user/home/zj22662/work/symmetry-false
+Outputs file:  /user/home/zj22662/work/symmetry-false/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/symmetry-false/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/symmetry-false/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 42]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-false ===
+Output folder: /user/home/zj22662/work/symmetry-false
+Outputs file:  /user/home/zj22662/work/symmetry-false/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-false/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-false/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-false ===
+Output folder: /user/home/zj22662/work/symmetry-false
+Outputs file:  /user/home/zj22662/work/symmetry-false/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/symmetry-false/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/symmetry-false/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-false-2p ===
+Output folder: /user/home/zj22662/work/symmetry-false-2p
+Outputs file:  /user/home/zj22662/work/symmetry-false-2p/Learning/it0finput_positions-[0,9]_shuffle_type-0.npz
+Globals file:  /user/home/zj22662/work/symmetry-false-2p/Learning/it0finput_positions-[0,9]_shuffle_type-0g.npz
+Params file:   /user/home/zj22662/work/symmetry-false-2p/ModelParams/m0finput_positions-[0,9]_shuffle_type-0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true-2p ===
+Output folder: /user/home/zj22662/work/symmetry-true-2p
+Outputs file:  /user/home/zj22662/work/symmetry-true-2p/Learning/it0finput_positions-[0,9]_shuffle_type-0.npz
+Globals file:  /user/home/zj22662/work/symmetry-true-2p/Learning/it0finput_positions-[0,9]_shuffle_type-0g.npz
+Params file:   /user/home/zj22662/work/symmetry-true-2p/ModelParams/m0finput_positions-[0,9]_shuffle_type-0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-false-2p ===
+Output folder: /user/home/zj22662/work/symmetry-false-2p
+Outputs file:  /user/home/zj22662/work/symmetry-false-2p/Learning/it1finput_positions-[0,9]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-false-2p/Learning/it1finput_positions-[0,9]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-false-2p/ModelParams/m1finput_positions-[0,9]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true-2p ===
+Output folder: /user/home/zj22662/work/symmetry-true-2p
+Outputs file:  /user/home/zj22662/work/symmetry-true-2p/Learning/it1finput_positions-[0,9]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-true-2p/Learning/it1finput_positions-[0,9]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-true-2p/ModelParams/m1finput_positions-[0,9]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-false-2p ===
+Output folder: /user/home/zj22662/work/symmetry-false-2p
+Outputs file:  /user/home/zj22662/work/symmetry-false-2p/Learning/it2finput_positions-[0,9]_shuffle_type-2.npz
+Globals file:  /user/home/zj22662/work/symmetry-false-2p/Learning/it2finput_positions-[0,9]_shuffle_type-2g.npz
+Params file:   /user/home/zj22662/work/symmetry-false-2p/ModelParams/m2finput_positions-[0,9]_shuffle_type-2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+========================================
+
+=== Run: symmetry-true-2p ===
+Output folder: /user/home/zj22662/work/symmetry-true-2p
+Outputs file:  /user/home/zj22662/work/symmetry-true-2p/Learning/it2finput_positions-[0,9]_shuffle_type-2.npz
+Globals file:  /user/home/zj22662/work/symmetry-true-2p/Learning/it2finput_positions-[0,9]_shuffle_type-2g.npz
+Params file:   /user/home/zj22662/work/symmetry-true-2p/ModelParams/m2finput_positions-[0,9]_shuffle_type-2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: True
+========================================

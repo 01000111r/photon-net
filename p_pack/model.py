@@ -59,7 +59,7 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
 
         else:
             if shuffle_type == 0:
-                key2 = jax.random.PRNGKey(layer)
+                key2 = jax.random.fold_in(globals.shuffle_key, layer)
                 temp = jax.random.permutation(key2, data_set.shape[1])
                 temp = jax.lax.stop_gradient(temp)
                 data_set_reupload = data_set[:, temp]
