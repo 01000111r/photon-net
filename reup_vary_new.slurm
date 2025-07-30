@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=reup-vary-5-9
+#SBATCH --job-name=reup-s2
 #SBATCH --time=00:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

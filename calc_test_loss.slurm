@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=calc-test-loss-reup-1p
+#SBATCH --job-name=test-s2
 #SBATCH --time=00:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

@@ -350,7 +350,11 @@ for kk in range(MAX_PHOTONS+1):
             all_probs0= jnp.abs(batch_prm)**2
             all_probs  = all_probs0 / facts_k
             total      = jnp.sum(all_probs, axis=1, keepdims=True)
-            parity     = jnp.sum(combos_k, axis=1) % 2
+            if globals.use_symmetry_parity:
+                mid = (globals.num_modes_circ - 1) / 2
+                parity = jnp.mod(jnp.sum(combos_k - mid, axis=1), 2)
+            else:
+                parity = jnp.sum(combos_k, axis=1) % 2
             plus1      = all_probs * parity
             bin_p      = jnp.sum(plus1, axis=1, keepdims=True) / total
 

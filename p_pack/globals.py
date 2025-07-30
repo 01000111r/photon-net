@@ -36,6 +36,12 @@ training_rate : float =  0.1
 # A new data layer is introduced every `reupload_freq` layers.
 reupload_freq: int = 3
 
+# How to shuffle data when re-uploading images.
+# 0 - random permutation each upload (default)
+# 1 - no shuffling, use the same ordering
+# 2 - reverse the image every other upload layer
+shuffle_type: int = 0
+
 # The number of modes in the photonic circuit.
 num_modes_circ: int = 10
 
@@ -49,6 +55,11 @@ num_features = 3
 p_suc_inputs = [0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8]
 
 input_positions = '3'
+
+# If ``True`` parity checks in :mod:`p_pack.circ` are performed
+# relative to the middle of the circuit.  When ``False`` the
+# parity is evaluated starting from index 0 as before.
+use_symmetry_parity = False
 
 # input config - tuple ( input_positions, p_suc_inputs)
 input_config = None

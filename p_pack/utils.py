@@ -60,7 +60,9 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "mini_batch_size": np.asarray(g.mini_batch_size),
         "master_key":     np.asarray(g.master_key),
         "phase_key":      np.asarray(g.phase_key),
-        "phase_init_value":      np.asarray(g.phase_init_value)
+        "phase_init_value":      np.asarray(g.phase_init_value),
+        "shuffle_type": np.asarray(g.shuffle_type),
+        "symmetry_parity": np.asarray(g.use_symmetry_parity),
     }
     np.savez_compressed(globals_path, **to_save)
     print(f"[save_run] Saved globals → {globals_path}")
@@ -154,6 +156,7 @@ def evaluate_and_save_test_loss(
         int(g.loss_function),
         g.aim,
         int(g.reupload_freq),
+        int(g.shuffle_type)
     )
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -183,6 +186,8 @@ def evaluate_and_save_test_loss(
         "master_key": np.asarray(g.master_key),
         "phase_key": np.asarray(g.phase_key),
         "phase_init_value": np.asarray(g.phase_init_value),
+        "shuffle_type": np.asarray(g.shuffle_type),
+        "symmetry_parity": np.asarray(g.use_symmetry_parity),
     }
 
     with open(log_path, "a") as f:

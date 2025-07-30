@@ -3,7 +3,7 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_name = "reup-vary-1p-edge"
+output_folder_name = "edge-photon-reup-vary-s2"
 results_subfolder = "test-1p-edge"
 
 # custom input configuration used for evaluation
