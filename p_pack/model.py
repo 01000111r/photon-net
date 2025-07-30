@@ -70,6 +70,8 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
                     data_set_reupload = data_set[:, ::-1]
                 else:
                     data_set_reupload = data_set
+            elif shuffle_type == 3:
+                data_set_reupload = data_set[:, ::-1]
             else:
                 data_set_reupload = data_set
             

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=test-p4
+#SBATCH --job-name=pos2-vs-shufle
 #SBATCH --time=00:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -9,6 +9,7 @@
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
+
 
 module --force purge
 module load languages/python/3.12.3
@@ -23,4 +24,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python calc_test_loss.py
+python p1_position_vs_shuffle.py

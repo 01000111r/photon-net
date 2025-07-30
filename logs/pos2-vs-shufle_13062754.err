@@ -1,0 +1,10 @@
+cpu-bind=MASK - bp1-compute090, task  0  0 [1818133]: mask 0x20000020 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/p1_position_vs_shuffle.py", line 131, in <module>
+    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)
+  File "/user/home/zj22662/photon-net/p1_position_vs_shuffle.py", line 98, in data_prod_iterator
+    initial_loss, (n0, key) = loss.loss(
+                              ^^^^^^^^^^
+TypeError: loss() missing 1 required positional argument: 'shuffle_type'
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

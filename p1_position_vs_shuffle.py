@@ -4,7 +4,7 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 500
+g.num_steps = 100
 g.training_rate = 0.1
 
 # reupload configuration
@@ -60,19 +60,19 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'reup-vary-1p-edge'
+folder_name = 'p1-position0-vs-shuffle-rf2'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [5,6,7,8,9]
+varied_list = [0,1,2]
 # name of the global variable to modify during iteration
-global_var_name = "reupload_freq"
+global_var_name = "shuffle_type"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
 is_key = False
 file_indent = 'f'
-start_idx = 5
+start_idx = 0
 
 
 def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder, file_indent, start_idx):
@@ -106,6 +106,7 @@ def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder
             g.loss_function,
             g.aim,
             g.reupload_freq,
+            g.shuffle_type
         )
         init_carry = (
             init_phases,
