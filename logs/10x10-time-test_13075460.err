@@ -1,0 +1,2 @@
+cpu-bind=MASK - bp1-compute130, task  0  0 [2446169]: mask 0x3ffe00203ffe0020 set
+/tmp/slurmd/job13075460/slurm_script: line 29: seff: command not found

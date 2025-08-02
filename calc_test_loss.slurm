@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=tests-d6
+#SBATCH --job-name=tests-d7
 #SBATCH --time=00:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out

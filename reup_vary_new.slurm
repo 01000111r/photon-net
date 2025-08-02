@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=reup-d7-s2b
-#SBATCH --time=01:30:00
+#SBATCH --job-name=10x10-time-test
+#SBATCH --time=00:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=28
 #SBATCH --mem=16G
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out
@@ -12,7 +12,7 @@
 
 
 module --force purge
-module load languages/python/3.12.3
+
 
 export CACHE_BASE="$HOME/work/CACHE"
 export JOB_CACHE_DIR="${CACHE_BASE}/${SLURM_JOB_NAME}-${SLURM_JOB_ID}"
@@ -25,3 +25,5 @@ cd $HOME/photon-net
 source venv2/bin/activate
 
 python reup_vary_new.py 
+
+seff $SLURM_JOB_ID

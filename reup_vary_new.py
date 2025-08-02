@@ -4,7 +4,7 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 500
+g.num_steps = 100
 g.training_rate = 0.1
 
 # reupload configuration
@@ -13,14 +13,14 @@ g.reupload_freq = 2
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
 # 2 - reverse the image every other upload layer
-g.shuffle_type = 2
+g.shuffle_type = 0
 
 #circuit dimensions
-g.num_modes_circ = 14
-g.depth = 14
+g.num_modes_circ = 10
+g.depth = 10
 
 # dataset parameters
-g.num_features = 7
+g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
@@ -65,19 +65,19 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'reup-d7-s2'
+folder_name = '10x10-time-28cpu-100r'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [5,6,7,8,9]
+varied_list = [0,1,2,3,4,5,6,7,8,9]
 # name of the global variable to modify during iteration
 global_var_name = "reupload_freq"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
 is_key = False
 file_indent = 'f'
-start_idx = 5
+start_idx = 1
 
 
 def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder, file_indent, start_idx):

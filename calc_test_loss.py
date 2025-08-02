@@ -3,12 +3,12 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("reup-d6-s0", "reup-d6-s1", "reup-d6-s2")
+output_folder_names = ("reup-d10-s0", "reup-d10-s1", "reup-d10-s2")
 results_subfolder = "test-p1"
 
 # custom input configuration used for evaluation
 input_positions = [0]
-num_modes_circ = 12
+num_modes_circ = 20
 p_suc_inputs = 1
 input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)
 
