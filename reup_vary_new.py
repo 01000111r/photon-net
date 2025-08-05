@@ -9,7 +9,7 @@ g.training_rate = 0.1
 g.save_points = [25, 50, 100, 200, 400, 800]
 
 # reupload configuration
-g.reupload_freq = 4
+g.reupload_freq = 9
 # How to shuffle data when re-uploading images.
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
@@ -17,15 +17,15 @@ g.reupload_freq = 4
 g.shuffle_type = 0
 
 #circuit dimensions
-g.num_modes_circ = 10
-g.depth = 10
+g.num_modes_circ = 20
+g.depth = 20
 
 # dataset parameters
-g.num_features = 5
+g.num_features = 10
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0]
+g.input_positions = [0, 4, 9]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -67,7 +67,7 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p1-shuffle-rf4-800'
+folder_name = 'p3-shuffle-rf8-800-d10'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]

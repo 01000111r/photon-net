@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=p1-800
-#SBATCH --time=01:00:00
+#SBATCH --time=03:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
