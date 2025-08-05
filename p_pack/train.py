@@ -10,7 +10,7 @@ from p_pack import loss
 
 
 
-def train(init_carry):
+def train(init_carry, num_steps):
     """
     init_carry should be a 13-tuple:
       (params_phases, data_set, labels, params_weights, photon_loss_scale,
@@ -18,7 +18,11 @@ def train(init_carry):
        m_alpha, v_alpha,
        key, initial_loss)
     """
-    steps = jnp.arange(globals.num_steps) + 1
+    if num_steps is None:
+        num_steps = globals.num_steps
+
+    steps = jnp.arange(num_steps) + 1
+
     carry, (loss_mem, update_mem, photon_mem) = jax.lax.scan(
     lambda c, s: optimiser.adam_step(
         c,
@@ -36,7 +40,7 @@ def train(init_carry):
         globals.shuffle_type
     ),
     init_carry,
-    steps
+    steps,
 )
     return carry, loss_mem, update_mem, photon_mem
 

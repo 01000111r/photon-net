@@ -3,20 +3,23 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("reup-d10-s0", "reup-d10-s1", "reup-d10-s2")
-results_subfolder = "test-p1"
+output_folder_names = ("new-test-test",)
+model_number = 500
+results_subfolder = f"test-acc-{model_number}"
 
 # custom input configuration used for evaluation
 input_positions = [0]
-num_modes_circ = 20
+num_modes_circ = 10
 p_suc_inputs = 1
 input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)
 
+# Toggle hard class prediction when evaluating test data
+hard_predict = True
 
 
 
 def iterate_models(folder: str, subfolder: str, inp_conf):
-    params_dir = Path(folder) / "ModelParams"
+    params_dir = Path(folder) / f"ModelParams{model_number}"
     learning_dir = Path(folder) / "Learning"
     for param_file in sorted(params_dir.glob("*.npz")):
         base = param_file.name
@@ -38,6 +41,7 @@ def iterate_models(folder: str, subfolder: str, inp_conf):
             str(globals_path),
             inp_conf,
             str(out_path),
+            hard_predict=hard_predict,
         )
         print(base, "done")
 

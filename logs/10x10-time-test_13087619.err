@@ -1,0 +1,10 @@
+cpu-bind=MASK - bp1-compute136, task  0  0 [3317264]: mask 0xfff80800fff8080 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 138, in <module>
+    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 133, in data_prod_iterator
+    utils.save_run(log_file, folder, test_name, global_name, init_carry)
+  File "/user/home/zj22662/photon-net/p_pack/utils.py", line 20, in save_run
+    train.train(init_carry)
+TypeError: train() missing 1 required positional argument: 'num_steps'
+/tmp/slurmd/job13087619/slurm_script: line 29: seff: command not found

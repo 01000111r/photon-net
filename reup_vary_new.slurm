@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=10x10-time-test
+#SBATCH --job-name=new-test-test
 #SBATCH --time=00:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -25,5 +25,3 @@ cd $HOME/photon-net
 source venv2/bin/activate
 
 python reup_vary_new.py 
-
-seff $SLURM_JOB_ID

@@ -98,6 +98,13 @@ shuffle_key = jax.random.PRNGKey(42)
 # initialisation behaviour.
 phase_init_value: float = None
 
+# A list of training steps at which the current model parameters
+# should be checkpointed.  Each entry is interpreted as a 1-indexed
+# step number during optimisation.  By default no intermediate
+# checkpoints are saved.
+save_points: list[int] = []
+
+
 
 max_photons = 3
 
