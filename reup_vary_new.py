@@ -4,8 +4,9 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 500
+g.num_steps = 800
 g.training_rate = 0.1
+g.save_points = [25, 50, 100, 200, 400, 800]
 
 # reupload configuration
 g.reupload_freq = 4
@@ -28,7 +29,7 @@ g.input_positions = [0]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
-g.aim = 1
+g.aim = 3
 # 0 to not discard, 1 to discard 
 g.discard = 0
 g.discard_condition = '!='
@@ -48,12 +49,12 @@ g.master_key = g.jax.random.PRNGKey(2)
 g.phase_key = g.jax.random.PRNGKey(10)
 g.shuffle_key = g.jax.random.PRNGKey(52)
 
-g.save_points = [50, 100, 300, 500]
+
 
 # build input config
 g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
 
-g.max_photons = sum(g.input_config[0])  # maximum photon number for building probability calculating functions
+g.max_photons = 3 # maximum photon number for building probability calculating functions
 
 from p_pack import pre_p, circ, model, loss, optimiser, train, utils
 
@@ -66,18 +67,18 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'new-test-test'
+folder_name = 'p1-shuffle-rf4-800'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [0,1,2,3,4]
+varied_list = [0,1,2]
 # name of the global variable to modify during iteration
-global_var_name = "reupload_freq"
+global_var_name = "shuffle_type"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
 is_key = False
-file_indent = 'f'
+file_indent = 's'
 start_idx = 0
 
 
@@ -95,6 +96,7 @@ def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder
 
 
         g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
+     
 
         # Initialize phases
         init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
