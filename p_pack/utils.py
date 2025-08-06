@@ -37,7 +37,12 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
             train.train(carry, num_steps=steps_to_run)
         )
 
-        all_loss.append(np.asarray(loss_mem))
+        # adjust step numbers to account for previous segments
+        # np.asarray may return a read-only view; copy so we can mutate
+        loss_arr = np.asarray(loss_mem).copy()
+        loss_arr[:, 0] += prev_step
+
+        all_loss.append(loss_arr)
         all_update.append(np.asarray(update_mem))
         all_n_p.append(np.asarray(n_p))
 

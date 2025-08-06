@@ -1,0 +1,11 @@
+cpu-bind=MASK - bp1-compute016, task  0  0 [2058094]: mask 0x7ffe0007ffe0 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 141, in <module>
+    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 103, in data_prod_iterator
+    init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/circ.py", line 50, in initialize_phases
+    for i in range(0,depth, reupload_freq):  # every reupload_freq-th layer is a uploading layer 
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'tuple' object cannot be interpreted as an integer

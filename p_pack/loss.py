@@ -37,6 +37,7 @@ def loss(phases: jnp.array,
         jnp.array: The mean squared error loss as a scalar JAX array.
     """
     num_samples = jax.lax.stop_gradient(data_set).shape[0]
+   
     _, binary_predictions_plus, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, key, reupload_freq, shuffle_type)
 
 

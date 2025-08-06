@@ -7,6 +7,7 @@ from typing import Tuple, List
 from functools import partial
 
 #key = jax.random.PRNGKey(12)
+
 def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, key, reupload_freq, shuffle_type=globals.shuffle_type) -> Tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
     """
     Constructs the full unitary transformation of the circuit with data re-uploading.
@@ -27,37 +28,29 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
             - The raw probabilities for all output label combinations.
             - The aggregated binary probability for the +1 outcome.
     """
-    # Depth of the trainable part. 
-    depth = jax.lax.stop_gradient(phases).shape[0]
-    depth = int(depth)
+    # Depth of the trainable part.
+    depth = int(jax.lax.stop_gradient(phases).shape[0])
 
-    # Please note that we broadcast over images in the data set. 
-    # The convention is that only the last two indices are used for matrix operations, 
-    # the others are broadcasting dimensions used for batches of images.
-    if reupload_freq == 0:
-        # No data uploading layers. Construct the first trainable layer and
-        # broadcast it across the batch dimension so downstream code that
-        # expects batched unitaries continues to work.
+    # Determine which layers perform data re-uploading.
+    if isinstance(reupload_freq, int):
+        re_layers = list(range(0, depth, reupload_freq)) if reupload_freq > 0 else []
+
+    else:
+        re_layers = list(reupload_freq)
+    reupload_set = set(re_layers)
+    layer_order = {layer: idx for idx, layer in enumerate(re_layers)}
+
+    # First layer: either data upload or trainable unitary.
+    if 0 in reupload_set:
+        unitaries = circ.data_upload(weights[0, :] * data_set)
+    else:
         single = circ.layer_unitary(phases, 0)
         unitaries = jnp.broadcast_to(single, (data_set.shape[0],) + single.shape)
-    else:
-        # Standard case with data uploading. ``data_upload`` already returns a
-        # batch of unitaries with shape ``(batch, M, M)``.
-        unitaries = circ.data_upload(weights[0, :] * data_set)
 
     #print('First layer shape', first_layers)
     #print('First layers shape', first_layers)
-    for layer in range(1,depth): 
-    
-        if reupload_freq == 0:
-            unitaries = circ.layer_unitary(phases, layer) @ unitaries
-
-        elif (layer) % reupload_freq != 0: # every 'reupload_freq' layer is a upload layer 
-            unitaries = circ.layer_unitary(phases, layer) @ unitaries
-            #print('Layer', layer, 'shape', unitaries)
-        # 'layer' is the layer index in the trainable part, starting from 0.
-
-        else:
+    for layer in range(1, depth):
+        if layer in reupload_set:    
             if shuffle_type == 0:
                 key2 = jax.random.fold_in(globals.shuffle_key, layer)
                 temp = jax.random.permutation(key2, data_set.shape[1])
@@ -66,7 +59,7 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
             elif shuffle_type == 1:
                 data_set_reupload = data_set
             elif shuffle_type == 2:
-                if ((layer // reupload_freq) % 2) == 1:
+                if (layer_order[layer] % 2) == 1:
                     data_set_reupload = data_set[:, ::-1]
                 else:
                     data_set_reupload = data_set
@@ -82,7 +75,8 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
             unitaries_data_reupload = circ.data_upload(weights[layer,:]* data_set_reupload)
             #print('Reupload layer', layer, 'shape', unitaries_data_reupload)
             unitaries = unitaries_data_reupload @ unitaries
-
+        else:
+            unitaries = circ.layer_unitary(phases, layer) @ unitaries
  
     #now we have full unitaries for all the differnt circuits that corresponf to each image upload, all same parameters though, each reupload layer have different weights but the weights are the same for all images.
 

@@ -6,10 +6,11 @@ from p_pack import globals as g
 # training parameters
 g.num_steps = 800
 g.training_rate = 0.1
-g.save_points = [25, 50, 100, 200, 400, 800]
+g.save_points = [25,50,100,200,400,800]  # steps at which to save model parameters
 
 # reupload configuration
-g.reupload_freq = 9
+# g.reupload_freq = 4
+g.reupload_freq = tuple([0,4,8]) # layers at which to re-upload data
 # How to shuffle data when re-uploading images.
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
@@ -17,15 +18,15 @@ g.reupload_freq = 9
 g.shuffle_type = 0
 
 #circuit dimensions
-g.num_modes_circ = 20
-g.depth = 20
+g.num_modes_circ = 10
+g.depth = 10
 
 # dataset parameters
-g.num_features = 10
+g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0, 19]
+g.input_positions = [0]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -67,13 +68,13 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p2-shuffle-rf9-800-d10'
+folder_name = 'reup-tuple-test'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [0,1,2]
+varied_list = [1]
 # name of the global variable to modify during iteration
 global_var_name = "shuffle_type"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed

@@ -1,0 +1,9 @@
+cpu-bind=MASK - bp1-compute175, task  0  0 [10080]: mask 0x3fff00003fff set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 140, in <module>
+    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 135, in data_prod_iterator
+    utils.save_run(log_file, folder, test_name, global_name, init_carry)
+  File "/user/home/zj22662/photon-net/p_pack/utils.py", line 42, in save_run
+    loss_mem[:, 0] += prev_step
+ValueError: output array is read-only

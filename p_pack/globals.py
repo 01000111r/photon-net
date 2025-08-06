@@ -32,9 +32,14 @@ num_steps: int = 10
 #training rate
 training_rate : float =  0.1
 
-# The frequency at which data is re-uploaded into the circuit.
-# A new data layer is introduced every `reupload_freq` layers.
-reupload_freq: int = 3
+# Traditionally this was an integer specifying how often data should be
+# re-inserted into the circuit, i.e. a new data layer every
+# ``reupload_freq`` layers.  To allow for more flexible layouts this value
+# can now also be a sequence of explicit layer indices.  When a sequence is
+# provided, data uploading layers are placed exactly at those positions.  If
+# an integer is given the old behaviour is retained.
+reupload_freq = 3
+#reupload_freq = tuple([0,4,8])
 
 # How to shuffle data when re-uploading images.
 # 0 - random permutation each upload (default)
