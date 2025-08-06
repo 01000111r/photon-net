@@ -1,14 +1,15 @@
 #!/bin/bash
 
 #SBATCH --job-name=p2-shuff-t
-#SBATCH --time=00:30:00
+#SBATCH --time=00:10:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
+#SBATCH --cpus-per-task=4
 #SBATCH --mem=16G
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
+#SBATCH --partition=test
 
 module --force purge
 module load languages/python/3.12.3

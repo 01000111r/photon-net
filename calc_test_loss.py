@@ -3,11 +3,11 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("p1-shuffle-rf3-800",)
+output_folder_names = ("p1-shuffle-rf8-800-d10",)
 model_numbers = [25, 50, 100, 200, 400, 800]
 hard_predict = False
 input_positions = [0]
-num_modes_circ = 10
+num_modes_circ = 20
 p_suc_inputs = 1
 input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)
 if hard_predict:

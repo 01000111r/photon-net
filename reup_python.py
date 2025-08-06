@@ -4,7 +4,7 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 10
+g.num_steps = 300
 g.training_rate = 0.1
 
 # circuit parameters
@@ -17,9 +17,9 @@ g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0]
+g.input_positions = [0, ]
 # photon aim
-g.aim = 1
+g.aim = 2
 # discard settings
 g.discard = 0
 g.discard_condition = '!='
