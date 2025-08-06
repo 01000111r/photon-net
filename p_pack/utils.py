@@ -199,6 +199,9 @@ def evaluate_and_save_test_loss(
     test_set = jnp.array(test_set)
     test_labels = jnp.array(test_labels)
 
+    if len(g.reupload_freq) == 1: reup_freq = int(g.reupload_freq)
+    else: reup_freq = tuple(g.reupload_freq)
+
     if hard_predict:
         _, binary_predictions_plus, _, _ = model.predict_reupload(
             phases,
@@ -206,7 +209,7 @@ def evaluate_and_save_test_loss(
             weights,
             input_config,
             g.master_key,
-            int(g.reupload_freq),
+            reup_freq,
             int(g.shuffle_type),
         )
         binary_predictions_plus = jnp.abs(jnp.squeeze(binary_predictions_plus))
@@ -224,7 +227,7 @@ def evaluate_and_save_test_loss(
             g.master_key,
             int(g.loss_function),
             g.aim,
-            int(g.reupload_freq),
+            reup_freq,
             int(g.shuffle_type)
         )
 
