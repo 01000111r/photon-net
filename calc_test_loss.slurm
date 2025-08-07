@@ -24,4 +24,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python calc_test_loss.py
+python calc_test2.py

@@ -157,7 +157,8 @@ def evaluate_and_save_test_loss(
     input_config,
     output_path: str,
     hard_predict: bool = False,
-    average_input_combinations: bool = False
+    average_input_combinations: bool = False,
+    save_all_combinations: bool = False,
 ):
     """Compute test loss for a trained model and save it.
 
@@ -206,57 +207,72 @@ def evaluate_and_save_test_loss(
     else: reup_freq = int(g.reupload_freq)
     # reup_freq = int(g.reupload_freq)
 
-    def _single_loss(cfg):
+    def _single_metrics(cfg):
         mask_local = jnp.asarray(cfg[0], dtype=jnp.int32)
-        if hard_predict:
-            _, binary_predictions_plus, _, _ = model.predict_reupload(
-                phases,
-                test_set,
-                weights,
-                cfg,
-                mask_local,
-                g.master_key,
-                reup_freq,
-                int(g.shuffle_type),
-            )
-            binary_predictions_plus = jnp.abs(jnp.squeeze(binary_predictions_plus))
-            predicted_labels = jnp.where(binary_predictions_plus >= 0.5, 1, -1)
-            correctness = (predicted_labels == test_labels).astype(jnp.float32)
-            return jnp.mean(correctness) * 100.0
-        else:
-            loss_val, _ = loss.loss(
-                phases,
-                test_set,
-                test_labels,
-                weights,
-                alpha,
-                cfg,
-                mask_local,
-                g.master_key,
-                int(g.loss_function),
-                g.aim,
-                reup_freq,
-                int(g.shuffle_type),
-            )
-            return loss_val
+        _, binary_predictions_plus, n_p, _ = model.predict_reupload(
+            phases,
+            test_set,
+            weights,
+            cfg,
+            mask_local,
+            g.master_key,
+            reup_freq,
+            int(g.shuffle_type),
+        )
+        binary_predictions_plus = jnp.abs(jnp.squeeze(binary_predictions_plus))
+        predicted_labels = jnp.where(binary_predictions_plus >= 0.5, 1, -1)
+        correctness = (predicted_labels == test_labels).astype(jnp.float32)
+        accuracy = jnp.mean(correctness) * 100.0
+
+        adjusted_predictions = jnp.where(test_labels == 1, binary_predictions_plus, 1.0 - binary_predictions_plus)
+
+        loss_val = ((1.0 - adjusted_predictions) ** 2).mean()
+        return accuracy, loss_val
 
     if average_input_combinations:
         num_modes = len(input_config[0])
         photon_number = int(np.sum(input_config[0]))
         combos = itertools.combinations_with_replacement(range(num_modes), photon_number)
-        losses = []
+        accs, losses_list = [], []
         for combo in combos:
             arr = [0] * num_modes
             for idx in combo:
                 arr[idx] = 1
             cfg = (tuple(arr), input_config[1])
-            losses.append(_single_loss(cfg))
-        loss_val = jnp.mean(jnp.stack(losses)) if losses else jnp.array(0.0)
+            acc, l_val = _single_metrics(cfg)
+            accs.append(acc)
+            losses_list.append(l_val)
+        if save_all_combinations:
+            acc_arr = jnp.stack(accs) if accs else jnp.array([])
+            loss_arr = jnp.stack(losses_list) if losses_list else jnp.array([])
+            acc_val = jnp.mean(acc_arr) if accs else jnp.array(0.0)
+            loss_val = jnp.mean(loss_arr) if losses_list else jnp.array(0.0)
+        else:
+            metrics = accs if hard_predict else losses_list
+            loss_val = jnp.mean(jnp.stack(metrics)) if metrics else jnp.array(0.0)
+            acc_val = loss_val if hard_predict else jnp.array(0.0)
     else:
-        loss_val = _single_loss(input_config)
+        acc, l_val = _single_metrics(input_config)
+        if save_all_combinations:
+            acc_arr = jnp.array([acc])
+            loss_arr = jnp.array([l_val])
+            acc_val = acc
+            loss_val = l_val
+        else:
+            loss_val = acc if hard_predict else l_val
+            acc_val = acc if hard_predict else jnp.array(0.0)
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    np.savez_compressed(output_path, test_loss=np.asarray(loss_val))
+    if save_all_combinations:
+        np.savez_compressed(
+            output_path,
+            test_loss=np.asarray(loss_val),
+            test_accuracy=np.asarray(acc_val),
+            loss_per_config=np.asarray(loss_arr),
+            accuracy_per_config=np.asarray(acc_arr),
+        )
+    else:
+        np.savez_compressed(output_path, test_loss=np.asarray(loss_val))
 
     # prepare log file in the parent output folder
     root_folder = Path(output_path).resolve().parents[1]
@@ -288,6 +304,7 @@ def evaluate_and_save_test_loss(
         "symmetry_parity": np.asarray(g.use_symmetry_parity),
         "accuracy": np.asarray(hard_predict),  # convert to percentage
         "average_input_combinations": np.asarray(average_input_combinations),
+        "save_all_combinations": np.asarray(save_all_combinations),
     }
 
     with open(log_path, "a") as f:

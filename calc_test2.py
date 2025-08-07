@@ -4,11 +4,13 @@ from p_pack import utils
 
 # ----- Evaluation configuration -----
 output_folder_names = ("p3-pos-sample-s-all",)
-model_numbers = [1000]
+model_numbers = [50,100,200,400,800]
 input_positions = [0, 4, 9]
 num_modes_circ = 10
 p_suc_inputs = 1
-average_input_combinations = False
+average_input_combinations = True
+save_all_input_combinations = False
+
 
 # NEW: evaluation mode flag – choose 'loss', 'acc', or 'both'
 evaluation_mode = 'both'  # ← change to 'loss', 'acc', or 'both'
@@ -49,7 +51,8 @@ def iterate_models(folder: Path, subfolder: str, model_number: int, inp_conf, ha
             inp_conf,
             str(out_path),
             hard_predict=hard_predict,
-        )
+            average_input_combinations = False,
+            save_all_combinations = save_all_input_combinations)
         print(base, "done")
 
 
