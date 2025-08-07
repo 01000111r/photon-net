@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=rf9-p3
-#SBATCH --time=00:05:00
+#SBATCH --time=00:45:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4

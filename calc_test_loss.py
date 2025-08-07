@@ -3,17 +3,25 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("reup-tuple-test",)
-model_numbers = [25, 50, 100, 200, 400, 800]
+output_folder_names = ("p3-pos-sample-s-all",)
+model_numbers = [1000]
 hard_predict = True
-input_positions = [0]
+input_positions = [0, 4, 9]
 num_modes_circ = 10
 p_suc_inputs = 1
 input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)
+average_input_combinations = False
+
 if hard_predict:
-    test_name = "acc"
+    if average_input_combinations:
+        test_name = "acc-av"
+    else:
+        test_name = "acc -std"
 else:
-    test_name = "loss"
+    if average_input_combinations:
+        test_name = "loss-av"
+    else:
+        test_name = "loss-std"
 
 
 def iterate_models(folder: Path, subfolder: str, model_number: int, inp_conf):

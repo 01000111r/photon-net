@@ -4,13 +4,15 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 1000
+g.num_steps = 800
 g.training_rate = 0.1
-g.save_points = []  # steps at which to save model parameters
+g.save_points = [50,100,200,400,800]  # steps at which to save model parameters
 
 # reupload configuration
 g.reupload_freq = 4
 # g.reupload_freq = tuple([0,4,8]) # layers at which to re-upload data
+g.reup_is_tuple = False
+
 # How to shuffle data when re-uploading images.
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
@@ -74,15 +76,15 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p3-pos-sample-s0'
+folder_name = 'p3-pos-sample-s-all'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [0]
+varied_list = [0, 1, 2]
 # name of the global variable to modify during iteration
-global_var_name = "input_positions"
+global_var_name = "shuffle_type"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
 is_key = False
 file_indent = 's'

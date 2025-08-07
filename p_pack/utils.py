@@ -5,6 +5,7 @@ from jax import block_until_ready
 import jax.numpy as jnp
 from p_pack import loss, model, train         # your train.train
 import p_pack.globals as g
+import itertools
 
 def save_run(log_file: str, output_folder: str, data_name: str, global_name, init_carry):
     """
@@ -94,6 +95,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "num_steps":      np.asarray(g.num_steps),
         "training_rate":  np.asarray(g.training_rate),
         "reupload_freq":  np.asarray(g.reupload_freq),
+        "reup_is_tuple":  np.asarray(g.reup_is_tuple),
         "num_modes_circ": np.asarray(g.num_modes_circ),
         "depth":          np.asarray(g.depth),
         "num_features":   np.asarray(g.num_features),
@@ -155,6 +157,7 @@ def evaluate_and_save_test_loss(
     input_config,
     output_path: str,
     hard_predict: bool = False,
+    average_input_combinations: bool = False
 ):
     """Compute test loss for a trained model and save it.
 
@@ -199,40 +202,58 @@ def evaluate_and_save_test_loss(
     test_set = jnp.array(test_set)
     test_labels = jnp.array(test_labels)
 
-    if len(g.reupload_freq) == 1: reup_freq = int(g.reupload_freq)
-    else: reup_freq = tuple(g.reupload_freq)
+    if g.reup_is_tuple: reup_freq = tuple(g.reupload_freq) 
+    else: reup_freq = int(g.reupload_freq)
+    # reup_freq = int(g.reupload_freq)
 
-    mask = jnp.asarray(input_config[0], dtype=jnp.int32)
-    if hard_predict:
-        _, binary_predictions_plus, _, _ = model.predict_reupload(
-            phases,
-            test_set,
-            weights,
-            input_config,
-            mask,
-            g.master_key,
-            reup_freq,
-            int(g.shuffle_type),
-        )
-        binary_predictions_plus = jnp.abs(jnp.squeeze(binary_predictions_plus))
-        predicted_labels = jnp.where(binary_predictions_plus >= 0.5, 1, -1)
-        correctness = (predicted_labels == test_labels).astype(jnp.float32)
-        loss_val = jnp.mean(correctness) * 100.0
+    def _single_loss(cfg):
+        mask_local = jnp.asarray(cfg[0], dtype=jnp.int32)
+        if hard_predict:
+            _, binary_predictions_plus, _, _ = model.predict_reupload(
+                phases,
+                test_set,
+                weights,
+                cfg,
+                mask_local,
+                g.master_key,
+                reup_freq,
+                int(g.shuffle_type),
+            )
+            binary_predictions_plus = jnp.abs(jnp.squeeze(binary_predictions_plus))
+            predicted_labels = jnp.where(binary_predictions_plus >= 0.5, 1, -1)
+            correctness = (predicted_labels == test_labels).astype(jnp.float32)
+            return jnp.mean(correctness) * 100.0
+        else:
+            loss_val, _ = loss.loss(
+                phases,
+                test_set,
+                test_labels,
+                weights,
+                alpha,
+                cfg,
+                mask_local,
+                g.master_key,
+                int(g.loss_function),
+                g.aim,
+                reup_freq,
+                int(g.shuffle_type),
+            )
+            return loss_val
+
+    if average_input_combinations:
+        num_modes = len(input_config[0])
+        photon_number = int(np.sum(input_config[0]))
+        combos = itertools.combinations_with_replacement(range(num_modes), photon_number)
+        losses = []
+        for combo in combos:
+            arr = [0] * num_modes
+            for idx in combo:
+                arr[idx] = 1
+            cfg = (tuple(arr), input_config[1])
+            losses.append(_single_loss(cfg))
+        loss_val = jnp.mean(jnp.stack(losses)) if losses else jnp.array(0.0)
     else:
-        loss_val, _ = loss.loss(
-            phases,
-            test_set,
-            test_labels,
-            weights,
-            alpha,
-            input_config,
-            mask,
-            g.master_key,
-            int(g.loss_function),
-            g.aim,
-            reup_freq,
-            int(g.shuffle_type)
-        )
+        loss_val = _single_loss(input_config)
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     np.savez_compressed(output_path, test_loss=np.asarray(loss_val))
@@ -245,6 +266,7 @@ def evaluate_and_save_test_loss(
         "num_steps": np.asarray(g.num_steps),
         "training_rate": np.asarray(g.training_rate),
         "reupload_freq": np.asarray(g.reupload_freq),
+        "reup_is_tuple": np.asarray(g.reup_is_tuple),
         "num_modes_circ": np.asarray(g.num_modes_circ),
         "depth": np.asarray(g.depth),
         "num_features": np.asarray(g.num_features),
@@ -265,6 +287,7 @@ def evaluate_and_save_test_loss(
         "shuffle_type": np.asarray(g.shuffle_type),
         "symmetry_parity": np.asarray(g.use_symmetry_parity),
         "accuracy": np.asarray(hard_predict),  # convert to percentage
+        "average_input_combinations": np.asarray(average_input_combinations),
     }
 
     with open(log_path, "a") as f:

@@ -40,6 +40,7 @@ training_rate : float =  0.1
 # an integer is given the old behaviour is retained.
 reupload_freq = 3
 #reupload_freq = tuple([0,4,8])
+reup_is_tuple = False
 
 # How to shuffle data when re-uploading images.
 # 0 - random permutation each upload (default)
