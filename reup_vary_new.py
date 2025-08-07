@@ -4,9 +4,9 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 200
+g.num_steps = 1000
 g.training_rate = 0.1
-g.save_points = [100]  # steps at which to save model parameters
+g.save_points = []  # steps at which to save model parameters
 
 # reupload configuration
 g.reupload_freq = 4
@@ -26,7 +26,7 @@ g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0]
+g.input_positions = [0, 4, 9]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -53,7 +53,7 @@ g.shuffle_key = g.jax.random.PRNGKey(52)
 # Key used when sampling new input photon positions each optimisation step.
 position_key = g.jax.random.PRNGKey(7)
 # If ``True`` a fresh set of input positions is sampled every update.
-position_sampling: bool = False
+position_sampling: bool = True
 
 
 
@@ -74,13 +74,13 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'sample-pos-test'
+folder_name = 'p3-pos-sample-s0'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [[0],[0,9]]
+varied_list = [0]
 # name of the global variable to modify during iteration
 global_var_name = "input_positions"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
