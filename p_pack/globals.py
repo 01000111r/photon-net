@@ -98,6 +98,11 @@ master_key = jax.random.PRNGKey(0)
 phase_key = jax.random.PRNGKey(20)
 # Global PRNG key controlling shuffling when ``shuffle_type == 0``
 shuffle_key = jax.random.PRNGKey(42)
+
+# Key used when sampling new input photon positions each optimisation step.
+position_key = jax.random.PRNGKey(7)
+# If ``True`` a fresh set of input positions is sampled every update.
+position_sampling: bool = False
 # If set to a float value, all phases are initialised to this
 # constant instead of random values.  ``None`` keeps the random
 # initialisation behaviour.
@@ -240,6 +245,24 @@ def final_load_data(num_feature):
     train_set = rescale_data(train_set, min_val = -(np.pi)/2, max_val = (np.pi/2))
     test_set = rescale_data(test_set, min_val = -(np.pi)/2, max_val = (np.pi/2))
     return train_set, train_labels, test_set, test_labels
+
+
+@jax.jit
+def sample_input_config(key: jax.random.PRNGKey, mask: jnp.ndarray) -> jnp.ndarray:
+    """Shuffle a base presence ``mask`` to generate random input positions.
+
+    Args:
+        key: PRNG key used for shuffling.
+        mask: Base binary mask indicating photon locations.
+
+    Returns:
+        jnp.ndarray: A new presence mask with the ones randomly permuted.
+    """
+
+    mask = jnp.asarray(mask, dtype=jnp.int32)
+    perm = jax.random.permutation(key, mask.shape[0])
+    return tuple(mask[perm])
+
 
 
 

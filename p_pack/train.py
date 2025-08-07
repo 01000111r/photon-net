@@ -37,7 +37,8 @@ def train(init_carry, num_steps):
         globals.batch_mode,
         globals.mini_batch_size,
         globals.reupload_freq,
-        globals.shuffle_type
+        globals.shuffle_type,
+        globals.position_sampling,
     ),
     init_carry,
     steps,

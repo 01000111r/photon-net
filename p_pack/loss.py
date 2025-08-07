@@ -13,6 +13,7 @@ def loss(phases: jnp.array,
          weights: jnp.array,
          photon_loss_scale: float,
          input_config,
+         mask,
          key,
          loss_function,
          aim,
@@ -38,7 +39,7 @@ def loss(phases: jnp.array,
     """
     num_samples = jax.lax.stop_gradient(data_set).shape[0]
    
-    _, binary_predictions_plus, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, key, reupload_freq, shuffle_type)
+    _, binary_predictions_plus, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
 
 
     binary_predictions_plus = binary_predictions_plus.squeeze() # to match shapes

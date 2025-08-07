@@ -4,13 +4,13 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 800
+g.num_steps = 200
 g.training_rate = 0.1
-g.save_points = [25,50,100,200,400,800]  # steps at which to save model parameters
+g.save_points = [100]  # steps at which to save model parameters
 
 # reupload configuration
-# g.reupload_freq = 4
-g.reupload_freq = tuple([0,4,8]) # layers at which to re-upload data
+g.reupload_freq = 4
+# g.reupload_freq = tuple([0,4,8]) # layers at which to re-upload data
 # How to shuffle data when re-uploading images.
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
@@ -50,6 +50,12 @@ g.master_key = g.jax.random.PRNGKey(2)
 g.phase_key = g.jax.random.PRNGKey(10)
 g.shuffle_key = g.jax.random.PRNGKey(52)
 
+# Key used when sampling new input photon positions each optimisation step.
+position_key = g.jax.random.PRNGKey(7)
+# If ``True`` a fresh set of input positions is sampled every update.
+position_sampling: bool = False
+
+
 
 
 # build input config
@@ -68,15 +74,15 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'reup-tuple-test'
+folder_name = 'sample-pos-test'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [1]
+varied_list = [[0],[0,9]]
 # name of the global variable to modify during iteration
-global_var_name = "shuffle_type"
+global_var_name = "input_positions"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
 is_key = False
 file_indent = 's'
@@ -103,6 +109,12 @@ def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder
         init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
         weights_data = g.jnp.ones(shape=[init_phases.shape[0], init_phases.shape[1]])
 
+        if g.position_sampling:
+            sub_pos = g.jax.random.fold_in(g.position_key, 0)
+            mask = g.sample_input_config(sub_pos, g.input_config[0])
+        else:
+            mask = g.input_config[0]
+
         photon_loss_scale = float(1)
         initial_loss, (n0, key) = loss.loss(
             init_phases,
@@ -111,6 +123,7 @@ def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder
             weights_data,
             photon_loss_scale,
             g.input_config,
+            mask,
             g.master_key,
             g.loss_function,
             g.aim,

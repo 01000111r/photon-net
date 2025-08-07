@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --job-name=reup-mask
-#SBATCH --time=01:30:00
+#SBATCH --job-name=no-sample-test
+#SBATCH --time=00:40:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
@@ -9,7 +9,7 @@
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
-#SBATCH --partition=short
+#SBATCH --partition=test
 
 
 module --force purge

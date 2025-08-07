@@ -5,7 +5,7 @@ from p_pack import utils
 # ----- Evaluation configuration -----
 output_folder_names = ("reup-tuple-test",)
 model_numbers = [25, 50, 100, 200, 400, 800]
-hard_predict = False
+hard_predict = True
 input_positions = [0]
 num_modes_circ = 10
 p_suc_inputs = 1

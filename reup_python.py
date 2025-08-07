@@ -38,6 +38,7 @@ g.mini_batch_size = 1000
 g.master_key = g.jax.random.PRNGKey(2)
 g.phase_key = g.jax.random.PRNGKey(20)
 
+
 # maximum photon number for discard logic
 g.max_photons = 3
 

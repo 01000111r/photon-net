@@ -441,6 +441,7 @@ def compute_probs_given_survivors(unitaries, survivors, k):
 @partial(jax.jit, static_argnames=['input_config'])
 def measurement(
     unitaries:    jnp.ndarray,
+    mask,
     input_config: tuple[jnp.ndarray, jnp.ndarray],
     key:           jax.random.PRNGKey
 ):
@@ -448,7 +449,7 @@ def measurement(
     Full measurement pipeline: sample survivors → compute probs.
     Returns: (all_extracts, all_probs, binary_probs, k, new_key)
     """
-    presence_mask  = jnp.asarray(input_config[0], dtype=jnp.int32)
+    presence_mask  = jnp.asarray(mask, dtype=jnp.int32)
     keep_probs_all = jnp.asarray(input_config[1], dtype=jnp.float32)
 
     surv, k, key = sample_survivors(presence_mask, keep_probs_all, key)

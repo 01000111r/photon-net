@@ -26,7 +26,9 @@ def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey, bat
 
 
 
-@partial(jax.jit, static_argnames=['input_config', 'discard', 'aim', 'cmp', 'loss_function', 'range_vals', 'batch_mode', 'mini_batch_size', 'reupload_freq', 'shuffle_type'])
+@partial(jax.jit, static_argnames=['input_config', 'discard', 'aim', 'cmp', 'loss_function', 
+                                   'range_vals', 'batch_mode', 'mini_batch_size', 'reupload_freq', 
+                                   'shuffle_type', 'position_sampling',])
 def adam_step(
     carry,
     step,
@@ -40,7 +42,8 @@ def adam_step(
     batch_mode,
     mini_batch_size,
     reupload_freq,
-    shuffle_type=globals.shuffle_type
+    shuffle_type=globals.shuffle_type,
+    position_sampling=False
 ):
     """
     ccarry = (
@@ -72,12 +75,19 @@ def adam_step(
     # 0) Select a batch of data
     ds_b, lb_b, key = _select_batch(ds, lb, key, batch_mode, mini_batch_size)
 
-    # 1) Evaluate loss & grads, get back a fresh PRNGKey
+    # 1) If enabled, sample fresh input positions by shuffling the base mask
+    if position_sampling:
+        sub_pos = jax.random.fold_in(globals.position_key, step)
+        mask = globals.sample_input_config(sub_pos, input_config[0])
+    else:
+        mask = input_config[0]
+
+    # 2) Evaluate loss & grads, get back a fresh PRNGKey
     (loss_val, (n_p, new_key)), (g_pp, g_pw, g_pa) = jax.value_and_grad(
         loss.loss,
         argnums=(0, 3, 4),
         has_aux=True,
-    )(pp, ds_b, lb_b, pw, pa, input_config, key, loss_function, aim, reupload_freq, shuffle_type)
+    )(pp, ds_b, lb_b, pw, pa, input_config, mask, key, loss_function, aim, reupload_freq, shuffle_type)
 
     # 2) Decide whether to skip:
     #    only skip if discard==1 and the photon condition is met
