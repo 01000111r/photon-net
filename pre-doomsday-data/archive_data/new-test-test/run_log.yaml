@@ -1,0 +1,255 @@
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams50/m0f0.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams100/m0f0.npz
+========================================
+
+=== Params at step 300 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams300/m0f0.npz
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m0f0.npz
+========================================
+
+=== Run: new-test-test ===
+Output folder: /user/home/zj22662/work/new-test-test
+Outputs file:  /user/home/zj22662/work/new-test-test/Learning/it0f0.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it0f0g.npz
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m0f0.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams50/m1f1.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams100/m1f1.npz
+========================================
+
+=== Params at step 300 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams300/m1f1.npz
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m1f1.npz
+========================================
+
+=== Run: new-test-test ===
+Output folder: /user/home/zj22662/work/new-test-test
+Outputs file:  /user/home/zj22662/work/new-test-test/Learning/it1f1.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it1f1g.npz
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m1f1.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams50/m2f2.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams100/m2f2.npz
+========================================
+
+=== Params at step 300 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams300/m2f2.npz
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m2f2.npz
+========================================
+
+=== Run: new-test-test ===
+Output folder: /user/home/zj22662/work/new-test-test
+Outputs file:  /user/home/zj22662/work/new-test-test/Learning/it2f2.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it2f2g.npz
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m2f2.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams50/m3f3.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams100/m3f3.npz
+========================================
+
+=== Params at step 300 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams300/m3f3.npz
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m3f3.npz
+========================================
+
+=== Run: new-test-test ===
+Output folder: /user/home/zj22662/work/new-test-test
+Outputs file:  /user/home/zj22662/work/new-test-test/Learning/it3f3.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it3f3g.npz
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m3f3.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams50/m4f4.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams100/m4f4.npz
+========================================
+
+=== Params at step 300 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams300/m4f4.npz
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m4f4.npz
+========================================
+
+=== Run: new-test-test ===
+Output folder: /user/home/zj22662/work/new-test-test
+Outputs file:  /user/home/zj22662/work/new-test-test/Learning/it4f4.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it4f4g.npz
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m4f4.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================

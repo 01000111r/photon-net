@@ -1,0 +1,36 @@
+
+=== Params at step 1500 ===
+Output folder: /user/home/zj22662/work/d10-p3-long-test
+Params file:   /user/home/zj22662/work/d10-p3-long-test/ModelParams1500/m0s1.npz
+========================================
+
+=== Run: d10-p3-long-test ===
+Output folder: /user/home/zj22662/work/d10-p3-long-test
+Outputs file:  /user/home/zj22662/work/d10-p3-long-test/Learning/it0s1.npz
+Globals file:  /user/home/zj22662/work/d10-p3-long-test/Learning/it0s1g.npz
+Params file:   /user/home/zj22662/work/d10-p3-long-test/ModelParams1500/m0s1.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0, 9, 19]
+  input_config: <array shape=(20,)>
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================

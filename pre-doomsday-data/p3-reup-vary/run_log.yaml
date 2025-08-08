@@ -1,0 +1,324 @@
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m0f0.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it0f0.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it0f0g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m0f0.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m1f1.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it1f1.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it1f1g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m1f1.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m2f2.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it2f2.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it2f2g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m2f2.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m3f3.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it3f3.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it3f3g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m3f3.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m4f4.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it4f4.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it4f4g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m4f4.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m5f5.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it5f5.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it5f5g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m5f5.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m6f7.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it6f7.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it6f7g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m6f7.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m7f8.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it7f8.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it7f8g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m7f8.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m8f9.npz
+========================================
+
+=== Run: p3-reup-vary ===
+Output folder: /user/home/zj22662/work/p3-reup-vary
+Outputs file:  /user/home/zj22662/work/p3-reup-vary/Learning/it8f9.npz
+Globals file:  /user/home/zj22662/work/p3-reup-vary/Learning/it8f9g.npz
+Params file:   /user/home/zj22662/work/p3-reup-vary/ModelParams500/m8f9.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================

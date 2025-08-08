@@ -1,0 +1,310 @@
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it1f0.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it1f0g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m1f0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it2f1.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it2f1g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m2f1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it3f2.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it3f2g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m3f2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it4f3.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it4f3g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m4f3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it5f4.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it5f4g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m5f4.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it6f5.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it6f5g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m6f5.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it7f6.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it7f6g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m7f6.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 6
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it8f7.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it8f7g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m8f7.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it9f8.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it9f8g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m9f8.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Run: 10x10-time-28cpu-100r ===
+Output folder: /user/home/zj22662/work/10x10-time-28cpu-100r
+Outputs file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it10f9.npz
+Globals file:  /user/home/zj22662/work/10x10-time-28cpu-100r/Learning/it10f9g.npz
+Params file:   /user/home/zj22662/work/10x10-time-28cpu-100r/ModelParams/m10f9.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================

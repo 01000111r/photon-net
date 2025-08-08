@@ -115,6 +115,8 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "phase_init_value":      np.asarray(g.phase_init_value),
         "shuffle_type": np.asarray(g.shuffle_type),
         "symmetry_parity": np.asarray(g.use_symmetry_parity),
+        "position_key": np.asarray(g.position_key),
+        "position_sampling": np.asarray(g.position_sampling),
     }
     np.savez_compressed(globals_path, **to_save)
     print(f"[save_run] Saved globals → {globals_path}")

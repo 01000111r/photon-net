@@ -1,0 +1,620 @@
+
+=== Test: m10f10.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m10f10.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it10f10g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t10f10.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 10
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m11f11.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m11f11.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it11f11g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t11f11.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 11
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m12f12.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m12f12.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it12f12g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t12f12.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 12
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m13f13.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m13f13.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it13f13g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t13f13.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 13
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m14f14.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m14f14.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it14f14g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t14f14.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 14
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m15f15.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m15f15.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it15f15g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t15f15.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 15
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m16f16.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m16f16.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it16f16g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t16f16.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 16
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m17f17.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m17f17.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it17f17g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t17f17.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 17
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m18f18.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m18f18.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it18f18g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t18f18.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 18
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m19f19.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m19f19.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it19f19g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t19f19.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 19
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m1f0.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m1f0.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it1f0g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t1f0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m20f20.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m20f20.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it20f20g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t20f20.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 20
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m2f1.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m2f1.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it2f1g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t2f1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m3f2.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m3f2.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it3f2g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t3f2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m4f3.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m4f3.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it4f3g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t4f3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m5f4.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m5f4.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it5f4g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t5f4.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m6f56.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m6f56.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it6f56g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t6f56.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 56
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m7f7.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m7f7.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it7f7g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t7f7.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m8f8.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m8f8.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it8f8g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t8f8.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m9f9.npz ===
+Output folder: /user/work/zj22662/reup-d10-s0
+Params file:   /user/home/zj22662/work/reup-d10-s0/ModelParams/m9f9.npz
+Globals file:  /user/home/zj22662/work/reup-d10-s0/Learning/it9f9g.npz
+Test loss file: /user/home/zj22662/work/reup-d10-s0/test-p1/t9f9.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: <array shape=(20,)>
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================

@@ -1,0 +1,66 @@
+
+=== Test: m0s0.npz ===
+Output folder: /user/work/zj22662/p2-pos-sample-s0
+Params file:   /user/home/zj22662/work/p2-pos-sample-s0/ModelParams1000/m0s0.npz
+Globals file:  /user/home/zj22662/work/p2-pos-sample-s0/Learning/it0s0g.npz
+Test loss file: /user/home/zj22662/work/p2-pos-sample-s0/test-acc-std-1000/t0s0.npz
+
+Globals snapshot:
+  num_steps: 1000
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: 0
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m0s0.npz ===
+Output folder: /user/work/zj22662/p2-pos-sample-s0
+Params file:   /user/home/zj22662/work/p2-pos-sample-s0/ModelParams1000/m0s0.npz
+Globals file:  /user/home/zj22662/work/p2-pos-sample-s0/Learning/it0s0g.npz
+Test loss file: /user/home/zj22662/work/p2-pos-sample-s0/test-loss-std-1000/t0s0.npz
+
+Globals snapshot:
+  num_steps: 1000
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: 0
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: False
+========================================

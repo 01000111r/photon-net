@@ -1,0 +1,224 @@
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it4k0.1.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/it4k0.1g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/it4k0.1.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: 0.1
+========================================
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it5k-0.1.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/it5k-0.1g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/it5k-0.1.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: -0.1
+========================================
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it6k0.01.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/it6k0.01g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/it6k0.01.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: 0.01
+========================================
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it7k-0.01.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/it7k-0.01g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/it7k-0.01.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: -0.01
+========================================
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it4k0.1.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/4k0.1g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/m4k0.1.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: 0.1
+========================================
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it5k-0.1.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/5k-0.1g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/m5k-0.1.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: -0.1
+========================================
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it6k0.01.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/6k0.01g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/m6k0.01.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: 0.01
+========================================
+
+=== Run: new-save-test ===
+Output folder: /user/home/zj22662/work/new-save-test
+Outputs file:  /user/home/zj22662/work/new-save-test/Learning/it7k-0.01.npz
+Globals file:  /user/home/zj22662/work/new-save-test/Learning/7k-0.01g.npz
+Params file:   /user/home/zj22662/work/new-save-test/ModelParams/m7k-0.01.npz
+
+Globals snapshot:
+  num_steps: 10
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: -0.01
+========================================

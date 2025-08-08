@@ -1,0 +1,183 @@
+
+=== Params at step 25 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams25/m0s0.npz
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams50/m0s0.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams100/m0s0.npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams200/m0s0.npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams400/m0s0.npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams800/m0s0.npz
+========================================
+
+=== Run: p3-shuffle-rf4-800 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Outputs file:  /user/home/zj22662/work/p3-shuffle-rf4-800/Learning/it0s0.npz
+Globals file:  /user/home/zj22662/work/p3-shuffle-rf4-800/Learning/it0s0g.npz
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams800/m0s0.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Params at step 25 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams25/m1s1.npz
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams50/m1s1.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams100/m1s1.npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams200/m1s1.npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams400/m1s1.npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams800/m1s1.npz
+========================================
+
+=== Run: p3-shuffle-rf4-800 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Outputs file:  /user/home/zj22662/work/p3-shuffle-rf4-800/Learning/it1s1.npz
+Globals file:  /user/home/zj22662/work/p3-shuffle-rf4-800/Learning/it1s1g.npz
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams800/m1s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+========================================
+
+=== Params at step 25 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams25/m2s2.npz
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams50/m2s2.npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams100/m2s2.npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams200/m2s2.npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams400/m2s2.npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams800/m2s2.npz
+========================================
+
+=== Run: p3-shuffle-rf4-800 ===
+Output folder: /user/home/zj22662/work/p3-shuffle-rf4-800
+Outputs file:  /user/home/zj22662/work/p3-shuffle-rf4-800/Learning/it2s2.npz
+Globals file:  /user/home/zj22662/work/p3-shuffle-rf4-800/Learning/it2s2g.npz
+Params file:   /user/home/zj22662/work/p3-shuffle-rf4-800/ModelParams800/m2s2.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 4, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+========================================

@@ -1,0 +1,155 @@
+
+=== Test: m0f0.npz ===
+Output folder: /user/work/zj22662/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m0f0.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it0f0g.npz
+Test loss file: /user/home/zj22662/work/new-test-test/test-acc-500/t0f0.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m1f1.npz ===
+Output folder: /user/work/zj22662/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m1f1.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it1f1g.npz
+Test loss file: /user/home/zj22662/work/new-test-test/test-acc-500/t1f1.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m2f2.npz ===
+Output folder: /user/work/zj22662/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m2f2.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it2f2g.npz
+Test loss file: /user/home/zj22662/work/new-test-test/test-acc-500/t2f2.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m3f3.npz ===
+Output folder: /user/work/zj22662/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m3f3.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it3f3g.npz
+Test loss file: /user/home/zj22662/work/new-test-test/test-acc-500/t3f3.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================
+
+=== Test: m4f4.npz ===
+Output folder: /user/work/zj22662/new-test-test
+Params file:   /user/home/zj22662/work/new-test-test/ModelParams500/m4f4.npz
+Globals file:  /user/home/zj22662/work/new-test-test/Learning/it4f4g.npz
+Test loss file: /user/home/zj22662/work/new-test-test/test-acc-500/t4f4.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+========================================

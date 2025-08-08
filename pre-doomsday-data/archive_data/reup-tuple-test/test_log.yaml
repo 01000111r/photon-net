@@ -1,0 +1,384 @@
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams25/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-loss-25/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams50/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-loss-50/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams100/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-loss-100/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams200/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-loss-200/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams400/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-loss-400/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams800/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-loss-800/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams25/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-acc-25/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams50/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-acc-50/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams100/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-acc-100/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams200/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-acc-200/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams400/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-acc-400/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m0s1.npz ===
+Output folder: /user/work/zj22662/reup-tuple-test
+Params file:   /user/home/zj22662/work/reup-tuple-test/ModelParams800/m0s1.npz
+Globals file:  /user/home/zj22662/work/reup-tuple-test/Learning/it0s1g.npz
+Test loss file: /user/home/zj22662/work/reup-tuple-test/test-acc-800/t0s1.npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 8]
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+========================================

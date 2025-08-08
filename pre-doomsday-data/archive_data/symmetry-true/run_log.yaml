@@ -1,0 +1,62 @@
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it0finput_positions-[4]_shuffle_type-1g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m0finput_positions-[4]_shuffle_type-1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: True
+========================================
+
+=== Run: symmetry-true ===
+Output folder: /user/home/zj22662/work/symmetry-true
+Outputs file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3.npz
+Globals file:  /user/home/zj22662/work/symmetry-true/Learning/it1finput_positions-[5]_shuffle_type-3g.npz
+Params file:   /user/home/zj22662/work/symmetry-true/ModelParams/m1finput_positions-[5]_shuffle_type-3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: True
+========================================

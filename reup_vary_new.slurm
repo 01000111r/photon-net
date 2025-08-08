@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=p3-sample
-#SBATCH --time=01:00:00
+#SBATCH --time=02:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
@@ -9,7 +9,7 @@
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
-#SBATCH --partition=test
+#SBATCH --partition=short
 module --force purge
 
 
