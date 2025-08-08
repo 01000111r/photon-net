@@ -232,7 +232,7 @@ def evaluate_and_save_test_loss(
     if average_input_combinations:
         num_modes = len(input_config[0])
         photon_number = int(np.sum(input_config[0]))
-        combos = itertools.combinations_with_replacement(range(num_modes), photon_number)
+        combos = itertools.combinations(range(num_modes), photon_number)
         accs, losses_list = [], []
         for combo in combos:
             arr = [0] * num_modes

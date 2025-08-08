@@ -9,7 +9,7 @@ input_positions = [0, 4, 9]
 num_modes_circ = 10
 p_suc_inputs = 1
 average_input_combinations = True
-save_all_input_combinations = False
+save_all_input_combinations = True
 
 
 # NEW: evaluation mode flag – choose 'loss', 'acc', or 'both'
@@ -19,10 +19,16 @@ input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_input
 
 
 def get_test_name(hard_predict):
-    if hard_predict:
-        return "acc-av" if average_input_combinations else "acc-std"
+    if save_all_input_combinations:
+        if hard_predict:
+            return "acc-all" if average_input_combinations else "acc-std-all"
+        else:
+            return "loss-all" if average_input_combinations else "loss-std-all"
     else:
-        return "loss-av" if average_input_combinations else "loss-std"
+        if hard_predict:
+            return "acc-av" if average_input_combinations else "acc-std"
+        else:
+            return "loss-av" if average_input_combinations else "loss-std"
 
 
 def iterate_models(folder: Path, subfolder: str, model_number: int, inp_conf, hard_predict: bool):

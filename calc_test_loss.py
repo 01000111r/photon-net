@@ -10,7 +10,7 @@ input_positions = [0, 4, 9]
 num_modes_circ = 10
 p_suc_inputs = 1
 input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)
-average_input_combinations = False
+average_input_combinations = True
 
 if hard_predict:
     if average_input_combinations:
