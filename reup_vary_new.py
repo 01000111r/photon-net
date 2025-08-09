@@ -4,9 +4,9 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 800
+g.num_steps = 1500
 g.training_rate = 0.1
-g.save_points = [50,100,200,400,800]  # steps at which to save model parameters
+g.save_points = []  # steps at which to save model parameters
 
 # reupload configuration
 g.reupload_freq = 4
@@ -28,7 +28,7 @@ g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0, 4, 9]
+g.input_positions = [0, 9]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -76,7 +76,7 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p3-pos-sample-s-all-2'
+folder_name = 'p2-pos-sample-s-all-1500'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]

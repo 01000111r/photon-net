@@ -3,13 +3,13 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("p3-pos-sample-s-all-2",)
-model_numbers = [50,100,200,400,800]
-input_positions = [0, 9]
+output_folder_names = ("p1-pos-sample-s-all-1500",)
+model_numbers = [1500]
+input_positions = [0]
 num_modes_circ = 10
 p_suc_inputs = 1
 average_input_combinations = True
-save_all_input_combinations = False
+save_all_input_combinations = True
 
 
 # NEW: evaluation mode flag – choose 'loss', 'acc', or 'both'
