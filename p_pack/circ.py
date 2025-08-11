@@ -356,11 +356,16 @@ for kk in range(MAX_PHOTONS+1):
             total      = jnp.sum(all_probs, axis=1, keepdims=True)
             if globals.use_symmetry_parity:
                 mid = (globals.num_modes_circ - 1) / 2
-                parity = jnp.mod(jnp.sum(combos_k - mid, axis=1), 2)
+                parity = jnp.mod(jnp.sum(combos_k - mid, axis=1), globals.num_classes)
             else:
-                parity = jnp.sum(combos_k, axis=1) % 2
-            plus1      = all_probs * parity
-            bin_p      = jnp.sum(plus1, axis=1, keepdims=True) / total
+                parity = jnp.sum(combos_k, axis=1) % globals.num_classes
+
+            cls_probs = []
+            for cls in range(globals.num_classes):
+                mask = (parity == cls)
+                prob = jnp.sum(all_probs * mask, axis=1, keepdims=True) / total
+                cls_probs.append(prob)
+            bin_p = jnp.concatenate(cls_probs, axis=1)
 
             # —— PADDING STEP ——  
             # pad combos-axis to max_n_combos:
@@ -430,9 +435,9 @@ def sample_survivors(presence_mask: jnp.ndarray, keep_probs_all: jnp.ndarray, ke
 @jax.jit
 def compute_probs_given_survivors(unitaries, survivors, k):
     # this single switch now dispatches *all* the logic
-    all_extracts, all_probs, binary_probs = \
+    all_extracts, all_probs, class_probs = \
         jax.lax.switch(k, branch_fns, operand=(unitaries, survivors))
-    return all_extracts, all_probs, binary_probs
+    return all_extracts, all_probs, class_probs
 
 
 

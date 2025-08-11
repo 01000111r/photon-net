@@ -115,6 +115,31 @@ phase_init_value: float = None
 # checkpoints are saved.
 save_points: list[int] = []
 
+# Dataset configuration
+# ---------------------
+# ``dataset_name`` selects which preprocessed PCA dataset to load.  The
+# repository provides ``mnist_pca`` (original binary labels),
+# ``mnist_pca_test`` (binary with digit labels), ``mnist_pca_3`` and
+# ``mnist_pca_4`` for 3‑ and 4‑class problems respectively.
+dataset_name: str = "mnist_pca_test"
+
+# ``class_labels`` enumerates the label values present in the chosen
+# dataset.  It is used both for constructing file names and for mapping
+# model outputs to human‑readable labels.
+class_labels: list[int] = [3, 5]
+
+# When ``use_binary_labels`` is ``True`` the dataset encodes the two
+# classes using ``+1`` and ``-1``.  These values are converted to
+# ``class_labels`` during loading.  Set to ``False`` when the dataset
+# already uses the values from ``class_labels`` (e.g. digits ``3`` and
+# ``5``).
+use_binary_labels: bool = False
+
+# The number of classes in the current problem.  This value is referenced
+# in several JAX‑compiled functions and therefore kept as a global for
+# convenience.
+num_classes: int = len(class_labels)
+
 
 
 max_photons = 3
@@ -171,8 +196,6 @@ def input_config_maker(input : str, num_modes: int, p_suc_inputs:list) -> tuple:
 # Get the project root directory. Assuming p_pack is a subfolder in your codebase.
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-# Directory for mnist_pca data folder (should be in the codebase).
-MNIST_PCA_DIR = PROJECT_ROOT / "mnist_pca"
 
 def get_mnist_csv_filepath(split: str) -> str:
     """
@@ -184,9 +207,10 @@ def get_mnist_csv_filepath(split: str) -> str:
     Returns:
         str: Full platform-independent file path.
     """
-    # Construct filename e.g. "mnist_3-5_3d_train.csv"
-    fname = f"mnist_3-5_{num_features}d_{split}.csv"
-    return str(MNIST_PCA_DIR / fname)
+    digits = "-".join(str(d) for d in class_labels)
+    fname = f"mnist_{digits}_{num_features}d_{split}.csv"
+    data_dir = PROJECT_ROOT / dataset_name
+    return str(data_dir / fname)
 
 
 def load_and_split_data(num_features):
@@ -213,6 +237,12 @@ def load_and_split_data(num_features):
     train_labels = data_train[:,num_features]
     test_set = data_test[:,:num_features]
     test_labels = data_test[:,num_features]
+
+    if use_binary_labels:
+        # Map old {-1,1} encoding to the values provided in ``class_labels``.
+        assert len(class_labels) == 2, "Binary label conversion expects two class_labels"
+        train_labels = jnp.where(train_labels == 1, class_labels[0], class_labels[1])
+        test_labels = jnp.where(test_labels == 1, class_labels[0], class_labels[1])
 
     return train_set, train_labels, test_set, test_labels
 

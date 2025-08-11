@@ -11,7 +11,6 @@ p_suc_inputs = 1
 average_input_combinations = True
 save_all_input_combinations = True
 
-
 # NEW: evaluation mode flag – choose 'loss', 'acc', or 'both'
 evaluation_mode = 'both'  # ← change to 'loss', 'acc', or 'both'
 

@@ -4,7 +4,7 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 1500
+g.num_steps = 500
 g.training_rate = 0.1
 g.save_points = []  # steps at which to save model parameters
 
@@ -28,7 +28,7 @@ g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0, 9]
+g.input_positions = [0]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -55,7 +55,14 @@ g.shuffle_key = g.jax.random.PRNGKey(52)
 # Key used when sampling new input photon positions each optimisation step.
 g.position_key = g.jax.random.PRNGKey(7)
 # If ``True`` a fresh set of input positions is sampled every update.
-g.position_sampling: bool = True
+g.position_sampling: bool = False
+
+
+g.dataset_name = "mnist_pca_3"
+g.class_labels = [3, 5, 7]
+g.use_binary_labels = False
+g.num_classes = len(g.class_labels)
+
 
 
 
@@ -76,7 +83,7 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p2-pos-sample-s-all-1500'
+folder_name = 'multi-data-test'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]

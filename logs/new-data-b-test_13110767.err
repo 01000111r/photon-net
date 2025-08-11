@@ -1,0 +1,27 @@
+cpu-bind=MASK - bp1-compute001, task  0  0 [1206122]: mask 0x3fff003fff set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 78, in <module>
+    train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_features)
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/globals.py", line 274, in final_load_data
+    split_data = load_and_split_data(num_feature)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/globals.py", line 226, in load_and_split_data
+    data_train = pd.read_csv(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/user/home/zj22662/photon-net/mnist_pca/mnist_-1-1_5d_train.csv'

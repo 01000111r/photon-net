@@ -117,6 +117,10 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "symmetry_parity": np.asarray(g.use_symmetry_parity),
         "position_key": np.asarray(g.position_key),
         "position_sampling": np.asarray(g.position_sampling),
+        "dataset_name": np.asarray(g.dataset_name),
+        "class_labels": np.asarray(g.class_labels),
+        "use_binary_labels": np.asarray(g.use_binary_labels),
+        "num_classes": np.asarray(g.num_classes),
     }
     np.savez_compressed(globals_path, **to_save)
     print(f"[save_run] Saved globals → {globals_path}")
@@ -191,6 +195,10 @@ def evaluate_and_save_test_loss(
             # if hasattr(g, "phase_key"):
             #     g.phase_key = g.jnp.asarray(g.phase_key)
 
+    # some globals (like num_classes) depend on class_labels
+    if hasattr(g, "class_labels"):
+        g.num_classes = len(g.class_labels)
+
     # override the input configuration
     g.input_config = input_config
 
@@ -211,7 +219,7 @@ def evaluate_and_save_test_loss(
 
     def _single_metrics(cfg):
         mask_local = jnp.asarray(cfg[0], dtype=jnp.int32)
-        _, binary_predictions_plus, n_p, _ = model.predict_reupload(
+        _, class_probs, n_p, _ = model.predict_reupload(
             phases,
             test_set,
             weights,
@@ -221,14 +229,16 @@ def evaluate_and_save_test_loss(
             reup_freq,
             int(g.shuffle_type),
         )
-        binary_predictions_plus = jnp.abs(jnp.squeeze(binary_predictions_plus))
-        predicted_labels = jnp.where(binary_predictions_plus >= 0.5, 1, -1)
+        class_probs = jnp.asarray(class_probs)
+        # predicted label indices
+        pred_idx = jnp.argmax(class_probs, axis=1)
+        class_array = jnp.asarray(g.class_labels)
+        predicted_labels = class_array[pred_idx]
         correctness = (predicted_labels == test_labels).astype(jnp.float32)
         accuracy = jnp.mean(correctness) * 100.0
 
-        adjusted_predictions = jnp.where(test_labels == 1, binary_predictions_plus, 1.0 - binary_predictions_plus)
-
-        loss_val = ((1.0 - adjusted_predictions) ** 2).mean()
+        labels_one_hot = (test_labels[:, None] == class_array[None, :]).astype(jnp.float32)
+        loss_val = jnp.mean(jnp.sum((labels_one_hot - class_probs) ** 2, axis=1))
         return accuracy, loss_val
 
     if average_input_combinations:

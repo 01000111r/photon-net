@@ -39,14 +39,10 @@ def loss(phases: jnp.array,
     """
     num_samples = jax.lax.stop_gradient(data_set).shape[0]
    
-    _, binary_predictions_plus, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
+    _, class_probs, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
 
-
-    binary_predictions_plus = binary_predictions_plus.squeeze() # to match shapes
-    binary_predictions_plus = jnp.abs(binary_predictions_plus) # as mentioned previously, we dont use the negative probs
-    # Adjust predictions based on labels: if label == +1, keep it; else flip it
-    adjusted_predictions = jnp.where(labels == 1, binary_predictions_plus, (1.0 - (binary_predictions_plus)))
-
+    class_array = jnp.asarray(globals.class_labels)
+    labels_one_hot = (labels[:, None] == class_array[None, :]).astype(jnp.float32)
 
     
     if loss_function == 0:
@@ -56,6 +52,6 @@ def loss(phases: jnp.array,
         # Scaling by photon loss scale - not sure if this is the best way to do it, maybe should be in optimisation step?
         weight = jnp.exp(photon_loss_scale * ((jnp.array(n_p, dtype=jnp.float32) / jnp.array(aim, dtype=jnp.float32)) - 1))
 
-    loss = (weight * (1.0 - adjusted_predictions)**2).mean()
+    loss = (weight * jnp.sum((labels_one_hot - class_probs) ** 2, axis=1)).mean()
 
     return loss, (n_p, key)
