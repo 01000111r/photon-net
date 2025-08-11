@@ -44,8 +44,8 @@ g.loss_function = 0
 g.phase_init_value = None
 
 # batching
-g.batch_mode = 'full'
-g.mini_batch_size = 1000
+g.batch_mode = 'mini'
+g.mini_batch_size = 11000
 
 # random seed
 g.master_key = g.jax.random.PRNGKey(2)
