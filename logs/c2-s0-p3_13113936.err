@@ -1,0 +1,76 @@
+cpu-bind=MASK - bp1-compute092, task  0  0 [1286356]: mask 0x7ffe007ffe set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/lax/lax.py", line 216, in _broadcast_shapes_uncached
+    return _try_broadcast_shapes(*rank_promoted_shapes, name='broadcast_shapes')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/lax/lax.py", line 133, in _try_broadcast_shapes
+    raise TypeError(f'{name} got incompatible shapes for broadcasting: '
+TypeError: broadcast_shapes got incompatible shapes for broadcasting: (1, 2), (11531, 5).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/lax/lax.py", line 194, in broadcast_shapes
+    return _broadcast_shapes_cached(*shapes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/util.py", line 298, in wrapper
+    return cached(config.trace_context() if trace_context_in_key else _ignore(),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/util.py", line 292, in cached
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/lax/lax.py", line 200, in _broadcast_shapes_cached
+    return _broadcast_shapes_uncached(*shapes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/lax/lax.py", line 219, in _broadcast_shapes_uncached
+    raise ValueError(f"Incompatible shapes for broadcasting: shapes={list(shapes)}") from err
+ValueError: Incompatible shapes for broadcasting: shapes=[(2,), (11531, 5)]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/lax/lax.py", line 216, in _broadcast_shapes_uncached
+    return _try_broadcast_shapes(*rank_promoted_shapes, name='broadcast_shapes')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/lax/lax.py", line 133, in _try_broadcast_shapes
+    raise TypeError(f'{name} got incompatible shapes for broadcasting: '
+TypeError: broadcast_shapes got incompatible shapes for broadcasting: (1, 2), (11531, 5).
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 162, in <module>
+    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)
+  File "/user/home/zj22662/photon-net/reup_vary_new.py", line 127, in data_prod_iterator
+    initial_loss, (n0, key) = loss.loss(
+                              ^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/loss.py", line 42, in loss
+    _, class_probs, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/model.py", line 111, in predict_reupload
+    _, _, probs, class_probs, n_p, key = full_unitaries_data_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/model.py", line 45, in full_unitaries_data_reupload
+    unitaries = circ.data_upload(weights[0, :] * data_set)
+                                 ~~~~~~~~~~~~~~^~~~~~~~~~
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/array_methods.py", line 1125, in op
+    return getattr(self.aval, f"_{name}")(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/array_methods.py", line 586, in deferring_binary_op
+    return binary_op(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/ufunc_api.py", line 183, in __call__
+    return call(*args)
+           ^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/ufuncs.py", line 1279, in multiply
+    x, y = promote_args("multiply", x, y)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/util.py", line 229, in promote_args
+    return promote_shapes(fun_name, *promote_dtypes(*args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/util.py", line 65, in promote_shapes
+    result_rank = len(lax.broadcast_shapes(*shapes))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Incompatible shapes for broadcasting: shapes=[(2,), (11531, 5)]
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

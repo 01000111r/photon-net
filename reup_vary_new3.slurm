@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=c2-s0-p3
+#SBATCH --job-name=c2-s2-p3
 #SBATCH --time=04:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_vary_new.py 
+python reup_vary_new3.py 

@@ -17,7 +17,7 @@ g.reup_is_tuple = False
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
 # 2 - reverse the image every other upload layer
-g.shuffle_type = 0
+g.shuffle_type = 2
 
 # dataset parameters
 g.num_features = 5
@@ -81,7 +81,7 @@ train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_feature
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p3-dim-vary-s0-c2'
+folder_name = 'p3-dim-vary-s2-c2'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
