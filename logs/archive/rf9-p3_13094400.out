@@ -1,0 +1,13 @@
+Processing folder: /user/home/zj22662/work/reup-tuple-test
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/reup-tuple-test/test-loss-25/t0s1.npz
+m0s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/reup-tuple-test/test-loss-50/t0s1.npz
+m0s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/reup-tuple-test/test-loss-100/t0s1.npz
+m0s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/reup-tuple-test/test-loss-200/t0s1.npz
+m0s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/reup-tuple-test/test-loss-400/t0s1.npz
+m0s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/reup-tuple-test/test-loss-800/t0s1.npz
+m0s1.npz done

@@ -102,6 +102,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "p_suc_inputs":   np.asarray(g.p_suc_inputs),
         "input_positions": np.asarray(g.input_positions),
         "input_config":   np.asarray(g.input_config[0]),
+        "prob_config":   np.asarray(g.input_config[1]),
         "aim":            np.asarray(g.aim),
         "discard":        np.asarray(g.discard),
         "discard_condition": np.asarray(g.discard_condition),

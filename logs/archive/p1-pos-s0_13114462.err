@@ -1,0 +1,10 @@
+cpu-bind=MASK - bp1-compute016, task  0  0 [3921558]: mask 0xfffc000fffc0 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/calc_test2.py", line 92, in <module>
+    run_evaluation(hard_predict=False)
+  File "/user/home/zj22662/photon-net/calc_test2.py", line 87, in run_evaluation
+    iterate_models(output_folder, results_subfolder, model_number, input_config, hard_predict)
+  File "/user/home/zj22662/photon-net/calc_test2.py", line 62, in iterate_models
+    probs = tuple(float(x) for x in data["p_suc_inputs"].tolist())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'int' object is not iterable

@@ -1,0 +1,11 @@
+Processing folder: /user/home/zj22662/work/new-test-test
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/new-test-test/test-acc-500/t0f0.npz
+m0f0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/new-test-test/test-acc-500/t1f1.npz
+m1f1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/new-test-test/test-acc-500/t2f2.npz
+m2f2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/new-test-test/test-acc-500/t3f3.npz
+m3f3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/new-test-test/test-acc-500/t4f4.npz
+m4f4.npz done

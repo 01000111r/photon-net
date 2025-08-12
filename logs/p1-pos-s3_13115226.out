@@ -1,0 +1,162 @@
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t0ftuple[0, 4, 9].npz
+m0ftuple[0, 4, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t1ftuple[0, 5, 9].npz
+m1ftuple[0, 5, 9].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t2ftuple[1, 4, 8].npz
+m2ftuple[1, 4, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t3ftuple[1, 5, 8].npz
+m3ftuple[1, 5, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t4ftuple[4, 6, 8].npz
+m4ftuple[4, 6, 8].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t5ftuple[0, 2, 4].npz
+m5ftuple[0, 2, 4].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t6ftuple[3, 5, 7].npz
+m6ftuple[3, 5, 7].npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t7ftuple[2, 4, 6].npz
+m7ftuple[2, 4, 6].npz done

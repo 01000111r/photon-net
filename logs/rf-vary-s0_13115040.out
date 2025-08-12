@@ -1,0 +1,80 @@
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m0ftuple[0, 4, 9].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m0ftuple[0, 4, 9].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m0ftuple[0, 4, 9].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m0ftuple[0, 4, 9].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m0ftuple[0, 4, 9].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it0ftuple[0, 4, 9].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it0ftuple[0, 4, 9]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m0ftuple[0, 4, 9].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[0, 4, 9] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m1ftuple[0, 5, 9].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m1ftuple[0, 5, 9].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m1ftuple[0, 5, 9].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m1ftuple[0, 5, 9].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m1ftuple[0, 5, 9].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it1ftuple[0, 5, 9].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it1ftuple[0, 5, 9]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m1ftuple[0, 5, 9].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[0, 5, 9] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m2ftuple[1, 4, 8].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m2ftuple[1, 4, 8].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m2ftuple[1, 4, 8].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m2ftuple[1, 4, 8].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m2ftuple[1, 4, 8].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it2ftuple[1, 4, 8].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it2ftuple[1, 4, 8]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m2ftuple[1, 4, 8].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[1, 4, 8] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m3ftuple[1, 5, 8].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m3ftuple[1, 5, 8].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m3ftuple[1, 5, 8].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m3ftuple[1, 5, 8].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m3ftuple[1, 5, 8].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it3ftuple[1, 5, 8].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it3ftuple[1, 5, 8]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m3ftuple[1, 5, 8].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[1, 5, 8] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m4ftuple[4, 6, 8].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m4ftuple[4, 6, 8].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m4ftuple[4, 6, 8].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m4ftuple[4, 6, 8].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m4ftuple[4, 6, 8].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it4ftuple[4, 6, 8].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it4ftuple[4, 6, 8]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m4ftuple[4, 6, 8].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[4, 6, 8] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m5ftuple[0, 2, 4].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m5ftuple[0, 2, 4].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m5ftuple[0, 2, 4].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m5ftuple[0, 2, 4].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m5ftuple[0, 2, 4].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it5ftuple[0, 2, 4].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it5ftuple[0, 2, 4]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m5ftuple[0, 2, 4].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[0, 2, 4] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m6ftuple[3, 5, 7].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m6ftuple[3, 5, 7].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m6ftuple[3, 5, 7].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m6ftuple[3, 5, 7].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m6ftuple[3, 5, 7].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it6ftuple[3, 5, 7].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it6ftuple[3, 5, 7]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m6ftuple[3, 5, 7].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[3, 5, 7] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m7ftuple[2, 4, 6].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m7ftuple[2, 4, 6].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m7ftuple[2, 4, 6].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m7ftuple[2, 4, 6].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m7ftuple[2, 4, 6].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it7ftuple[2, 4, 6].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it7ftuple[2, 4, 6]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m7ftuple[2, 4, 6].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0/run_log.yaml
+tuple[2, 4, 6] done

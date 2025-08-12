@@ -72,8 +72,7 @@ g.max_photons = 3 # maximum photon number for building probability calculating f
 
 from p_pack import pre_p, circ, model, loss, optimiser, train, utils
 
-# ----- Load data -----
-train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_features)
+
 
 
 
@@ -111,7 +110,8 @@ def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder
         g.num_modes_circ = g.num_features * 2
         g.depth = g.num_features * 2
         g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
-     
+        # ----- Load data -----
+        train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_features)
 
         # Initialize phases
         init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)

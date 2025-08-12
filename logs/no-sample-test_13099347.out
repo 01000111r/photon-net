@@ -1,6 +1,0 @@
-[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p2-pos-sample-s0/ModelParams1000/m0s0.npz
-[save_run] Saved outputs → /user/home/zj22662/work/p2-pos-sample-s0/Learning/it0s0.npz
-[save_run] Saved globals → /user/home/zj22662/work/p2-pos-sample-s0/Learning/it0s0g.npz
-[save_run] Saved final parameters → /user/home/zj22662/work/p2-pos-sample-s0/ModelParams1000/m0s0.npz
-[save_run] Appended entry to data_log and /user/home/zj22662/work/p2-pos-sample-s0/run_log.yaml
-0 done

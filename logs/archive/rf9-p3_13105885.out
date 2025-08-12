@@ -1,0 +1,62 @@
+Processing folder: /user/home/zj22662/work/p2-pos-sample-s-all-2
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-50/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-50/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-50/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-100/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-100/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-100/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-200/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-200/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-200/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-400/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-400/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-400/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-800/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-800/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-loss-av-800/t2s2.npz
+m2s2.npz done
+Processing folder: /user/home/zj22662/work/p2-pos-sample-s-all-2
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-50/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-50/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-50/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-100/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-100/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-100/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-200/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-200/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-200/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-400/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-400/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-400/t2s2.npz
+m2s2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-800/t0s0.npz
+m0s0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-800/t1s1.npz
+m1s1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p2-pos-sample-s-all-2/test-acc-av-800/t2s2.npz
+m2s2.npz done

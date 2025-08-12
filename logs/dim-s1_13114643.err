@@ -1,0 +1,41 @@
+cpu-bind=MASK - bp1-compute015, task  0  0 [3546668]: mask 0x3fff0003fff00 set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/calc_test2.py", line 95, in <module>
+    run_evaluation(hard_predict=False)
+  File "/user/home/zj22662/photon-net/calc_test2.py", line 90, in run_evaluation
+    iterate_models(output_folder, results_subfolder, model_number, input_config, hard_predict)
+  File "/user/home/zj22662/photon-net/calc_test2.py", line 70, in iterate_models
+    utils.evaluate_and_save_test_loss(
+  File "/user/home/zj22662/photon-net/p_pack/utils.py", line 268, in evaluate_and_save_test_loss
+    acc, l_val = _single_metrics(input_config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/utils.py", line 223, in _single_metrics
+    _, class_probs, n_p, _ = model.predict_reupload(
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/model.py", line 111, in predict_reupload
+    _, _, probs, class_probs, n_p, key = full_unitaries_data_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/model.py", line 84, in full_unitaries_data_reupload
+    sub_unitaries, label_probs, class_probs, n_p, key = circ.measurement(unitaries, mask, input_config, key)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/circ.py", line 460, in measurement
+    surv, k, key = sample_survivors(presence_mask, keep_probs_all, key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/p_pack/circ.py", line 418, in sample_survivors
+    u < keep_probs_all,   # if you wanted it
+    ^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/array_methods.py", line 1125, in op
+    return getattr(self.aval, f"_{name}")(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/array_methods.py", line 586, in deferring_binary_op
+    return binary_op(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/ufuncs.py", line 2164, in less
+    return _complex_comparison(lax.lt, *promote_args("less", x, y))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/user/home/zj22662/photon-net/venv2/lib/python3.12/site-packages/jax/_src/numpy/ufuncs.py", line 1977, in _complex_comparison
+    return lax_op(x, y)
+           ^^^^^^^^^^^^
+TypeError: lt got incompatible shapes for broadcasting: (4,), (10,).
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

@@ -1,0 +1,38 @@
+Processing folder: /user/home/zj22662/work/p3-dim-vary-s1-c2
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t0p2.npz
+m0p2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t1p3.npz
+m1p3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t2p4.npz
+m2p4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t3p5.npz
+m3p5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t4p6.npz
+m4p6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t5p7.npz
+m5p7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t6p8.npz
+m6p8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t7p9.npz
+m7p9.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-loss-std-1000/t8p10.npz
+m8p10.npz done
+Processing folder: /user/home/zj22662/work/p3-dim-vary-s1-c2
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t0p2.npz
+m0p2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t1p3.npz
+m1p3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t2p4.npz
+m2p4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t3p5.npz
+m3p5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t4p6.npz
+m4p6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t5p7.npz
+m5p7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t6p8.npz
+m6p8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t7p9.npz
+m7p9.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p3-dim-vary-s1-c2/test-acc-std-1000/t8p10.npz
+m8p10.npz done

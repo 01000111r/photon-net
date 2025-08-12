@@ -3,18 +3,23 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("p1-pos-sample-s-all-1500",)
-model_numbers = [1500]
+output_folder_names = ("p3-dim-vary-s1-c2",)
+model_numbers = [1000]
 input_positions = [0]
 num_modes_circ = 10
 p_suc_inputs = 1
-average_input_combinations = True
-save_all_input_combinations = True
-
+average_input_combinations = False
+save_all_input_combinations = False
+# If ``True`` the input configuration saved during training is used for
+# evaluation.  When ``False`` a new configuration is built from the values
+# above.
+use_trained_input_config = True
 # NEW: evaluation mode flag – choose 'loss', 'acc', or 'both'
 evaluation_mode = 'both'  # ← change to 'loss', 'acc', or 'both'
 
-input_config = g.input_config_maker(input_positions, num_modes_circ, p_suc_inputs)
+input_config = None if use_trained_input_config else g.input_config_maker(
+    input_positions, num_modes_circ, p_suc_inputs
+)
 
 
 def get_test_name(hard_predict):
@@ -50,10 +55,23 @@ def iterate_models(folder: Path, subfolder: str, model_number: int, inp_conf, ha
 
         out_name = "t" + core
         out_path = folder / subfolder / out_name
+
+        if use_trained_input_config:
+            with g.np.load(globals_path, allow_pickle=True) as data:
+                positions = data["input_config"].tolist()
+                #probs = data["prob_config"].tolist()
+                length = len(positions)
+                probs = [1] * length
+                positions = tuple(positions)
+                probs = tuple(probs)
+                cfg = tuple((positions, probs))
+        else:
+            cfg = inp_conf
+
         utils.evaluate_and_save_test_loss(
             str(param_file),
             str(globals_path),
-            inp_conf,
+            cfg,
             str(out_path),
             hard_predict=hard_predict,
             average_input_combinations=average_input_combinations,
