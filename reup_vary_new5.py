@@ -86,14 +86,16 @@ folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [tuple[0,4,9],
-               tuple[0,5,9],
-               tuple[1,4,8],
-               tuple[1,5,8],
-               tuple[4,6,8],
-               tuple[0,2,4],
-               tuple[3,5,7],
-               tuple[2,4,6],
+varied_list = [(0, 4, 9),
+               (0, 5, 9),
+               (1, 4, 8),
+               (1, 5, 8),
+               (4, 6, 8),
+               (0, 2, 4),
+               (3, 5, 7),
+               (2, 4, 6),
+               (1, 4, 8),
+               (1, 5, 8)
                ]
 # name of the global variable to modify during iteration
 global_var_name = "reupload_freq"
@@ -122,7 +124,7 @@ def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder
         train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_features)
 
         # Initialize phases
-        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
+        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features, reupload_freq=g.reupload_freq)
         weights_data = g.jnp.ones(shape=[init_phases.shape[0], init_phases.shape[1]])
 
         if g.position_sampling:

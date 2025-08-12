@@ -86,26 +86,32 @@ folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+varied_list = [3, 4, 5, 6, 7, 8, 9, 10]
+
 # name of the global variable to modify during iteration
-global_var_name = "num_features"
-# set to True if ``global_var_name`` should be treated as a PRNGKey seed
-is_key = False
+reupload_list = [2, 3, 4, 5, 6, 7, 8, 9]
 file_indent = 'p'
 start_idx = 0
 
+# global_var_name = "num_features"
+# # set to True if ``global_var_name`` should be treated as a PRNGKey seed
+# is_key = False
+# file_indent = 'p'
+# start_idx = 0
 
-def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder, file_indent, start_idx):
-    """Iterate over variable_list, update global variable and run training."""
-    for idx, var in enumerate(variable_list, start=start_idx):
-        test_name = f"{idx}{file_indent}{var}.npz"
-        global_name = f"{idx}{file_indent}{var}g.npz"
+
+
+
+
+def data_prod_iterator(feature_list, reupload_list, log_file, folder, file_indent, start_idx):
+    """Iterate over paired lists of features and reupload freqs."""
+    for idx, (feat, rfreq) in enumerate(zip(feature_list, reupload_list), start=start_idx):
+        test_name = f"{idx}{file_indent}f{feat}r{rfreq}.npz"
+        global_name = f"{idx}{file_indent}f{feat}r{rfreq}g.npz"
 
          
-        if is_key:
-            setattr(g, global_var_name, g.jax.random.PRNGKey(var))
-        else:
-            setattr(g, global_var_name, var)
+        g.num_features = feat
+        g.reupload_freq = rfreq
 
         g.num_modes_circ = g.num_features * 2
         g.depth = g.num_features * 2
@@ -155,8 +161,8 @@ def data_prod_iterator(variable_list, globals_var_name, is_key, log_file, folder
         )
 
         utils.save_run(log_file, folder, test_name, global_name, init_carry)
-        print(var, "done")
+        print(feat, rfreq, "done")
 
 
 if __name__ == "__main__":
-    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)
+    data_prod_iterator(varied_list, reupload_list, log_file, folder, file_indent, start_idx)

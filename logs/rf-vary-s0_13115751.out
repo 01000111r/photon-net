@@ -1,0 +1,30 @@
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams50/m0f(0, 4, 9).npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams100/m0f(0, 4, 9).npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams200/m0f(0, 4, 9).npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams400/m0f(0, 4, 9).npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams800/m0f(0, 4, 9).npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/Learning/it0f(0, 4, 9).npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/Learning/it0f(0, 4, 9)g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams800/m0f(0, 4, 9).npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0-test/run_log.yaml
+(0, 4, 9) done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams50/m1f(0, 5, 9).npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams100/m1f(0, 5, 9).npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams200/m1f(0, 5, 9).npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams400/m1f(0, 5, 9).npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams800/m1f(0, 5, 9).npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/Learning/it1f(0, 5, 9).npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/Learning/it1f(0, 5, 9)g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams800/m1f(0, 5, 9).npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0-test/run_log.yaml
+(0, 5, 9) done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams50/m2f(1, 4, 8).npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams100/m2f(1, 4, 8).npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams200/m2f(1, 4, 8).npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams400/m2f(1, 4, 8).npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams800/m2f(1, 4, 8).npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/Learning/it2f(1, 4, 8).npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/Learning/it2f(1, 4, 8)g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-reup-pos-vary-s0-test/ModelParams800/m2f(1, 4, 8).npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-reup-pos-vary-s0-test/run_log.yaml
+(1, 4, 8) done
