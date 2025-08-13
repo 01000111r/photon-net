@@ -118,6 +118,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "symmetry_parity": np.asarray(g.use_symmetry_parity),
         "position_key": np.asarray(g.position_key),
         "position_sampling": np.asarray(g.position_sampling),
+        "pos_allowed": np.asarray(g.pos_allowed),
         "dataset_name": np.asarray(g.dataset_name),
         "class_labels": np.asarray(g.class_labels),
         "use_binary_labels": np.asarray(g.use_binary_labels),
@@ -315,6 +316,9 @@ def evaluate_and_save_test_loss(
         "phase_init_value": np.asarray(g.phase_init_value),
         "shuffle_type": np.asarray(g.shuffle_type),
         "symmetry_parity": np.asarray(g.use_symmetry_parity),
+        "position_key": np.asarray(g.position_key),
+        "position_sampling": np.asarray(g.position_sampling),
+        "pos_allowed": np.asarray(g.pos_allowed),
         "accuracy": np.asarray(hard_predict),  # convert to percentage
         "average_input_combinations": np.asarray(average_input_combinations),
         "save_all_combinations": np.asarray(save_all_combinations),

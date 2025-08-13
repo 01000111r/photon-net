@@ -56,6 +56,11 @@ g.shuffle_key = g.jax.random.PRNGKey(52)
 g.position_key = g.jax.random.PRNGKey(7)
 # If ``True`` a fresh set of input positions is sampled every update.
 g.position_sampling: bool = False
+# Optional mask restricting which input modes may be chosen when
+# ``position_sampling`` is enabled.  Each entry corresponds to a circuit
+# mode; ``1`` marks the mode as eligible while ``0`` forbids it.  By
+# default all modes are allowed.
+pos_allowed = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 g.dataset_name = "mnist_pca_test"
 g.class_labels = [3, 5]
