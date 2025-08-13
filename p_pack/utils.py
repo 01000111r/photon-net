@@ -148,7 +148,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
             f.write(f"Params file:   {params_path}\n\n")
             f.write("Globals snapshot:\n")
             for name, arr in to_save.items():
-                if isinstance(arr, np.ndarray) and arr.size < 15:
+                if isinstance(arr, np.ndarray) and arr.size < 40:
                     summary = arr.tolist()
                 else:
                     summary = f"<array shape={arr.shape}>"
@@ -318,6 +318,10 @@ def evaluate_and_save_test_loss(
         "accuracy": np.asarray(hard_predict),  # convert to percentage
         "average_input_combinations": np.asarray(average_input_combinations),
         "save_all_combinations": np.asarray(save_all_combinations),
+        "dataset_name": np.asarray(g.dataset_name),
+        "class_labels": np.asarray(g.class_labels),
+        "use_binary_labels": np.asarray(g.use_binary_labels),
+        "num_classes": np.asarray(g.num_classes),
     }
 
     with open(log_path, "a") as f:
@@ -328,7 +332,7 @@ def evaluate_and_save_test_loss(
         f.write(f"Test loss file: {output_path}\n\n")
         f.write("Globals snapshot:\n")
         for name, arr in to_save.items():
-            if isinstance(arr, np.ndarray) and arr.size < 15:
+            if isinstance(arr, np.ndarray) and arr.size < 40:
                 summary = arr.tolist()
             else:
                 summary = f"<array shape={arr.shape}>"

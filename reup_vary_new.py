@@ -4,9 +4,9 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 1000
+g.num_steps = 500
 g.training_rate = 0.1
-g.save_points = [1000]  # steps at which to save model parameters
+g.save_points = [500]  # steps at which to save model parameters
 
 # reupload configuration
 g.reupload_freq = 4
@@ -62,11 +62,7 @@ g.class_labels = [3, 5]
 g.use_binary_labels = False
 g.num_classes = len(g.class_labels)
 
-#circuit dimensions
-g.num_modes_circ = g.num_features * 2
-g.depth = g.num_features * 2
-# build input config
-g.input_config = g.input_config_maker(g.input_positions, g.num_modes_circ, g.p_suc_inputs)
+
 
 g.max_photons = 3 # maximum photon number for building probability calculating functions
 
@@ -80,16 +76,16 @@ from p_pack import pre_p, circ, model, loss, optimiser, train, utils
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p3-dim-vary-s0-c2'
+folder_name = 'p3-dim-vary-s0-c2-end2'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [3, 4, 5, 6, 7, 8, 9, 10]
+varied_list = [8,9]
 
 # name of the global variable to modify during iteration
-reupload_list = [2, 3, 4, 5, 6, 7, 8, 9]
+reupload_list = [7,8]
 file_indent = 'p'
 start_idx = 0
 
@@ -120,7 +116,7 @@ def data_prod_iterator(feature_list, reupload_list, log_file, folder, file_inden
         train_set, train_labels, test_set, test_labels = g.final_load_data(g.num_features)
 
         # Initialize phases
-        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features)
+        init_phases = circ.initialize_phases(g.depth, 2 * g.num_features, reupload_freq=g.reupload_freq)
         weights_data = g.jnp.ones(shape=[init_phases.shape[0], init_phases.shape[1]])
 
         if g.position_sampling:

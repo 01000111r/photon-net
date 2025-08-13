@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=dim-s1
+#SBATCH --job-name=dim-c2
 #SBATCH --time=01:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

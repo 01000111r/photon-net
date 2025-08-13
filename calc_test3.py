@@ -3,7 +3,7 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("p3-dim-vary-s2-c2",)
+output_folder_names = ("p3-dim-vary-s0-c3","p3-dim-vary-s1-c3","p3-dim-vary-s2-c3")
 model_numbers = [1000]
 input_positions = [0]
 num_modes_circ = 10

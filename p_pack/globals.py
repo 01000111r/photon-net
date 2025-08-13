@@ -104,6 +104,13 @@ shuffle_key = jax.random.PRNGKey(42)
 position_key = jax.random.PRNGKey(7)
 # If ``True`` a fresh set of input positions is sampled every update.
 position_sampling: bool = False
+# Optional mask restricting which input modes may be chosen when
+# ``position_sampling`` is enabled.  Each entry corresponds to a circuit
+# mode; ``1`` marks the mode as eligible while ``0`` forbids it.  By
+# default all modes are allowed.
+pos_allowed = [1] * num_modes_circ
+
+
 # If set to a float value, all phases are initialised to this
 # constant instead of random values.  ``None`` keeps the random
 # initialisation behaviour.
@@ -290,9 +297,24 @@ def sample_input_config(key: jax.random.PRNGKey, mask: jnp.ndarray) -> jnp.ndarr
         jnp.ndarray: A new presence mask with the ones randomly permuted.
     """
 
-    mask = jnp.asarray(mask, dtype=jnp.int32)
-    perm = jax.random.permutation(key, mask.shape[0])
-    return tuple(mask[perm])
+    # Convert inputs to JAX arrays
+    base_mask = jnp.asarray(mask, dtype=jnp.int32)
+
+    # Number of photons we need to place
+    num_photons = jnp.sum(base_mask)
+
+    # Determine allowed indices using NumPy so the result is static during JIT.
+    allowed_indices_np = np.nonzero(np.asarray(pos_allowed))[0]
+    allowed_indices = jnp.asarray(allowed_indices_np, dtype=jnp.int32)
+
+    # Randomly permute allowed indices and select the first ``num_photons``
+    perm = jax.random.permutation(key, allowed_indices)
+    selector = jnp.arange(perm.shape[0]) < num_photons
+
+    new_mask = jnp.zeros(len(pos_allowed), dtype=jnp.int32)
+    new_mask = new_mask.at[perm].set(selector.astype(jnp.int32))
+    return tuple(new_mask)
+
 
 
 

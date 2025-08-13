@@ -1,0 +1,48 @@
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m0pf3r2.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it0pf3r2.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it0pf3r2g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m0pf3r2.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+3 2 done
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m1pf4r3.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it1pf4r3.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it1pf4r3g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m1pf4r3.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+4 3 done
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m2pf5r4.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it2pf5r4.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it2pf5r4g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m2pf5r4.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+5 4 done
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m3pf6r5.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it3pf6r5.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it3pf6r5g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m3pf6r5.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+6 5 done
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m4pf7r6.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it4pf7r6.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it4pf7r6g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m4pf7r6.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+7 6 done
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m5pf8r7.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it5pf8r7.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it5pf8r7g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m5pf8r7.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+8 7 done
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m6pf9r8.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it6pf9r8.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it6pf9r8g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m6pf9r8.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+9 8 done
+[save_run] Saved parameters at step 1000 → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m7pf10r9.npz
+[save_run] Saved outputs → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it7pf10r9.npz
+[save_run] Saved globals → /user/home/zj22662/work/p3-dim-vary-s1-c4/Learning/it7pf10r9g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p3-dim-vary-s1-c4/ModelParams1000/m7pf10r9.npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p3-dim-vary-s1-c4/run_log.yaml
+10 9 done

@@ -1,0 +1,606 @@
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-50/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-100/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-200/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-400/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-loss-std-800/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s1
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s2
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-50/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-100/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-200/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-400/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-loss-std-800/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-50/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-100/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-200/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-400/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s0/test-acc-std-800/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s1
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+Processing folder: /user/home/zj22662/work/p1-reup-pos-vary-s2
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-50/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-100/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-200/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-400/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t0f(0, 4, 9).npz
+m0f(0, 4, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t1f(0, 5, 9).npz
+m1f(0, 5, 9).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t2f(1, 4, 8).npz
+m2f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t3f(1, 5, 8).npz
+m3f(1, 5, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t4f(4, 6, 8).npz
+m4f(4, 6, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t5f(0, 2, 4).npz
+m5f(0, 2, 4).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t6f(3, 5, 7).npz
+m6f(3, 5, 7).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t7f(2, 4, 6).npz
+m7f(2, 4, 6).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t8f(1, 4, 8).npz
+m8f(1, 4, 8).npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-reup-pos-vary-s2/test-acc-std-800/t9f(1, 5, 8).npz
+m9f(1, 5, 8).npz done
