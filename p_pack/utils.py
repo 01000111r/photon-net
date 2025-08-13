@@ -119,6 +119,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "position_key": np.asarray(g.position_key),
         "position_sampling": np.asarray(g.position_sampling),
         "pos_allowed": np.asarray(g.pos_allowed),
+        "use_input_superposition": np.asarray(g.use_input_superposition),
         "dataset_name": np.asarray(g.dataset_name),
         "class_labels": np.asarray(g.class_labels),
         "use_binary_labels": np.asarray(g.use_binary_labels),
@@ -246,7 +247,9 @@ def evaluate_and_save_test_loss(
     if average_input_combinations:
         num_modes = len(input_config[0])
         photon_number = int(np.sum(input_config[0]))
-        combos = itertools.combinations(range(num_modes), photon_number)
+        # restrict combinations to modes flagged in ``pos_allowed``
+        allowed = [i for i, a in enumerate(g.pos_allowed[:num_modes]) if a]
+        combos = itertools.combinations(allowed, photon_number)
         accs, losses_list = [], []
         for combo in combos:
             arr = [0] * num_modes
@@ -319,6 +322,7 @@ def evaluate_and_save_test_loss(
         "position_key": np.asarray(g.position_key),
         "position_sampling": np.asarray(g.position_sampling),
         "pos_allowed": np.asarray(g.pos_allowed),
+        "use_input_superposition": np.asarray(g.use_input_superposition),
         "accuracy": np.asarray(hard_predict),  # convert to percentage
         "average_input_combinations": np.asarray(average_input_combinations),
         "save_all_combinations": np.asarray(save_all_combinations),

@@ -1,0 +1,10 @@
+cpu-bind=MASK - bp1-compute009, task  0  0 [1459858]: mask 0x3fff003fff set
+Traceback (most recent call last):
+  File "/user/home/zj22662/photon-net/reup_single.py", line 184, in <module>
+    data_prod_iterator(varied_list, global_var_name, is_key, log_file, folder, file_indent, start_idx)
+  File "/user/home/zj22662/photon-net/reup_single.py", line 149, in data_prod_iterator
+    initial_loss, (n0, key) = loss.loss(
+                              ^^^^^^^^^^
+TypeError: loss() missing 1 required positional argument: 'use_input_superposition'
+--------------------
+For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.

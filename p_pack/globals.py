@@ -147,6 +147,13 @@ use_binary_labels: bool = False
 # convenience.
 num_classes: int = len(class_labels)
 
+# When ``True`` the model uses a single-photon input that is uniformly
+# distributed over the modes indicated by ``input_config``'s presence mask.
+# The standard data re-uploading pipeline remains unchanged but final class
+# probabilities are computed directly from the output amplitudes rather than
+# via ``circ.measurement``.
+use_input_superposition: bool = False
+
 
 
 max_photons = 3

@@ -39,6 +39,7 @@ def train(init_carry, num_steps):
         globals.reupload_freq,
         globals.shuffle_type,
         globals.position_sampling,
+        globals.use_input_superposition,
     ),
     init_carry,
     steps,

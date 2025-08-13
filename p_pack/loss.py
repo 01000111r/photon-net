@@ -6,7 +6,7 @@ import jax
 from functools import partial
 
 
-@partial(jax.jit, static_argnames=['loss_function', 'reupload_freq', 'input_config', 'shuffle_type' ])
+@partial(jax.jit, static_argnames=['loss_function', 'reupload_freq', 'input_config', 'shuffle_type','use_input_superposition' ])
 def loss(phases: jnp.array,
          data_set: jnp.array,
          labels: jnp.array,
@@ -18,7 +18,8 @@ def loss(phases: jnp.array,
          loss_function,
          aim,
          reupload_freq,
-         shuffle_type
+         shuffle_type,
+         use_input_superposition
         ) -> jnp.array:
     """
     Calculates the mean squared error loss for the photonic classifier.
@@ -39,7 +40,14 @@ def loss(phases: jnp.array,
     """
     num_samples = jax.lax.stop_gradient(data_set).shape[0]
    
-    _, class_probs, n_p, key = model.predict_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
+    if use_input_superposition:
+        _, class_probs, n_p, key = model.predict_superposition(
+            phases, data_set, weights, mask, key, reupload_freq, shuffle_type
+        )
+    else:
+        _, class_probs, n_p, key = model.predict_reupload(
+            phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type
+        )
 
     class_array = jnp.asarray(globals.class_labels)
     labels_one_hot = (labels[:, None] == class_array[None, :]).astype(jnp.float32)
