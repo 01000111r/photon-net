@@ -1,0 +1,102 @@
+Processing folder: /user/home/zj22662/work/p1-dim-vary-s0-c4
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t0ff3r2.npz
+m0ff3r2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t1ff4r3.npz
+m1ff4r3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t2ff5r4.npz
+m2ff5r4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t3ff6r5.npz
+m3ff6r5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t4ff7r6.npz
+m4ff7r6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t5ff8r7.npz
+m5ff8r7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t6ff9r8.npz
+m6ff9r8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-loss-std-500/t7ff10r9.npz
+m7ff10r9.npz done
+Processing folder: /user/home/zj22662/work/p1-dim-vary-s1-c4
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t0ff3r2.npz
+m0ff3r2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t1ff4r3.npz
+m1ff4r3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t2ff5r4.npz
+m2ff5r4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t3ff6r5.npz
+m3ff6r5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t4ff7r6.npz
+m4ff7r6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t5ff8r7.npz
+m5ff8r7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t6ff9r8.npz
+m6ff9r8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-loss-std-500/t7ff10r9.npz
+m7ff10r9.npz done
+Processing folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t0ff3r2.npz
+m0ff3r2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t1ff4r3.npz
+m1ff4r3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t2ff5r4.npz
+m2ff5r4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t3ff6r5.npz
+m3ff6r5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t4ff7r6.npz
+m4ff7r6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t5ff8r7.npz
+m5ff8r7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t6ff9r8.npz
+m6ff9r8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-loss-std-500/t7ff10r9.npz
+m7ff10r9.npz done
+Processing folder: /user/home/zj22662/work/p1-dim-vary-s0-c4
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t0ff3r2.npz
+m0ff3r2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t1ff4r3.npz
+m1ff4r3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t2ff5r4.npz
+m2ff5r4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t3ff6r5.npz
+m3ff6r5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t4ff7r6.npz
+m4ff7r6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t5ff8r7.npz
+m5ff8r7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t6ff9r8.npz
+m6ff9r8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s0-c4/test-acc-std-500/t7ff10r9.npz
+m7ff10r9.npz done
+Processing folder: /user/home/zj22662/work/p1-dim-vary-s1-c4
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t0ff3r2.npz
+m0ff3r2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t1ff4r3.npz
+m1ff4r3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t2ff5r4.npz
+m2ff5r4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t3ff6r5.npz
+m3ff6r5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t4ff7r6.npz
+m4ff7r6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t5ff8r7.npz
+m5ff8r7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t6ff9r8.npz
+m6ff9r8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s1-c4/test-acc-std-500/t7ff10r9.npz
+m7ff10r9.npz done
+Processing folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t0ff3r2.npz
+m0ff3r2.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t1ff4r3.npz
+m1ff4r3.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t2ff5r4.npz
+m2ff5r4.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t3ff6r5.npz
+m3ff6r5.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t4ff7r6.npz
+m4ff7r6.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t5ff8r7.npz
+m5ff8r7.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t6ff9r8.npz
+m6ff9r8.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-dim-vary-s2-c4/test-acc-std-500/t7ff10r9.npz
+m7ff10r9.npz done

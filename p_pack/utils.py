@@ -3,9 +3,11 @@ from pathlib import Path
 import numpy as np
 from jax import block_until_ready
 import jax.numpy as jnp
-from p_pack import loss, model, train         # your train.train
+import importlib
+from p_pack import loss, model, train, circ        
 import p_pack.globals as g
 import itertools
+
 
 def save_run(log_file: str, output_folder: str, data_name: str, global_name, init_carry):
     """
@@ -204,6 +206,15 @@ def evaluate_and_save_test_loss(
 
     # override the input configuration
     g.input_config = input_config
+
+    # reload circuit-dependent modules so updated globals take effect
+    global circ, model, loss, train
+    circ = importlib.reload(circ)
+    model = importlib.reload(model)
+    loss = importlib.reload(loss)
+    train = importlib.reload(train)
+
+    
 
     params = np.load(params_path)
     phases = jnp.array(params["phases"])

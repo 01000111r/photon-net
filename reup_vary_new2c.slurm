@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=c4-s1-p3
+#SBATCH --job-name=c4-s1-p1
 #SBATCH --time=11:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

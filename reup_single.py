@@ -24,7 +24,7 @@ g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0]
+g.input_positions = "3"
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -50,24 +50,24 @@ g.mini_batch_size = 11000
 # random seed
 g.master_key = g.jax.random.PRNGKey(2)
 g.phase_key = g.jax.random.PRNGKey(10)
-g.shuffle_key = g.jax.random.PRNGKey(52)
+g.shuffle_key = g.jax.random.PRNGKey(12)
 
 # Key used when sampling new input photon positions each optimisation step.
 g.position_key = g.jax.random.PRNGKey(7)
 # If ``True`` a fresh set of input positions is sampled every update.
-g.position_sampling: bool = True
+g.position_sampling: bool = False
 # Optional mask restricting which input modes may be chosen when
 # ``position_sampling`` is enabled.  Each entry corresponds to a circuit
 # mode; ``1`` marks the mode as eligible while ``0`` forbids it.  By
 # default all modes are allowed.
-g.pos_allowed = [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+g.pos_allowed = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 g.dataset_name = "mnist_pca_test"
 g.class_labels = [3, 5]
 g.use_binary_labels = False
 g.num_classes = len(g.class_labels)
 
-g.use_input_superposition: bool = False
+g.use_input_superposition: bool = True
 
 g.max_photons = 3 # maximum photon number for building probability calculating functions
 
@@ -88,13 +88,13 @@ import p_pack.utils as utils
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p1-pos-sample-049-s-all-1500'
+folder_name = 'p1-pos-sample-049-s-all-1500-super-2'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [0, 1, 2]
+varied_list = [0,1,2]
 
 # # name of the global variable to modify during iteration
 # reupload_list = [7,8]

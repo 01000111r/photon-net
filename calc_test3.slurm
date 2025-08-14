@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=dim--s2
+#SBATCH --job-name=edge-full-test
 #SBATCH --time=01:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

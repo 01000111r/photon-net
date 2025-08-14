@@ -3,17 +3,17 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("p3-dim-vary-s0-c3","p3-dim-vary-s1-c3","p3-dim-vary-s2-c3")
-model_numbers = [1000]
-input_positions = [0]
+output_folder_names = ("p1-pos-sample-3-restr-s-all-1500-super",)
+model_numbers = [1500]
+input_positions = [0, 4, 9]
 num_modes_circ = 10
 p_suc_inputs = 1
-average_input_combinations = False
-save_all_input_combinations = False
+average_input_combinations = True
+save_all_input_combinations = True
 # If ``True`` the input configuration saved during training is used for
 # evaluation.  When ``False`` a new configuration is built from the values
 # above.
-use_trained_input_config = True
+use_trained_input_config = False
 # NEW: evaluation mode flag – choose 'loss', 'acc', or 'both'
 evaluation_mode = 'both'  # ← change to 'loss', 'acc', or 'both'
 

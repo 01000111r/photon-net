@@ -1,0 +1,14 @@
+Processing folder: /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super/test-loss-all-1500/t0p0.npz
+m0p0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super/test-loss-all-1500/t1p1.npz
+m1p1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super/test-loss-all-1500/t2p2.npz
+m2p2.npz done
+Processing folder: /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super/test-acc-all-1500/t0p0.npz
+m0p0.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super/test-acc-all-1500/t1p1.npz
+m1p1.npz done
+[evaluate_and_save_test_loss] Saved loss → /user/home/zj22662/work/p1-pos-sample-2restr-s-all-1500-super/test-acc-all-1500/t2p2.npz
+m2p2.npz done

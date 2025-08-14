@@ -4,9 +4,9 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 1500
+g.num_steps = 800
 g.training_rate = 0.1
-g.save_points = [1500]  # steps at which to save model parameters
+g.save_points = [50, 100, 200, 400, 800]  # steps at which to save model parameters
 
 # reupload configuration
 g.reupload_freq = 4
@@ -17,14 +17,14 @@ g.reup_is_tuple = False
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
 # 2 - reverse the image every other upload layer
-g.shuffle_type = 0
+g.shuffle_type = 3
 
 # dataset parameters
 g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = "2"
+g.input_positions = [0]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -55,7 +55,7 @@ g.shuffle_key = g.jax.random.PRNGKey(52)
 # Key used when sampling new input photon positions each optimisation step.
 g.position_key = g.jax.random.PRNGKey(7)
 # If ``True`` a fresh set of input positions is sampled every update.
-g.position_sampling: bool = True
+g.position_sampling: bool = False
 # Optional mask restricting which input modes may be chosen when
 # ``position_sampling`` is enabled.  Each entry corresponds to a circuit
 # mode; ``1`` marks the mode as eligible while ``0`` forbids it.  By
@@ -67,7 +67,7 @@ g.class_labels = [3, 5]
 g.use_binary_labels = False
 g.num_classes = len(g.class_labels)
 
-g.use_input_superposition: bool = True
+g.use_input_superposition: bool = False
 
 g.max_photons = 3 # maximum photon number for building probability calculating functions
 
@@ -88,20 +88,20 @@ import p_pack.utils as utils
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p1-pos-sample-2pos-s-all-1500-super'
+folder_name = 'p1-pos-vary-s3'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [0, 1, 2]
+varied_list = [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
 
 # # name of the global variable to modify during iteration
 # reupload_list = [7,8]
 # file_indent = 'p'
 # start_idx = 0
 
-global_var_name = "shuffle_type"
+global_var_name = "input_positions"
 # set to True if ``global_var_name`` should be treated as a PRNGKey seed
 is_key = False
 file_indent = 'p'

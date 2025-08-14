@@ -24,7 +24,7 @@ g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = "3"
+g.input_positions = [0]
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -91,7 +91,7 @@ import p_pack.utils as utils
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p3-dim-vary-s2-c4'
+folder_name = 'p1-dim-vary-s2-c4'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
