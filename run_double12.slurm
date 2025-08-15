@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --job-name=c4-s1-p1
-#SBATCH --time=11:00:00
+#SBATCH --job-name=r_d_12
+#SBATCH --time=01:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_vary_new2c.py 
+python run_double12.py 

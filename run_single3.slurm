@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=super-all
+#SBATCH --job-name=r_s_3
 #SBATCH --time=01:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_single3.py 
+python run_single3.py 

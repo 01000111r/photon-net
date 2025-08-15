@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=rf-vary-s2
+#SBATCH --job-name=r_d_11
 #SBATCH --time=01:30:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_vary_new6.py 
+python run_double11.py 

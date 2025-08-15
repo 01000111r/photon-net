@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=c4-s0-p1
+#SBATCH --job-name=r_d_9
 #SBATCH --time=11:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_vary_newc.py 
+python run_double9.py 

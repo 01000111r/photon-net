@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --job-name=3restr-super
-#SBATCH --time=01:00:00
+#SBATCH --job-name=r_d_2
+#SBATCH --time=11:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
@@ -9,7 +9,7 @@
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
-#SBATCH --partition=test
+#SBATCH --partition=short
 module --force purge
 
 
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_single7.py 
+python run_double2.py 

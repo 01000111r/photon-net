@@ -3,8 +3,8 @@ from p_pack import globals as g
 from p_pack import utils
 
 # ----- Evaluation configuration -----
-output_folder_names = ("p1-pos-vary-s3",)
-model_numbers = [50,100,200,400,800]
+output_folder_names = ("p1-pos-vary-s2-k52",)
+model_numbers = [50, 100, 200, 400, 800]
 input_positions = [0]
 num_modes_circ = 10
 p_suc_inputs = 1

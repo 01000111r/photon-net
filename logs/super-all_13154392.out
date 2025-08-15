@@ -1,0 +1,100 @@
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m0p[0].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m0p[0].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m0p[0].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m0p[0].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m0p[0].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it0p[0].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it0p[0]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m0p[0].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[0] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m1p[1].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m1p[1].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m1p[1].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m1p[1].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m1p[1].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it1p[1].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it1p[1]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m1p[1].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[1] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m2p[2].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m2p[2].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m2p[2].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m2p[2].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m2p[2].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it2p[2].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it2p[2]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m2p[2].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[2] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m3p[3].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m3p[3].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m3p[3].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m3p[3].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m3p[3].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it3p[3].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it3p[3]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m3p[3].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[3] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m4p[4].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m4p[4].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m4p[4].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m4p[4].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m4p[4].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it4p[4].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it4p[4]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m4p[4].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[4] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m5p[5].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m5p[5].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m5p[5].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m5p[5].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m5p[5].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it5p[5].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it5p[5]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m5p[5].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[5] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m6p[6].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m6p[6].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m6p[6].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m6p[6].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m6p[6].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it6p[6].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it6p[6]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m6p[6].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[6] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m7p[7].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m7p[7].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m7p[7].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m7p[7].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m7p[7].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it7p[7].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it7p[7]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m7p[7].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[7] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m8p[8].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m8p[8].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m8p[8].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m8p[8].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m8p[8].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it8p[8].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it8p[8]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m8p[8].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[8] done
+[save_run] Saved parameters at step 50 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams50/m9p[9].npz
+[save_run] Saved parameters at step 100 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams100/m9p[9].npz
+[save_run] Saved parameters at step 200 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams200/m9p[9].npz
+[save_run] Saved parameters at step 400 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams400/m9p[9].npz
+[save_run] Saved parameters at step 800 → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m9p[9].npz
+[save_run] Saved outputs → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it9p[9].npz
+[save_run] Saved globals → /user/home/zj22662/work/p1-pos-vary-s2-k52/Learning/it9p[9]g.npz
+[save_run] Saved final parameters → /user/home/zj22662/work/p1-pos-vary-s2-k52/ModelParams800/m9p[9].npz
+[save_run] Appended entry to data_log and /user/home/zj22662/work/p1-pos-vary-s2-k52/run_log.yaml
+[9] done

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --job-name=c3-s0-p1
-#SBATCH --time=11:00:00
+#SBATCH --job-name=r_s_6
+#SBATCH --time=01:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=28
@@ -9,7 +9,7 @@
 #SBATCH --account=phys036784
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
-#SBATCH --partition=short
+#SBATCH --partition=test
 module --force purge
 
 
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python reup_vary_newb.py 
+python run_single6.py 

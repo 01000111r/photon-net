@@ -17,7 +17,7 @@ g.reup_is_tuple = False
 # 0 - random permutation each upload (default)
 # 1 - no shuffling, use the same ordering
 # 2 - reverse the image every other upload layer
-g.shuffle_type = 1
+g.shuffle_type = 2
 
 # dataset parameters
 g.num_features = 5
@@ -50,7 +50,7 @@ g.mini_batch_size = 11000
 # random seed
 g.master_key = g.jax.random.PRNGKey(2)
 g.phase_key = g.jax.random.PRNGKey(10)
-g.shuffle_key = g.jax.random.PRNGKey(12)
+g.shuffle_key = g.jax.random.PRNGKey(52)
 
 # Key used when sampling new input photon positions each optimisation step.
 g.position_key = g.jax.random.PRNGKey(7)
@@ -88,7 +88,7 @@ import p_pack.utils as utils
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p1-pos-vary-s1-k12'
+folder_name = 'p1-pos-vary-s2-k52'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
