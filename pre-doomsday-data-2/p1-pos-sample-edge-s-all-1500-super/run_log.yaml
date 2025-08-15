@@ -1,0 +1,138 @@
+
+=== Params at step 1500 ===
+Output folder: /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super
+Params file:   /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/ModelParams1500/m0p0.npz
+========================================
+
+=== Run: p1-pos-sample-edge-s-all-1500-super ===
+Output folder: /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super
+Outputs file:  /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/Learning/it0p0.npz
+Globals file:  /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/Learning/it0p0g.npz
+Params file:   /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/ModelParams1500/m0p0.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  use_input_superposition: True
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super
+Params file:   /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/ModelParams1500/m1p1.npz
+========================================
+
+=== Run: p1-pos-sample-edge-s-all-1500-super ===
+Output folder: /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super
+Outputs file:  /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/Learning/it1p1.npz
+Globals file:  /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/Learning/it1p1g.npz
+Params file:   /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/ModelParams1500/m1p1.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  use_input_superposition: True
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super
+Params file:   /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/ModelParams1500/m2p2.npz
+========================================
+
+=== Run: p1-pos-sample-edge-s-all-1500-super ===
+Output folder: /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super
+Outputs file:  /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/Learning/it2p2.npz
+Globals file:  /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/Learning/it2p2g.npz
+Params file:   /user/home/zj22662/work/p1-pos-sample-edge-s-all-1500-super/ModelParams1500/m2p2.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  use_input_superposition: True
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================

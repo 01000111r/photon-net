@@ -1,0 +1,640 @@
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m0f(0, 4, 9).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m0f(0, 4, 9).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m0f(0, 4, 9).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m0f(0, 4, 9).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m0f(0, 4, 9).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it0f(0, 4, 9)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m1f(0, 5, 9).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m1f(0, 5, 9).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m1f(0, 5, 9).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m1f(0, 5, 9).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m1f(0, 5, 9).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it1f(0, 5, 9)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m2f(1, 4, 8).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m2f(1, 4, 8).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m2f(1, 4, 8).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m2f(1, 4, 8).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m2f(1, 4, 8).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it2f(1, 4, 8)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m3f(1, 5, 8).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m3f(1, 5, 8).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m3f(1, 5, 8).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m3f(1, 5, 8).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m3f(1, 5, 8).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it3f(1, 5, 8)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m4f(4, 6, 8).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m4f(4, 6, 8).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m4f(4, 6, 8).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m4f(4, 6, 8).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m4f(4, 6, 8).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it4f(4, 6, 8)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m5f(0, 2, 4).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m5f(0, 2, 4).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m5f(0, 2, 4).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m5f(0, 2, 4).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m5f(0, 2, 4).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it5f(0, 2, 4)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m6f(3, 5, 7).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m6f(3, 5, 7).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m6f(3, 5, 7).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m6f(3, 5, 7).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m6f(3, 5, 7).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it6f(3, 5, 7)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m7f(2, 4, 6).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m7f(2, 4, 6).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m7f(2, 4, 6).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m7f(2, 4, 6).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m7f(2, 4, 6).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it7f(2, 4, 6)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m8f(1, 4, 8).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m8f(1, 4, 8).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m8f(1, 4, 8).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m8f(1, 4, 8).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m8f(1, 4, 8).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it8f(1, 4, 8)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Params at step 50 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams50/m9f(1, 5, 8).npz
+========================================
+
+=== Params at step 100 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams100/m9f(1, 5, 8).npz
+========================================
+
+=== Params at step 200 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams200/m9f(1, 5, 8).npz
+========================================
+
+=== Params at step 400 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams400/m9f(1, 5, 8).npz
+========================================
+
+=== Params at step 800 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m9f(1, 5, 8).npz
+========================================
+
+=== Run: p1-reup-pos-vary-s0 ===
+Output folder: /user/home/zj22662/work/p1-reup-pos-vary-s0
+Outputs file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s0/Learning/it9f(1, 5, 8)g.npz
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s0/ModelParams800/m9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================

@@ -1,0 +1,368 @@
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m0ff3r2.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it0ff3r2.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it0ff3r2g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m0ff3r2.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 2
+  reup_is_tuple: False
+  num_modes_circ: 6
+  depth: 6
+  num_features: 3
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m1ff4r3.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it1ff4r3.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it1ff4r3g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m1ff4r3.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m2ff5r4.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it2ff5r4.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it2ff5r4g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m2ff5r4.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m3ff6r5.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it3ff6r5.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it3ff6r5g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m3ff6r5.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 5
+  reup_is_tuple: False
+  num_modes_circ: 12
+  depth: 12
+  num_features: 6
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m4ff7r6.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it4ff7r6.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it4ff7r6g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m4ff7r6.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 6
+  reup_is_tuple: False
+  num_modes_circ: 14
+  depth: 14
+  num_features: 7
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m5ff8r7.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it5ff8r7.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it5ff8r7g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m5ff8r7.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 7
+  reup_is_tuple: False
+  num_modes_circ: 16
+  depth: 16
+  num_features: 8
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m6ff9r8.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it6ff9r8.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it6ff9r8g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m6ff9r8.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 8
+  reup_is_tuple: False
+  num_modes_circ: 18
+  depth: 18
+  num_features: 9
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 500 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m7ff10r9.npz
+========================================
+
+=== Run: p1-dim-vary-s2-c4 ===
+Output folder: /user/home/zj22662/work/p1-dim-vary-s2-c4
+Outputs file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it7ff10r9.npz
+Globals file:  /user/home/zj22662/work/p1-dim-vary-s2-c4/Learning/it7ff10r9g.npz
+Params file:   /user/home/zj22662/work/p1-dim-vary-s2-c4/ModelParams500/m7ff10r9.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 9
+  reup_is_tuple: False
+  num_modes_circ: 20
+  depth: 20
+  num_features: 10
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: mini
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================

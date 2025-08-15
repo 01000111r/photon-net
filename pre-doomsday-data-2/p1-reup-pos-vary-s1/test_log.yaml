@@ -1,0 +1,3500 @@
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-50/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-100/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-200/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-400/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-loss-std-800/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams50/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-50/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams100/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-100/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams200/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-200/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams400/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-400/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m0f(0, 4, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m0f(0, 4, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it0f(0, 4, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t0f(0, 4, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 4, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m1f(0, 5, 9).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m1f(0, 5, 9).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it1f(0, 5, 9)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t1f(0, 5, 9).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 5, 9]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m2f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m2f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it2f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t2f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m3f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m3f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it3f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t3f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m4f(4, 6, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m4f(4, 6, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it4f(4, 6, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t4f(4, 6, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [4, 6, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m5f(0, 2, 4).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m5f(0, 2, 4).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it5f(0, 2, 4)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t5f(0, 2, 4).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [0, 2, 4]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m6f(3, 5, 7).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m6f(3, 5, 7).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it6f(3, 5, 7)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t6f(3, 5, 7).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [3, 5, 7]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m7f(2, 4, 6).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m7f(2, 4, 6).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it7f(2, 4, 6)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t7f(2, 4, 6).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [2, 4, 6]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m8f(1, 4, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m8f(1, 4, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it8f(1, 4, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t8f(1, 4, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 4, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================
+
+=== Test: m9f(1, 5, 8).npz ===
+Output folder: /user/work/zj22662/p1-reup-pos-vary-s1
+Params file:   /user/home/zj22662/work/p1-reup-pos-vary-s1/ModelParams800/m9f(1, 5, 8).npz
+Globals file:  /user/home/zj22662/work/p1-reup-pos-vary-s1/Learning/it9f(1, 5, 8)g.npz
+Test loss file: /user/home/zj22662/work/p1-reup-pos-vary-s1/test-acc-std-800/t9f(1, 5, 8).npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: [1, 5, 8]
+  reup_is_tuple: True
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+========================================

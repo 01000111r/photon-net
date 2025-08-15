@@ -1,0 +1,6450 @@
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-50/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-100/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-200/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-400/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-loss-std-800/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: False
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams50/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-50/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams100/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-100/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams200/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-200/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams400/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-400/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m0p[0].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m0p[0].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it0p[0]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t0p[0].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m1p[1].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m1p[1].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it1p[1]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t1p[1].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [1]
+  input_config: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m2p[2].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m2p[2].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it2p[2]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t2p[2].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [2]
+  input_config: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m3p[3].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m3p[3].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it3p[3]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t3p[3].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [3]
+  input_config: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m4p[4].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m4p[4].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it4p[4]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t4p[4].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [4]
+  input_config: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m5p[5].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m5p[5].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it5p[5]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t5p[5].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [5]
+  input_config: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m6p[6].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m6p[6].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it6p[6]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t6p[6].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [6]
+  input_config: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m7p[7].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m7p[7].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it7p[7]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t7p[7].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [7]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m8p[8].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m8p[8].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it8p[8]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t8p[8].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [8]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================
+
+=== Test: m9p[9].npz ===
+Output folder: /user/work/zj22662/p1-pos-vary-s3
+Params file:   /user/home/zj22662/work/p1-pos-vary-s3/ModelParams800/m9p[9].npz
+Globals file:  /user/home/zj22662/work/p1-pos-vary-s3/Learning/it9p[9]g.npz
+Test loss file: /user/home/zj22662/work/p1-pos-vary-s3/test-acc-std-800/t9p[9].npz
+
+Globals snapshot:
+  num_steps: 800
+  training_rate: 0.1
+  reupload_freq: 4
+  reup_is_tuple: False
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [9]
+  input_config: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 3
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  accuracy: True
+  average_input_combinations: False
+  save_all_combinations: False
+  dataset_name: mnist_pca_test
+  class_labels: [3, 5]
+  use_binary_labels: False
+  num_classes: 2
+========================================

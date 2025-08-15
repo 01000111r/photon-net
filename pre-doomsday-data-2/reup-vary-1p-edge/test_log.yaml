@@ -1,0 +1,420 @@
+
+=== Test: m0f0.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m0f0.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it0f0g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/tl0f0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m1f1.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m1f1.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it1f1g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/tl1f1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m2f2.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m2f2.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it2f2g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/tl2f2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m3f3.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m3f3.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it3f3g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/tl3f3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m4f4.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m4f4.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it4f4g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/tl4f4.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m0f0.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m0f0.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it0f0g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t0f0.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m1f1.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m1f1.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it1f1g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t1f1.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m2f2.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m2f2.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it2f2g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t2f2.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m3f3.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m3f3.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it3f3g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t3f3.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m4f4.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m4f4.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it4f4g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t4f4.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m5f5.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m5f5.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it5f5g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t5f5.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m6f6.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m6f6.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it6f6g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t6f6.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 6
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m7f7.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m7f7.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it7f7g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t7f7.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m8f8.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m8f8.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it8f8g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t8f8.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================
+
+=== Test: m9f9.npz ===
+Output folder: /user/work/zj22662/reup-vary-1p-edge
+Params file:   /user/home/zj22662/work/reup-vary-1p-edge/ModelParams/m9f9.npz
+Globals file:  /user/home/zj22662/work/reup-vary-1p-edge/Learning/it9f9g.npz
+Test loss file: /user/home/zj22662/work/reup-vary-1p-edge/test-1p-edge/t9f9.npz
+
+Globals snapshot:
+  num_steps: 100
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  aim: 1
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 20]
+  phase_init_value: None
+========================================

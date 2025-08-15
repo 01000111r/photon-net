@@ -1,0 +1,576 @@
+
+=== Test: m0f0.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m0f0.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it0f0g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t0f0.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m1f1.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m1f1.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it1f1g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t1f1.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m2f2.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m2f2.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it2f2g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t2f2.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m3f3.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m3f3.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it3f3g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t3f3.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m4f4.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m4f4.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it4f4g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t4f4.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m5f5.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m5f5.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it5f5g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t5f5.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m6f7.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m6f7.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it6f7g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t6f7.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m7f8.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m7f8.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it7f8g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t7f8.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m8f9.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m8f9.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it8f9g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc2-500/t8f9.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m0f0.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m0f0.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it0f0g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t0f0.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 0
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m1f1.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m1f1.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it1f1g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t1f1.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 1
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m2f2.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m2f2.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it2f2g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t2f2.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 2
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m3f3.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m3f3.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it3f3g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t3f3.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 3
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m4f4.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m4f4.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it4f4g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t4f4.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 4
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m5f5.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m5f5.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it5f5g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t5f5.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 5
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m6f7.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m6f7.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it6f7g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t6f7.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 7
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m7f8.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m7f8.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it7f8g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t7f8.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 8
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
+
+=== Test: m8f9.npz ===
+Output folder: /user/work/zj22662/p2-reup-vary
+Params file:   /user/home/zj22662/work/p2-reup-vary/ModelParams500/m8f9.npz
+Globals file:  /user/home/zj22662/work/p2-reup-vary/Learning/it8f9g.npz
+Test loss file: /user/home/zj22662/work/p2-reup-vary/test-acc-500/t8f9.npz
+
+Globals snapshot:
+  num_steps: 500
+  training_rate: 0.1
+  reupload_freq: 9
+  num_modes_circ: 10
+  depth: 10
+  num_features: 5
+  p_suc_inputs: 1
+  input_positions: [0, 9]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 1000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  accuracy: True
+========================================
