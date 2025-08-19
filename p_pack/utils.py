@@ -98,6 +98,7 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "training_rate":  np.asarray(g.training_rate),
         "reupload_freq":  np.asarray(g.reupload_freq),
         "reup_is_tuple":  np.asarray(g.reup_is_tuple),
+        "reup_is_tuple":  np.asarray(g.reup_is_tuple),
         "num_modes_circ": np.asarray(g.num_modes_circ),
         "depth":          np.asarray(g.depth),
         "num_features":   np.asarray(g.num_features),

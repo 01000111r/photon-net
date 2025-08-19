@@ -1,0 +1,38 @@
+(SETUP)
+sinfo -s
+    "checks status of different partitions on the HPC, sometimes 'short' or 'test' has more free"
+    "in the script change the --partition='test' or ='short' or = 'compute'"
+    "remember test and short have time constraints you can see on sinfo -s, test -1hr, short -3days"
+
+"configure your run script .py file -  this is the file your will tell the HPC to run"
+"1 change the globals and iterating list to match your given run configuration"
+"2 make sure to change the name of the output folder"
+
+"configure your run scipts .slurm file - this is the file you will send to the HPC to request it to run something"
+"1 change the name of the job name - this will be displayed when your checking run status/ on log files, so helpfull to name properly,
+keep it short as only 5-6 charaacters get displayed"
+"2 change how much time you need, the lower the request - the faster you will get on the cluster, if <1hr run on test partition"
+"3 change the parition to fit the time need aswell as availability"
+
+
+(SEND-OFF)
+sbatch script_name.slurm
+    "this sends off your request, make sure to send the .slurm file not .py file"
+
+
+(MONITORING)
+sacct
+    "this shows your the status of past jobs (that day) - could say RUNNING/COMPLETED - also displays the JobID number"
+sacct --format=JobID,Elapsed,JobName
+    "this can check how long the jobs were running for - also displays the JobID number"
+squeue -u <user_name>
+    "see what you have running and how long its been running"
+seff <Job_ID>
+    "gives you more detailed metric about the job performance, CPU usage e.t.c, only works after job done"
+
+
+(ACTIONS)
+scancel <Job_ID>
+    "cancel the job/request, will have to do sacct first for the Job number"
+
+
