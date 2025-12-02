@@ -4,9 +4,9 @@ from p_pack import globals as g
 
 # ----- Global configuration -----
 # training parameters
-g.num_steps = 800
+g.num_steps = 10
 g.training_rate = 0.1
-g.save_points = [50, 100, 200, 400, 800]  # steps at which to save model parameters
+g.save_points = [10]  # steps at which to save model parameters
 
 # reupload configuration
 g.reupload_freq = 4
@@ -24,7 +24,7 @@ g.num_features = 5
 # probability of success for each mode
 g.p_suc_inputs = 1
 # input positions configuration
-g.input_positions = [0]
+g.input_positions = 'full'
 #parity type
 g.use_symmetry_parity = False
 # photon aim
@@ -36,6 +36,8 @@ g.discard_range = None
 
 # loss configuration
 g.loss_function = 0
+
+
 # initial phase value
 g.phase_init_value = None
 
@@ -88,13 +90,13 @@ import p_pack.utils as utils
 from pathlib import Path
 
 log_file = 'data_log'
-folder_name = 'p1-pos-vary-s1-k52'
+folder_name = 'shiv-test'
 # outputs are written to the "work" directory under the user's home
 folder = str(Path.home() / 'work' / folder_name)
 # p_suc_list = [0, 1, 2, 3, 4, 5, 6 , 7, 8]
 # varied_list= [0.1, -0.1, 0.01, -0.01]
 # varied_list= [10, 10, 15, 20]
-varied_list = [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
+varied_list = [[0]]
 
 # # name of the global variable to modify during iteration
 # reupload_list = [7,8]

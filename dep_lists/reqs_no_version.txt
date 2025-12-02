@@ -4,4 +4,4 @@ thewalrus
 numpy
 matplotlib
 pandas
-ipykernal
+ipykernel==6.29.5

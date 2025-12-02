@@ -1,0 +1,7 @@
+cpu-bind=MASK - bp1-compute009, task  0  0 [1798321]: mask 0x3fff003fff set
+ERROR: Ignored the following versions that require a different python version: 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11
+ERROR: Could not find a version that satisfies the requirement ipykernal (from versions: none)
+ERROR: No matching distribution found for ipykernal
+
+[notice] A new release of pip is available: 24.0 -> 25.2
+[notice] To update, run: pip install --upgrade pip

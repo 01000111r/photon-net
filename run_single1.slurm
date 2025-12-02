@@ -10,6 +10,8 @@
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 #SBATCH --partition=test
+
+
 module --force purge
 
 

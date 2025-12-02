@@ -16,7 +16,7 @@ keep it short as only 5-6 charaacters get displayed"
 
 
 (SEND-OFF)
-sbatch script_name.slurm
+sbatch <script_name>.slurm
     "this sends off your request, make sure to send the .slurm file not .py file"
 
 
