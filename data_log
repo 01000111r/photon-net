@@ -41036,3 +41036,463 @@ Globals snapshot:
   use_binary_labels: False
   num_classes: 10
 ========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m0p0.npz
+========================================
+
+=== Run: p3-class10-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it0p0.npz
+Globals file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it0p0g.npz
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m0p0.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 1, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_10
+  class_labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  use_binary_labels: False
+  num_classes: 10
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m0p0.npz
+========================================
+
+=== Run: p3-class10-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it0p0.npz
+Globals file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it0p0g.npz
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m0p0.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 1, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_10
+  class_labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  use_binary_labels: False
+  num_classes: 10
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p2-class10-vary-shuffle
+Params file:   /user/home/kl23874/work/p2-class10-vary-shuffle/ModelParams1500/m0p0.npz
+========================================
+
+=== Run: p2-class10-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p2-class10-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p2-class10-vary-shuffle/Learning/it0p0.npz
+Globals file:  /user/home/kl23874/work/p2-class10-vary-shuffle/Learning/it0p0g.npz
+Params file:   /user/home/kl23874/work/p2-class10-vary-shuffle/ModelParams1500/m0p0.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 2
+  input_config: [1, 0, 0, 0, 0, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_10
+  class_labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  use_binary_labels: False
+  num_classes: 10
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m1p1.npz
+========================================
+
+=== Run: p3-class10-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it1p1.npz
+Globals file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it1p1g.npz
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m1p1.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 1, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_10
+  class_labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  use_binary_labels: False
+  num_classes: 10
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p2-class10-vary-shuffle
+Params file:   /user/home/kl23874/work/p2-class10-vary-shuffle/ModelParams1500/m1p1.npz
+========================================
+
+=== Run: p2-class10-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p2-class10-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p2-class10-vary-shuffle/Learning/it1p1.npz
+Globals file:  /user/home/kl23874/work/p2-class10-vary-shuffle/Learning/it1p1g.npz
+Params file:   /user/home/kl23874/work/p2-class10-vary-shuffle/ModelParams1500/m1p1.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 2
+  input_config: [1, 0, 0, 0, 0, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_10
+  class_labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  use_binary_labels: False
+  num_classes: 10
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p2-class10-vary-shuffle
+Params file:   /user/home/kl23874/work/p2-class10-vary-shuffle/ModelParams1500/m2p2.npz
+========================================
+
+=== Run: p2-class10-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p2-class10-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p2-class10-vary-shuffle/Learning/it2p2.npz
+Globals file:  /user/home/kl23874/work/p2-class10-vary-shuffle/Learning/it2p2g.npz
+Params file:   /user/home/kl23874/work/p2-class10-vary-shuffle/ModelParams1500/m2p2.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 2
+  input_config: [1, 0, 0, 0, 0, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_10
+  class_labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  use_binary_labels: False
+  num_classes: 10
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m2p2.npz
+========================================
+
+=== Run: p3-class10-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p3-class10-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it2p2.npz
+Globals file:  /user/home/kl23874/work/p3-class10-vary-shuffle/Learning/it2p2g.npz
+Params file:   /user/home/kl23874/work/p3-class10-vary-shuffle/ModelParams1500/m2p2.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: 3
+  input_config: [1, 0, 0, 0, 1, 0, 0, 1]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_10
+  class_labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  use_binary_labels: False
+  num_classes: 10
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p1-class4-vary-shuffle
+Params file:   /user/home/kl23874/work/p1-class4-vary-shuffle/ModelParams1500/m0p0.npz
+========================================
+
+=== Run: p1-class4-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p1-class4-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p1-class4-vary-shuffle/Learning/it0p0.npz
+Globals file:  /user/home/kl23874/work/p1-class4-vary-shuffle/Learning/it0p0g.npz
+Params file:   /user/home/kl23874/work/p1-class4-vary-shuffle/ModelParams1500/m0p0.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 0
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p1-class4-vary-shuffle
+Params file:   /user/home/kl23874/work/p1-class4-vary-shuffle/ModelParams1500/m1p1.npz
+========================================
+
+=== Run: p1-class4-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p1-class4-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p1-class4-vary-shuffle/Learning/it1p1.npz
+Globals file:  /user/home/kl23874/work/p1-class4-vary-shuffle/Learning/it1p1g.npz
+Params file:   /user/home/kl23874/work/p1-class4-vary-shuffle/ModelParams1500/m1p1.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 1
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================
+
+=== Params at step 1500 ===
+Output folder: /user/home/kl23874/work/p1-class4-vary-shuffle
+Params file:   /user/home/kl23874/work/p1-class4-vary-shuffle/ModelParams1500/m2p2.npz
+========================================
+
+=== Run: p1-class4-vary-shuffle ===
+Output folder: /user/home/kl23874/work/p1-class4-vary-shuffle
+Outputs file:  /user/home/kl23874/work/p1-class4-vary-shuffle/Learning/it2p2.npz
+Globals file:  /user/home/kl23874/work/p1-class4-vary-shuffle/Learning/it2p2g.npz
+Params file:   /user/home/kl23874/work/p1-class4-vary-shuffle/ModelParams1500/m2p2.npz
+
+Globals snapshot:
+  num_steps: 1500
+  training_rate: 0.1
+  reupload_freq: 3
+  reup_is_tuple: False
+  num_modes_circ: 8
+  depth: 8
+  num_features: 4
+  p_suc_inputs: 1
+  input_positions: [0]
+  input_config: [1, 0, 0, 0, 0, 0, 0, 0]
+  prob_config: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  aim: 3
+  discard: 0
+  discard_condition: !=
+  discard_range: None
+  loss_function: 0
+  batch_mode: full
+  mini_batch_size: 11000
+  master_key: [0, 2]
+  phase_key: [0, 10]
+  shuffle_key: [0, 52]
+  phase_init_value: None
+  shuffle_type: 2
+  symmetry_parity: False
+  position_key: [0, 7]
+  position_sampling: False
+  pos_allowed: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  use_input_superposition: False
+  dataset_name: mnist_pca_4
+  class_labels: [3, 5, 7, 9]
+  use_binary_labels: False
+  num_classes: 4
+========================================

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=t1-r_s_6
+#SBATCH --job-name=t2-r_s_6
 #SBATCH --time=06:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -23,4 +23,4 @@ cd $HOME/photon-net
 
 source venv2/bin/activate
 
-python run_single_c10_p3.py
+python run_single_c10_p2.py
