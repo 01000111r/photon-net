@@ -8,7 +8,7 @@ from functools import partial
 
 #key = jax.random.PRNGKey(12)
 
-def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, mask, key, reupload_freq, shuffle_type=globals.shuffle_type, coherence=1.0) -> Tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
+def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, mask, key, reupload_freq, shuffle_type=globals.shuffle_type) -> Tuple[jnp.array, jnp.array, jnp.array, jnp.array]:
     """
     Constructs the full unitary transformation of the circuit with data re-uploading.
 
@@ -31,84 +31,65 @@ def full_unitaries_data_reupload(phases: jnp.array, data_set: jnp.array, weights
     # Depth of the trainable part.
     depth = int(jax.lax.stop_gradient(phases).shape[0])
 
+    # Determine which layers perform data re-uploading.
     if isinstance(reupload_freq, int):
         re_layers = list(range(0, depth, reupload_freq)) if reupload_freq > 0 else []
+
     else:
         re_layers = list(reupload_freq)
     reupload_set = set(re_layers)
     layer_order = {layer: idx for idx, layer in enumerate(re_layers)}
-    extra_upload_set = set(globals.extra_upload_layers)
 
-
-    def _get_extra(layer_idx):
-        if globals.extra_layer_cols and layer_idx in globals.extra_layer_cols:
-            start, end = globals.extra_layer_cols[layer_idx]
-            return data_set[:, start:end]
-        return primary
-    
-
-    def _w(layer):
-        # one learned scalar per beamsplitter; under p_and_q_encoding the
-        # same scalar scales both that beamsplitter's p-feature and q-feature.
-        w = weights[layer, :]
-        return jnp.concatenate([w, w]) if globals.p_and_q_encoding else w
-
-    #slicing primary features from full data set
-    # chunk doubles under p_and_q_encoding: num_features go to p, num_features go to q
-    chunk = 2 * globals.num_features if globals.p_and_q_encoding else globals.num_features
-    primary = data_set[:, :chunk]
-
-    #defining the shuffling function
-    def _shuffle(data_block, layer):
-        if shuffle_type == 0:
-            key2 = jax.random.fold_in(globals.shuffle_key, layer)
-            temp = jax.random.permutation(key2, data_block.shape[1])
-            temp = jax.lax.stop_gradient(temp)
-            return data_block[:, temp]
-        elif shuffle_type == 1:
-            return data_block
-        elif shuffle_type == 2:
-            if (layer_order[layer] % 2) == 1:
-                return data_block[:, ::-1]
-            return data_block
-        elif shuffle_type == 3:
-            return data_block[:, ::-1]
-        else:
-            return data_block
-    
-
-    # layer 0
-    if 0 in extra_upload_set:
-        unitaries = circ.data_upload(_w(0) * _get_extra(0))
-    elif 0 in reupload_set:
-        unitaries = circ.data_upload(_w(0) * primary)  # ← primary not data_set
+    # First layer: either data upload or trainable unitary.
+    if 0 in reupload_set:
+        unitaries = circ.data_upload(weights[0, :] * data_set)
     else:
         single = circ.layer_unitary(phases, 0)
         unitaries = jnp.broadcast_to(single, (data_set.shape[0],) + single.shape)
 
+    #print('First layer shape', first_layers)
+    #print('First layers shape', first_layers)
     for layer in range(1, depth):
-        if layer in extra_upload_set:
-            extra = _get_extra(layer)
-      
-            unitaries = circ.data_upload(_w(layer) * extra) @ unitaries
-        elif layer in reupload_set:
-            data_set_reupload = _shuffle(primary, layer)          # ← called here
-            unitaries = circ.data_upload(_w(layer) * data_set_reupload) @ unitaries
+        if layer in reupload_set:    
+            if shuffle_type == 0:
+                key2 = jax.random.fold_in(globals.shuffle_key, layer)
+                temp = jax.random.permutation(key2, data_set.shape[1])
+                temp = jax.lax.stop_gradient(temp)
+                data_set_reupload = data_set[:, temp]
+            elif shuffle_type == 1:
+                data_set_reupload = data_set
+            elif shuffle_type == 2:
+                if (layer_order[layer] % 2) == 1:
+                    data_set_reupload = data_set[:, ::-1]
+                else:
+                    data_set_reupload = data_set
+            elif shuffle_type == 3:
+                data_set_reupload = data_set[:, ::-1]
+            else:
+                data_set_reupload = data_set
+            
+            #temp_permutation = data_set_reupload[:10, :3]
+            #print(temp_permutation)
+
+
+            unitaries_data_reupload = circ.data_upload(weights[layer,:]* data_set_reupload)
+            #print('Reupload layer', layer, 'shape', unitaries_data_reupload)
+            unitaries = unitaries_data_reupload @ unitaries
         else:
             unitaries = circ.layer_unitary(phases, layer) @ unitaries
  
     #now we have full unitaries for all the differnt circuits that corresponf to each image upload, all same parameters though, each reupload layer have different weights but the weights are the same for all images.
 
     # Extract the probabilities of the output states.
-    sub_unitaries, label_probs, class_probs, n_p, key = circ.measurement(unitaries, mask, input_config, key, coherence)
+    sub_unitaries, label_probs, class_probs, n_p, key = circ.measurement(unitaries, mask, input_config, key)
     #print(label_probs[:10, :])
     #print(binary_probs_plus[:10,:])
    
     return unitaries, sub_unitaries, label_probs, class_probs, n_p, key
 
 
-@partial(jax.jit, static_argnames=['reupload_freq', 'input_config', 'shuffle_type', 'readout_type'])
-def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, mask, key, reupload_freq, shuffle_type=globals.shuffle_type, readout_weights=None, readout_type=0, coherence=1.0) -> Tuple[jnp.array, jnp.array]:
+@partial(jax.jit, static_argnames=['reupload_freq', 'input_config', 'shuffle_type'])
+def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array, input_config, mask, key, reupload_freq, shuffle_type=globals.shuffle_type) -> Tuple[jnp.array, jnp.array]:
     """
     Performs prediction using the photonic circuit model.
 
@@ -127,13 +108,7 @@ def predict_reupload(phases: jnp.array, data_set: jnp.array, weights: jnp.array,
             - adjusted_binary_probs: The final binary prediction, adjusted to be positive or negative.
     """
 
-    _, _, probs, class_probs, n_p, key = full_unitaries_data_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type, coherence=coherence)
-
-    if readout_type == 1:
-        assert readout_weights is not None, \
-            "readout_type=1 requires readout_weights — not found in params file. Run the recovery script first."
-        features = probs / (jnp.sum(probs, axis=1, keepdims=True) + 1e-9)
-        class_probs = jax.nn.softmax(features @ readout_weights, axis=1)
+    _, _, probs, class_probs, n_p, key = full_unitaries_data_reupload(phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type)
 
     return probs, class_probs, n_p, key
 
@@ -204,7 +179,6 @@ def full_unitaries_superposition(
     norm_state = (mask_arr / jnp.sqrt(active)).astype(jnp.complex64)
     output_states = unitaries @ norm_state
     mode_probs = jnp.abs(output_states) ** 2
-
 
     if globals.num_classes == 2:
         half = width // 2

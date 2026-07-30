@@ -53,10 +53,6 @@ def initialize_phases(depth: int, width: int = None, mask: np.ndarray = None, re
                 layers = reupload_freq
             for i in layers:  # specified data-uploading layers
                 mask[i] = 0
-        
-            for i in globals.extra_upload_layers:
-                if 0 <= i < depth:
-                    mask[i] = 0
                 
     # // 2 is integer division by 2, including rounding down.
     # The last two says that these two phases belong  to the same beamsplitter.
@@ -162,31 +158,23 @@ def data_upload(data_set: jnp.array) -> jnp.array:
     Returns:
         jnp.array: A batch of unitary matrices with shape (num_samples, width, width).
     """
-
-
     num_samples = jax.lax.stop_gradient(data_set).shape[0]
-    
-    if globals.p_and_q_encoding:
-        n_bs  = jax.lax.stop_gradient(data_set).shape[1] // 2
-        width = 2 * n_bs
-        phases = jnp.zeros(shape=[num_samples, n_bs, 2])
-        phases = phases.at[:, :, 0].set(data_set[:, :n_bs])
-        phases = phases.at[:, :, 1].set(data_set[:, n_bs:])
-    
-    else:
-        # Each pixel gets its BS, therefore factor 2 for counting overall system width
-        width = 2*jax.lax.stop_gradient(data_set).shape[1]
-        # Again, the 3rd dimension with 2 represents the two phases for each beamsplitter. 
 
-        # is this the fastest way to fill the array with what we want or ist here a faster way
-        # mode_idx shape: (width//2,) = [0, 1, 2, ..., num_features-1]
-        phases = (jnp.pi/2)*jnp.ones(shape = [num_samples, width//2, 2])  # this line must come first
-        mode_idx = jnp.arange(width//2)
-        phases = phases.at[:,:,0].set(data_set)
-        phases = phases.at[:,:,1].set(jnp.pi/2 + data_set * mode_idx[None, :])
-        # Note that our "unitary" has 3 dimensions. The 1st dimension is a batching dimension, 
-        # representing the index of the image. This allows to parallelize the calculation of hthe loss 
-        # over the full training set later.
+    # Each pixel gets its BS, therefore factor 2 for counting overall system width
+    width = 2*jax.lax.stop_gradient(data_set).shape[1]
+    # Again, the 3rd dimension with 2 represents the two phases for each beamsplitter. 
+
+    # is this the fastest way to fill the array with what we want or ist here a faster way
+    phases = (jnp.pi/2)*jnp.ones(shape = [num_samples, width//2, 2]) 
+    # The first of the phases of the beam splitters are set to be the feature values, the second phases are set 
+    # to a constant pi/2 . 0 doesn't work because minimal and maximal pixel brightness act on the uniform superposition
+    # state identically, with the parameterization below. For q = pi/2, minimal and maximal pixel brightness move the
+    # uniform superposition into orthogonal states.  
+    phases = phases.at[:,:,0].set(data_set)
+
+    # Note that our "unitary" has 3 dimensions. The 1st dimension is a batching dimension, 
+    # representing the index of the image. This allows to parallelize the calculation of hthe loss 
+    # over the full training set later.
     
     unitary = jnp.zeros(shape = [num_samples, width, width], dtype = jnp.complex64)    
     for index in range( width//2 ):    
@@ -311,27 +299,13 @@ def per_rys(A: jnp.ndarray) -> jnp.ndarray:
     signs = jnp.where((n - pops) % 2 == 0, 1.0, -1.0)    # (N,) float
 
     # 5) Ryser sum (note prods*signs is complex * float → complex; final permanent is complex)
-    return jnp.dot(signs, prods)
+    return ((-1.0 ** n) * jnp.dot(signs, prods))
 
 
 #Ideally this should be inside the measurement function but it clashes with JAX.
 # it is used in the factorials calculation (denominator in the probabilities of bunched outcomes)
 # out_state_combos = jnp.array(list(itertools.product(range(num_modes_circ), repeat=3))) 
 
-def per_rys_partial(A, S, perms):
-    n = A.shape[0]
-    
-    # single amplitude term for each permutation: Π_k A[k, σ(k)]
-    # shape: (n!,)
-    terms = jnp.prod(A[jnp.arange(n)[None, :], perms], axis=1)
-    
-    # pairwise overlap weights: Π_k S[σ(k), τ(k)]
-    # shape: (n!, n!)
-    weights = jnp.prod(S[perms[:, None, :], perms[None, :, :]], axis=-1)
-    #jax.debug.print("terms = {}", terms)
-    #jax.debug.print("weights = {}", weights)
-    # sum over all (σ, τ) pairs
-    return jnp.real(jnp.sum(weights * jnp.outer(terms, jnp.conj(terms))))
 
 def repeats_factorials(num_modes, num_photons=3):
     combos = list(itertools.combinations_with_replacement(range(num_modes), num_photons))
@@ -347,10 +321,6 @@ MAX_PHOTONS = globals.max_photons
 # for each possible k = 0,1,2,…,MAX_PHOTONS
 _combos: dict[int, jnp.ndarray] = {}
 _factorials: dict[int, jnp.ndarray] = {}
-_perms = {
-    k: jnp.asarray(list(itertools.permutations(range(k))), dtype=jnp.int32)
-    for k in range(MAX_PHOTONS + 1)    
-}
 
 for k in range(MAX_PHOTONS+1):
     facts_k, combos_k, _ = repeats_factorials(num_modes=globals.num_modes_circ, num_photons=k)
@@ -368,10 +338,9 @@ for kk in range(MAX_PHOTONS+1):
     def make_branch(combos_k=combos_k,
                     facts_k=facts_k,
                     kk=kk,
-                    n_c_k=n_c_k,
-                    perms_k=_perms[kk]):
+                    n_c_k=n_c_k):
         def branch_fn(operand):
-            unitaries, survivors, coh = operand
+            unitaries, survivors = operand
             real_modes = survivors[:kk]                    # shape (kk,)
             U_trunc    = unitaries[:, :, real_modes]       # (batch, M, kk)
 
@@ -381,14 +350,8 @@ for kk in range(MAX_PHOTONS+1):
             #   bin_p    : (batch, 1)
             def extract(U): return U[combos_k, :]
             all_ext   = jax.vmap(extract)(U_trunc)
-            eye = jnp.eye(kk, dtype=all_ext.dtype)
-            S= coh* (1.0 - eye) + eye
-            batch_probs = jax.vmap(
-                lambda M: jax.vmap(lambda A: per_rys_partial(A, S, perms_k))(M)
-            )(all_ext)
-            all_probs0 = batch_probs
-
-
+            batch_prm = jax.vmap(lambda M: jax.vmap(per_rys)(M))(all_ext)
+            all_probs0= jnp.abs(batch_prm)**2
             all_probs  = all_probs0 / facts_k
             total      = jnp.sum(all_probs, axis=1, keepdims=True)
             if globals.use_symmetry_parity:
@@ -429,7 +392,7 @@ for kk in range(MAX_PHOTONS+1):
             )
 
             # bin_p stays (batch,1), no pad needed
-            
+
             return all_ext_p, all_p_p, bin_p
 
         return branch_fn
@@ -470,10 +433,10 @@ def sample_survivors(presence_mask: jnp.ndarray, keep_probs_all: jnp.ndarray, ke
 
 
 @jax.jit
-def compute_probs_given_survivors(unitaries, survivors, k, coherence):
+def compute_probs_given_survivors(unitaries, survivors, k):
     # this single switch now dispatches *all* the logic
     all_extracts, all_probs, class_probs = \
-        jax.lax.switch(k, branch_fns, operand=(unitaries, survivors, coherence))
+        jax.lax.switch(k, branch_fns, operand=(unitaries, survivors))
     return all_extracts, all_probs, class_probs
 
 
@@ -485,8 +448,7 @@ def measurement(
     unitaries:    jnp.ndarray,
     mask,
     input_config: tuple[jnp.ndarray, jnp.ndarray],
-    key:           jax.random.PRNGKey,
-    coherence
+    key:           jax.random.PRNGKey
 ):
     """
     Full measurement pipeline: sample survivors → compute probs.
@@ -496,8 +458,7 @@ def measurement(
     keep_probs_all = jnp.asarray(input_config[1], dtype=jnp.float32)
 
     surv, k, key = sample_survivors(presence_mask, keep_probs_all, key)
-    coh = jnp.asarray(coherence, dtype=jnp.float32)
-    all_ext, all_p, bin_p = compute_probs_given_survivors(unitaries, surv, k, coh)
+    all_ext, all_p, bin_p = compute_probs_given_survivors(unitaries, surv, k)
     return all_ext, all_p, bin_p, k, key
 
 

@@ -57,7 +57,7 @@ depth: int = 10
 # The user only needs to modify this FEATURE_SIZE.
 num_features = 3
 
-# probability of sucess for each mode /source loss
+# probability of sucess for each mode /source looss
 p_suc_inputs = [0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8]
 
 input_positions = '3'
@@ -94,8 +94,6 @@ loss_function = 0
 # 'single': process one sample at a time
 batch_mode: str = 'full'
 mini_batch_size: int = 16
-
-reupload_secondary: bool =False
 
 master_key = jax.random.PRNGKey(0)
 phase_key = jax.random.PRNGKey(20)
@@ -156,32 +154,6 @@ num_classes: int = len(class_labels)
 # via ``circ.measurement``.
 use_input_superposition: bool = False
 
-#This is for freezing the circuit
-freeze_phases: bool = False
-
-# Controls which readout method is used after the photonic circuit.
-# 0 - parity readout (fixed, no training)
-# 1 - trained linear readout (softmax classifier)
-# add further types here as needed
-readout_type: int = 1
-
-
-
-#uploading extra features
-extra_layer_cols: dict = {}
-extra_upload_layers: list = []
-extra_data = None
-reupload_secondary: bool = False
-use_extra_features: bool = False
-total_features: int = num_features
-p_and_q_encoding: bool = False
-
-#controlling loss type
-loss_metric: int = 0
-
-#controlling coherence
-coherence: float=1.0
-
 
 
 max_photons = 3
@@ -204,20 +176,17 @@ def input_config_maker(input : str, num_modes: int, p_suc_inputs:list) -> tuple:
         indexes = np.array(input)
     else:
         n = int(input)
-        if n == 1:
-            indexes = [num_modes // 2]
-        else:
-            n_gaps = n - 1
-            total_spaces = num_modes - n
-            av_spaces = (total_spaces)  // (n_gaps)
-            left_over = (total_spaces) % (n_gaps)
-            idx = 0
-            positions = [0]
-            for i in range(n_gaps):
-                empties = av_spaces + (1 if i < left_over else 0)
-                idx += empties + 1
-                positions.append(idx)
-            indexes = positions
+        n_gaps = n - 1
+        total_spaces = num_modes - n
+        av_spaces = (total_spaces)  // (n_gaps)
+        left_over = (total_spaces) % (n_gaps)
+        idx = 0
+        positions = [0]
+        for i in range(n_gaps):
+            empties = av_spaces + (1 if i < left_over else 0)
+            idx += empties + 1
+            positions.append(idx)
+        indexes = positions
     max_photons = len(indexes)
     arr = [0] * num_modes
     for idx in indexes:
@@ -242,7 +211,7 @@ def input_config_maker(input : str, num_modes: int, p_suc_inputs:list) -> tuple:
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 
-def get_mnist_csv_filepath(split: str, num_features: int) -> str:
+def get_mnist_csv_filepath(split: str) -> str:
     """
     Returns the file path for the MNIST CSV file for the given split.
 
@@ -267,12 +236,12 @@ def load_and_split_data(num_features):
     # lables: +1 = '3', -1 = '5'
 
     # load training set
-    file_path = get_mnist_csv_filepath("train", num_features)
+    file_path = get_mnist_csv_filepath("train")
     data_train = pd.read_csv(file_path)
     data_train = jnp.array(data_train)
 
     #laod test set
-    file_path_1 = get_mnist_csv_filepath("test", num_features)
+    file_path_1 = get_mnist_csv_filepath("test")
     data_test = pd.read_csv(file_path_1)
     data_test = jnp.array(data_test)
 
@@ -322,30 +291,6 @@ def final_load_data(num_feature):
     test_set = rescale_data(test_set, min_val = -(np.pi)/2, max_val = (np.pi/2))
     return train_set, train_labels, test_set, test_labels
 
-#allocating extra features
-def compute_extra_layer_allocation(total_features: int, num_features: int, p_and_q: bool = False) -> dict:
-    """
-    Given total features and features per layer (= num_features),
-    returns a dict mapping layer_index -> (col_start, col_end).
-    Layer 0 always takes the first chunk, extra layers fill the rest.
-
-    chunk = num_features (all on p) normally, or 2*num_features
-    (num_features on p, num_features on q) when p_and_q is True.
-
-    e.g. total=15, num=5, p_and_q=False → {1: (5,10), 2: (10,15)}
-         total=20, num=5, p_and_q=True  → {1: (10,20)}
-    """
-    chunk = 2 * num_features if p_and_q else num_features
-    allocation = {}
-    layer = 1
-    offset = chunk
-    while offset < total_features:
-        end = min(offset + chunk, total_features)
-        allocation[layer] = (offset, end)
-        offset = end
-        layer += 1
-    return allocation
-
 
 @jax.jit
 def sample_input_config(key: jax.random.PRNGKey, mask: jnp.ndarray) -> jnp.ndarray:
@@ -376,6 +321,12 @@ def sample_input_config(key: jax.random.PRNGKey, mask: jnp.ndarray) -> jnp.ndarr
     new_mask = jnp.zeros(len(pos_allowed), dtype=jnp.int32)
     new_mask = new_mask.at[perm].set(selector.astype(jnp.int32))
     return tuple(new_mask)
+
+
+
+
+
+
 
 
 

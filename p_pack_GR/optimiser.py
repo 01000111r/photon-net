@@ -28,7 +28,7 @@ def _select_batch(ds: jnp.ndarray, lb: jnp.ndarray, key: jax.random.PRNGKey, bat
 
 @partial(jax.jit, static_argnames=['input_config', 'discard', 'aim', 'cmp', 'loss_function', 
                                    'range_vals', 'batch_mode', 'mini_batch_size', 'reupload_freq', 
-                                   'shuffle_type', 'position_sampling', 'use_input_superposition', 'freeze_phases', 'readout_type'])
+                                   'shuffle_type', 'position_sampling', 'use_input_superposition'])
 def adam_step(
     carry,
     step,
@@ -44,11 +44,7 @@ def adam_step(
     reupload_freq,
     shuffle_type=globals.shuffle_type,
     position_sampling=False,
-    use_input_superposition=False,
-    freeze_phases=False,
-    readout_type=1,
-    loss_metric=0,
-    coherence=1.0,
+    use_input_superposition=False
 ):
     """
     ccarry = (
@@ -75,7 +71,7 @@ def adam_step(
       where out       = [step, loss_val]
             did_update = 1 if we updated, 0 if we skipped
     """
-    pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, key, last_loss, rw, m_rw, v_rw = carry
+    pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, key, last_loss = carry
 
     # 0) Select a batch of data
     ds_b, lb_b, key = _select_batch(ds, lb, key, batch_mode, mini_batch_size)
@@ -88,12 +84,12 @@ def adam_step(
         mask = input_config[0]
 
     # 2) Evaluate loss & grads, get back a fresh PRNGKey
-    (loss_val, (n_p, new_key)), (g_pp, g_pw, g_pa, g_rw) = jax.value_and_grad(
+    (loss_val, (n_p, new_key)), (g_pp, g_pw, g_pa) = jax.value_and_grad(
         loss.loss,
-        argnums=(0, 3, 4, 13),
+        argnums=(0, 3, 4),
         has_aux=True,
-    )(pp, ds_b, lb_b, pw, pa, input_config, mask, key,
-    loss_function, aim, reupload_freq, shuffle_type, use_input_superposition, rw, readout_type, loss_metric, coherence)
+    )(pp, ds_b, lb_b, pw, pa, input_config, mask, key, loss_function, aim, reupload_freq, shuffle_type, use_input_superposition)
+
 
     # 2) Decide whether to skip:
     #    only skip if discard==1 and the photon condition is met
@@ -126,57 +122,48 @@ def adam_step(
     
     # 3a) Skip branch: replay the old carry but swap in the fresh key
     def skip_fn(carry):
-        pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, _, last, rw, m_rw, v_rw = carry
+        pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, _, last = carry
         new_carry = (
             pp, ds, lb, pw, pa,
             mp, vp, mw, vw, ma, va,
-            new_key, last,
-            rw, m_rw, v_rw,
+            new_key, last
         )
-        out = jnp.array([step, last], dtype=jnp.float32)
+        out       = jnp.array([step, last], dtype=jnp.float32)
         return new_carry, (out, jnp.array(0, dtype=jnp.int32), n_p)
 
     # 3b) Update branch: do the Adam update, record new loss & key
     def update_fn(carry):
-        pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, _, _, rw, m_rw, v_rw = carry
+        pp, ds, lb, pw, pa, mp, vp, mw, vw, ma, va, _, _ = carry
         beta1, beta2, eps = 0.9, 0.999, 1e-8
         eta = training_rate
 
         # phases
-        mp_new = beta1 * mp + (1 - beta1) * g_pp
-        vp_new = beta2 * vp + (1 - beta2) * (g_pp ** 2)
-        mp_hat = mp_new / (1 - beta1**step)
-        vp_hat = vp_new / (1 - beta2**step)
-        pp_new = pp if freeze_phases else pp - eta * mp_hat / (jnp.sqrt(vp_hat) + eps)
+        mp_new  = beta1 * mp  + (1 - beta1) * g_pp
+        vp_new  = beta2 * vp  + (1 - beta2) * (g_pp ** 2)
+        mp_hat  = mp_new / (1 - beta1**step)
+        vp_hat  = vp_new / (1 - beta2**step)
+        pp_new  = pp - eta * mp_hat / (jnp.sqrt(vp_hat) + eps)
 
         # weights
-        mw_new = beta1 * mw + (1 - beta1) * g_pw
-        vw_new = beta2 * vw + (1 - beta2) * (g_pw ** 2)
-        mw_hat = mw_new / (1 - beta1**step)
-        vw_hat = vw_new / (1 - beta2**step)
-        pw_new = pw - eta * mw_hat / (jnp.sqrt(vw_hat) + eps)
+        mw_new  = beta1 * mw  + (1 - beta1) * g_pw
+        vw_new  = beta2 * vw  + (1 - beta2) * (g_pw ** 2)
+        mw_hat  = mw_new / (1 - beta1**step)
+        vw_hat  = vw_new / (1 - beta2**step)
+        pw_new  = pw - eta * mw_hat / (jnp.sqrt(vw_hat) + eps)
 
-        # photon_loss_scale (scalar) — only moves when loss_function == 1; g_pa is 0 otherwise
+        # alpha parameter
         ma_new = beta1 * ma + (1 - beta1) * g_pa
         va_new = beta2 * va + (1 - beta2) * (g_pa ** 2)
         ma_hat = ma_new / (1 - beta1**step)
         va_hat = va_new / (1 - beta2**step)
         pa_new = pa - eta * ma_hat / (jnp.sqrt(va_hat) + eps)
 
-        # readout_weights (matrix)
-        m_rw_new = beta1 * m_rw + (1 - beta1) * g_rw
-        v_rw_new = beta2 * v_rw + (1 - beta2) * (g_rw ** 2)
-        m_rw_hat = m_rw_new / (1 - beta1**step)
-        v_rw_hat = v_rw_new / (1 - beta2**step)
-        rw_new   = rw - eta * m_rw_hat / (jnp.sqrt(v_rw_hat) + eps)
-
         new_carry = (
             pp_new, ds, lb, pw_new, pa_new,
             mp_new, vp_new, mw_new, vw_new, ma_new, va_new,
-            new_key, loss_val,
-            rw_new, m_rw_new, v_rw_new,
+            new_key, loss_val
         )
-        out = jnp.array([step, loss_val], dtype=jnp.float32)
+        out       = jnp.array([step, loss_val], dtype=jnp.float32)
         return new_carry, (out, jnp.array(1, dtype=jnp.int32), n_p)
 
     # 4) Branch

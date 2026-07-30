@@ -4,10 +4,9 @@ from p_pack import model
 from p_pack import globals
 import jax
 from functools import partial
-from p_pack import circ
 
 
-@partial(jax.jit, static_argnames=['loss_function', 'reupload_freq', 'input_config', 'shuffle_type','use_input_superposition', 'readout_type' ])
+@partial(jax.jit, static_argnames=['loss_function', 'reupload_freq', 'input_config', 'shuffle_type','use_input_superposition' ])
 def loss(phases: jnp.array,
          data_set: jnp.array,
          labels: jnp.array,
@@ -20,11 +19,7 @@ def loss(phases: jnp.array,
          aim,
          reupload_freq,
          shuffle_type,
-         use_input_superposition,
-         readout_weights,
-         readout_type,
-         loss_metric=0,
-         coherence=1.0,
+         use_input_superposition
         ) -> jnp.array:
     """
     Calculates the mean squared error loss for the photonic classifier.
@@ -50,35 +45,21 @@ def loss(phases: jnp.array,
             phases, data_set, weights, mask, key, reupload_freq, shuffle_type
         )
     else:
-        #Passing in features instead of class probabilities 
         _, class_probs, n_p, key = model.predict_reupload(
-            phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type, readout_weights=readout_weights, readout_type=readout_type, coherence=coherence
+            phases, data_set, weights, input_config, mask, key, reupload_freq, shuffle_type
         )
 
+    class_array = jnp.asarray(globals.class_labels)
+    labels_one_hot = (labels[:, None] == class_array[None, :]).astype(jnp.float32)
+
+    
     if loss_function == 0:
         # No scaling
         weight = 1.0
     elif loss_function == 1:
         # Scaling by photon loss scale - not sure if this is the best way to do it, maybe should be in optimisation step?
         weight = jnp.exp(photon_loss_scale * ((jnp.array(n_p, dtype=jnp.float32) / jnp.array(aim, dtype=jnp.float32)) - 1))
-    
-    
-    class_array = jnp.asarray(globals.class_labels)
-    labels_one_hot = (labels[:, None] == class_array[None, :]).astype(jnp.float32)
 
-    mse = ((weight * jnp.sum((labels_one_hot - class_probs) ** 2, axis=1)).mean()) / 2
+    loss = (weight * jnp.sum((labels_one_hot - class_probs) ** 2, axis=1)).mean()
 
-    eps = 1e-9
-    log_probs = jnp.log(class_probs + eps)
-    ce = (weight * (-jnp.sum(labels_one_hot * log_probs, axis=1))).mean()
-
-    loss_metric_arr = jnp.asarray(loss_metric)
-    loss = jnp.where(loss_metric_arr == 0, mse, ce)
-        
-    #jax.debug.print("loss: {x}", x=loss)
-    
-
-
-    
-    
     return loss, (n_p, key)

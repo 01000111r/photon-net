@@ -37,14 +37,15 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
             continue
 
         carry, loss_mem, update_mem, n_p = block_until_ready(
-            train.train(carry, num_steps=steps_to_run, step_offset=prev_step)
+            train.train(carry, num_steps=steps_to_run)
         )
 
+        # adjust step numbers to account for previous segments
         # np.asarray may return a read-only view; copy so we can mutate
         loss_arr = np.asarray(loss_mem).copy()
+        loss_arr[:, 0] += prev_step
 
         all_loss.append(loss_arr)
-
         all_update.append(np.asarray(update_mem))
         all_n_p.append(np.asarray(n_p))
 
@@ -56,7 +57,6 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
             "phases": np.asarray(carry[0]),
             "weights": np.asarray(carry[3]),
             "alpha": np.asarray(carry[4]),
-            "readout_weights": np.asarray(carry[13])
         }
         np.savez_compressed(params_path, **final_params)
         print(f"[save_run] Saved parameters at step {step} → {params_path}")
@@ -127,19 +127,19 @@ def save_run(log_file: str, output_folder: str, data_name: str, global_name, ini
         "class_labels": np.asarray(g.class_labels),
         "use_binary_labels": np.asarray(g.use_binary_labels),
         "num_classes": np.asarray(g.num_classes),
-        "readout_type":       np.asarray(g.readout_type),
-        "use_extra_features": np.asarray(g.use_extra_features),
-        "total_features":     np.asarray(g.total_features),
-        "reupload_secondary": np.asarray(g.reupload_secondary),
-        "extra_upload_layers": np.asarray(g.extra_upload_layers),
-        "p_and_q_encoding": np.asarray(g.p_and_q_encoding),
-        "loss_metric":    np.asarray(g.loss_metric),
-        "coherence":           np.asarray(g.coherence),  
     }
     np.savez_compressed(globals_path, **to_save)
     print(f"[save_run] Saved globals → {globals_path}")
 
-
+    # Save final parameters (phases, weights, alpha)
+    final_params = {
+        "phases":  np.asarray(carry[0]),
+        "weights": np.asarray(carry[3]),
+        "alpha":   np.asarray(carry[4]),
+    }
+    params_path = os.path.join(params_folder, "m" + fname)
+    np.savez_compressed(params_path, **final_params)
+    print(f"[save_run] Saved final parameters → {params_path}")
 
     # 5) append a human‑readable entry to both the main and run logs
     os.makedirs(os.path.dirname(log_file) or ".", exist_ok=True)
@@ -201,44 +201,6 @@ def evaluate_and_save_test_loss(
             # if hasattr(g, "phase_key"):
             #     g.phase_key = g.jnp.asarray(g.phase_key)
 
-
-
-
-    # Reconstruct extra_layer_cols since dicts can't be serialised to npz
-    reupload_freq_raw = g.reupload_freq
-    if isinstance(reupload_freq_raw, np.ndarray):
-        if reupload_freq_raw.ndim == 0:
-            reup_freq = int(reupload_freq_raw)
-        else:
-            reup_freq = tuple(reupload_freq_raw)
-    elif g.reup_is_tuple:
-        reup_freq = tuple(g.reupload_freq)
-    else:
-        reup_freq = int(g.reupload_freq)
-
-    if g.use_extra_features:
-        allocation = g.compute_extra_layer_allocation(int(g.total_features), int(g.num_features), p_and_q=bool(g.p_and_q_encoding))
-        if g.reupload_secondary:
-            extra_layer_cols = {layer: (start, end) for layer, (start, end) in allocation.items()}
-            offsets = [(layer, start, end) for layer, (start, end) in allocation.items()]
-            if isinstance(reup_freq, (int, np.integer)):
-                re_layers = list(range(0, int(g.depth), int(reup_freq)))[1:]
-            else:
-                re_layers = list(reup_freq)[1:]
-            for re_layer in re_layers:
-                for initial_layer, start, end in offsets:
-                    new_layer = re_layer + initial_layer
-                    if new_layer < int(g.depth):
-                        extra_layer_cols[new_layer] = (start, end)
-            g.extra_layer_cols    = extra_layer_cols
-            g.extra_upload_layers = list(extra_layer_cols.keys())
-        else:
-            g.extra_layer_cols    = {layer: (start, end) for layer, (start, end) in allocation.items()}
-            g.extra_upload_layers = list(g.extra_layer_cols.keys())
-    else:
-        g.extra_layer_cols    = {}
-        g.extra_upload_layers = []
-
     # some globals (like num_classes) depend on class_labels
     if hasattr(g, "class_labels"):
         g.num_classes = len(g.class_labels)
@@ -259,12 +221,9 @@ def evaluate_and_save_test_loss(
     phases = jnp.array(params["phases"])
     weights = jnp.array(params["weights"])
     alpha = float(params["alpha"])
-    readout_weights = jnp.array(params["readout_weights"]) if "readout_weights" in params else None
 
     # load dataset based on the restored globals
-    load_features = g.total_features if g.use_extra_features else g.num_features
-    _, _, test_set, test_labels = g.final_load_data(load_features)
-
+    _, _, test_set, test_labels = g.final_load_data(g.num_features)
 
     test_set = jnp.array(test_set)
     test_labels = jnp.array(test_labels)
@@ -284,14 +243,8 @@ def evaluate_and_save_test_loss(
             g.master_key,
             reup_freq,
             int(g.shuffle_type),
-            readout_weights=readout_weights,
-            readout_type=int(g.readout_type),
-            coherence=jnp.asarray(float(g.coherence), dtype=jnp.float32)
         )
-
         class_probs = jnp.asarray(class_probs)
-
-
         # predicted label indices
         pred_idx = jnp.argmax(class_probs, axis=1)
         class_array = jnp.asarray(g.class_labels)
@@ -300,15 +253,7 @@ def evaluate_and_save_test_loss(
         accuracy = jnp.mean(correctness) * 100.0
 
         labels_one_hot = (test_labels[:, None] == class_array[None, :]).astype(jnp.float32)
-
-        loss_metric = int(g.loss_metric) if hasattr(g, "loss_metric") else 0
-        if loss_metric == 0:
-            loss_val = ((jnp.sum((labels_one_hot - class_probs) ** 2, axis=1)).mean()) / 2
-        else:
-            eps = 1e-9
-            log_probs = jnp.log(class_probs + eps)
-            loss_val = (-jnp.sum(labels_one_hot * log_probs, axis=1)).mean()
-
+        loss_val = jnp.mean(jnp.sum((labels_one_hot - class_probs) ** 2, axis=1))
         return accuracy, loss_val
 
     if average_input_combinations:
@@ -397,9 +342,6 @@ def evaluate_and_save_test_loss(
         "class_labels": np.asarray(g.class_labels),
         "use_binary_labels": np.asarray(g.use_binary_labels),
         "num_classes": np.asarray(g.num_classes),
-        "p_and_q_encoding": np.asarray(g.p_and_q_encoding),
-        "loss_metric":    np.asarray(g.loss_metric),
-        "coherence":           np.asarray(g.coherence),
     }
 
     with open(log_path, "a") as f:
@@ -419,4 +361,3 @@ def evaluate_and_save_test_loss(
 
     print(f"[evaluate_and_save_test_loss] Saved loss → {output_path}")
     return loss_val
-
